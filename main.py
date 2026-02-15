@@ -1,4 +1,4 @@
-from fastapi import FastAPI, Depends, HTTPException
+from fastapi import FastAPI, Depends, HTTPException, UploadFile, File
 from fastapi.middleware.cors import CORSMiddleware
 from sqlalchemy.orm import Session
 from sqlalchemy import func
@@ -28,6 +28,30 @@ def run_etl():
         return result
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
+
+@app.post("/upload/sales")
+async def upload_sales(file: UploadFile = File(...), db: Session = Depends(get_db)):
+    if not file.filename.endswith(('.xlsx', '.xls')):
+        raise HTTPException(status_code=400, detail="Invalid file type. Please upload an Excel file.")
+    
+    try:
+        contents = await file.read()
+        import pandas as pd
+        import io
+        
+        df = pd.read_excel(io.BytesIO(contents))
+        
+        # Ensure column names map to what process_data expects
+        # We might need to map user columns to our expected columns
+        # For now assuming user provides correct headers or we map common ones
+        
+        # Basic mapping if needed (optional)
+        # df.rename(columns={'Region': 'region_name', ...}, inplace=True)
+        
+        result = etl.process_data(df, db)
+        return result
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Failed to process file: {str(e)}")
 
 @app.post("/sales", response_model=schemas.Sale)
 def create_sale(sale: schemas.SaleCreate, db: Session = Depends(get_db)):

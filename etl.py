@@ -9,71 +9,76 @@ sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
 from datetime import datetime
 
-def load_data(file_path: str = "fact_sales_diverse.csv"):
-    db = SessionLocal()
+def process_data(df: pd.DataFrame, db: Session):
     try:
-        df = pd.read_csv(file_path)
-        
         # 1. Dimensions
         # Region
-        regions = df[['region_name', 'city']].drop_duplicates()
-        for _, row in regions.iterrows():
-            exists = db.query(models.DimRegion).filter_by(region_name=row['region_name'], city=row['city']).first()
-            if not exists:
-                db.add(models.DimRegion(region_name=row['region_name'], city=row['city']))
-        db.commit()
+        if 'region_name' in df.columns and 'city' in df.columns:
+            regions = df[['region_name', 'city']].drop_duplicates()
+            for _, row in regions.iterrows():
+                exists = db.query(models.DimRegion).filter_by(region_name=row['region_name'], city=row['city']).first()
+                if not exists:
+                    db.add(models.DimRegion(region_name=row['region_name'], city=row['city']))
+            db.commit()
 
         # Manager
-        managers = df['manager'].unique()
-        for name in managers:
-            if not db.query(models.DimManager).filter_by(name=name).first():
-                db.add(models.DimManager(name=name))
-        db.commit()
+        if 'manager' in df.columns:
+            managers = df['manager'].unique()
+            for name in managers:
+                if not db.query(models.DimManager).filter_by(name=name).first():
+                    db.add(models.DimManager(name=name))
+            db.commit()
 
         # Supplier
-        suppliers = df[['supplier_name', 'supplier_country']].drop_duplicates()
-        for _, row in suppliers.iterrows():
-            if not db.query(models.DimSupplier).filter_by(name=row['supplier_name']).first():
-                db.add(models.DimSupplier(name=row['supplier_name'], country=row['supplier_country']))
-        db.commit()
+        if 'supplier_name' in df.columns:
+            suppliers = df[['supplier_name', 'supplier_country']].drop_duplicates()
+            for _, row in suppliers.iterrows():
+                if not db.query(models.DimSupplier).filter_by(name=row['supplier_name']).first():
+                    db.add(models.DimSupplier(name=row['supplier_name'], country=row['supplier_country']))
+            db.commit()
 
         # Category
-        categories = df['category'].unique()
-        for cat in categories:
-            if not db.query(models.DimCategory).filter_by(name=cat).first():
-                db.add(models.DimCategory(name=cat))
-        db.commit()
+        if 'category' in df.columns:
+            categories = df['category'].unique()
+            for cat in categories:
+                if not db.query(models.DimCategory).filter_by(name=cat).first():
+                    db.add(models.DimCategory(name=cat))
+            db.commit()
         
         # Product
-        # Need category map
-        cat_map = {c.name: c.id for c in db.query(models.DimCategory).all()}
-        products = df[['product_id', 'product_name', 'brand', 'category']].drop_duplicates(subset=['product_id'])
-        for _, row in products.iterrows():
-            if not db.query(models.DimProduct).filter_by(business_id=row['product_id']).first():
-                db.add(models.DimProduct(
-                    business_id=row['product_id'],
-                    name=row['product_name'],
-                    brand=row['brand'],
-                    category_id=cat_map.get(row['category'])
-                ))
-        db.commit()
+        if 'product_id' in df.columns:
+            # Need category map
+            cat_map = {c.name: c.id for c in db.query(models.DimCategory).all()}
+            products = df[['product_id', 'product_name', 'brand', 'category']].drop_duplicates(subset=['product_id'])
+            for _, row in products.iterrows():
+                if not db.query(models.DimProduct).filter_by(business_id=row['product_id']).first():
+                    db.add(models.DimProduct(
+                        business_id=row['product_id'],
+                        name=row['product_name'],
+                        brand=row['brand'],
+                        category_id=cat_map.get(row['category'])
+                    ))
+            db.commit()
 
         # Date
         # Convert sale_datetime to date
-        df['date'] = pd.to_datetime(df['sale_datetime']).dt.date
-        dates = df['date'].unique()
-        for d in dates:
-            if not db.query(models.DimDate).filter_by(date=d).first():
-                db.add(models.DimDate(
-                    date=d,
-                    year=d.year,
-                    quarter=(d.month - 1) // 3 + 1,
-                    month=d.month,
-                    day=d.day,
-                    month_name=d.strftime('%B'),
-                    day_name=d.strftime('%A')
-                ))
-        db.commit()
+        if 'sale_datetime' in df.columns:
+             df['date'] = pd.to_datetime(df['sale_datetime']).dt.date
+        
+        if 'date' in df.columns:
+            dates = df['date'].unique()
+            for d in dates:
+                if not db.query(models.DimDate).filter_by(date=d).first():
+                    db.add(models.DimDate(
+                        date=d,
+                        year=d.year,
+                        quarter=(d.month - 1) // 3 + 1,
+                        month=d.month,
+                        day=d.day,
+                        month_name=d.strftime('%B'),
+                        day_name=d.strftime('%A')
+                    ))
+            db.commit()
 
         # 2. Re-map IDs for Fact Table
         # Load all dims into memory for fast lookup
@@ -102,7 +107,7 @@ def load_data(file_path: str = "fact_sales_diverse.csv"):
                 quantity=row['quantity'],
                 unit_price=row['unit_price'],
                 discount=row['discount'],
-                revenue=row['revenue'],
+                revenue=row['revenue'] if 'revenue' in df.columns else (row['quantity'] * row['unit_price'] - row['discount']),
                 payment_type=row['payment_type'],
                 sales_channel=row['sales_channel']
             )
@@ -115,10 +120,20 @@ def load_data(file_path: str = "fact_sales_diverse.csv"):
 
     except Exception as e:
         db.rollback()
+        raise e
+
+def load_data(file_path: str = "fact_sales_diverse.csv"):
+    db = SessionLocal()
+    try:
+        df = pd.read_csv(file_path)
+        return process_data(df, db)
+    except Exception as e:
         print(f"Error loading data: {e}")
         raise e
     finally:
         db.close()
+
+
 
 if __name__ == "__main__":
     print("Starting ETL...")
