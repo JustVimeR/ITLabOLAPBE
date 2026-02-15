@@ -1,0 +1,1201 @@
+sale_id,sale_datetime,product_id,product_name,brand,category,manager,supplier_name,supplier_country,region_name,city,quantity,unit_price,discount,revenue,payment_type,sales_channel
+1,2024-10-12 13:27:05,113,HP Printers-808,HP,Printers,Pavlo Boyko,LocalDistributor,Ukraine,Kyivska,Kyiv,10,1044.39,645.73,9798.17,cash,marketplace
+2,2024-04-06 19:45:36,124,Huawei Networking-757,Huawei,Networking,Iryna Savchuk,NordicParts,Sweden,Ivano-Frankivska,Ivano-Frankivsk,1,307.04,25.32,281.72,online,phone_order
+3,2023-06-10 19:25:32,135,Sony Storage-654,Sony,Storage,Olena Koval,TechImport UA,Ukraine,Zaporizka,Zaporizhzhia,2,396.16,3.21,789.11,card,online_store
+4,2024-03-30 19:11:48,109,Canon Printers-462,Canon,Printers,Maria Bondar,AsiaWholesale,China,Poltavska,Poltava,4,445.49,186.95,1595.01,invoice,online_store
+5,2024-09-01 14:37:56,171,Sony Wearables-512,Sony,Wearables,Iryna Savchuk,AsiaWholesale,China,Zaporizka,Zaporizhzhia,1,18.35,2.56,15.79,invoice,store
+6,2023-12-15 20:14:32,54,Acer Gaming-534,Acer,Gaming,Olena Koval,GigaTrade,Germany,Odeska,Odesa,1,218.94,38.9,180.04,cash,marketplace
+7,2023-08-13 13:46:18,1,Apple Smartphone-922,Apple,Smartphones,Iryna Savchuk,TechImport UA,Ukraine,Zaporizka,Zaporizhzhia,2,2806.2,2718.03,2894.37,cash,wholesale
+8,2023-05-21 10:26:37,152,Dell TV-499,Dell,TV,Serhii Kravchenko,BalkanStore,Romania,Ivano-Frankivska,Ivano-Frankivsk,3,1031.4,111.92,2982.28,card,phone_order
+9,2024-05-21 19:47:52,95,Canon Cameras-957,Canon,Cameras,Andriy Shevchenko,BalkanStore,Romania,Dnipropetrovska,Dnipro,1,1201.3,92.67,1108.63,card,phone_order
+10,2023-06-21 20:23:08,165,Canon Kitchen-857,Canon,Kitchen,Oksana Hladka,TechImport UA,Ukraine,Ternopilska,Ternopil,1,1211.37,393.96,817.41,card,online_store
+11,2024-08-03 20:26:04,179,Nikon Wearables-414,Nikon,Wearables,Olena Koval,LocalDistributor,Ukraine,Ternopilska,Ternopil,1,227.9,36.08,191.82,cash,online_store
+12,2024-12-15 10:19:00,64,Nikon Monitors-988,Nikon,Monitors,Oksana Hladka,AsiaWholesale,China,Ternopilska,Ternopil,1,689.38,45.85,643.53,card,marketplace
+13,2023-03-14 16:36:48,93,Dell Smartwatch-105,Dell,Smartwatches,Kateryna Marchenko,TechImport UA,Ukraine,Poltavska,Poltava,1,588.1,1.26,586.84,cash,marketplace
+14,2023-07-21 14:34:42,89,Apple Smartwatch-590,Apple,Smartwatches,Serhii Kravchenko,EuroSupply,Poland,Zaporizka,Zaporizhzhia,1,680.85,41.26,639.59,online,marketplace
+15,2023-09-02 16:17:54,13,Bosch Smartphone-636,Bosch,Smartphones,Serhii Kravchenko,NordicParts,Sweden,Odeska,Odesa,2,986.63,306.68,1666.58,invoice,marketplace
+16,2024-12-12 10:29:12,30,HP Accessorie-607,HP,Accessories,Kateryna Marchenko,EuroSupply,Poland,Dnipropetrovska,Dnipro,2,8.69,0.77,16.61,online,wholesale
+17,2025-02-15 19:38:58,32,Dell Accessorie-515,Dell,Accessories,Maria Bondar,USADirect,USA,Poltavska,Poltava,1,317.22,20.91,296.31,cash,marketplace
+18,2024-12-13 13:10:21,132,Google Networking-603,Google,Networking,Dmytro Melnyk,GigaTrade,Germany,Ivano-Frankivska,Ivano-Frankivsk,3,482.91,167.44,1281.29,card,online_store
+19,2024-12-03 11:54:19,93,Dell Smartwatch-105,Dell,Smartwatches,Maria Bondar,AsiaWholesale,China,Vinnytska,Vinnytsia,1,776.56,61.94,714.62,card,wholesale
+20,2024-07-31 10:55:03,33,Panasonic Accessorie-349,Panasonic,Accessories,Oksana Hladka,LocalDistributor,Ukraine,Odeska,Odesa,2,389.6,129.81,649.39,online,wholesale
+21,2023-05-12 21:05:43,21,Xiaomi Laptops-918,Xiaomi,Laptops,Volodymyr Ivanov,NordicParts,Sweden,Vinnytska,Vinnytsia,1,1223.63,186.57,1037.06,invoice,store
+22,2023-02-14 20:40:20,72,Microsoft Headphones-325,Microsoft,Headphones,Dmytro Melnyk,TechImport UA,Ukraine,Odeska,Odesa,1,49.28,0.38,48.9,card,wholesale
+23,2025-02-26 20:36:50,140,OnePlus Storage-358,OnePlus,Storage,Kateryna Marchenko,NordicParts,Sweden,Lvivska,Lviv,3,563.77,285.99,1405.32,invoice,store
+24,2024-10-30 08:59:52,37,Canon Accessorie-759,Canon,Accessories,Ivan Petrenko,EuroSupply,Poland,Kharkivska,Kharkiv,1,77.59,11.09,66.5,card,marketplace
+25,2023-02-14 10:40:17,132,Google Networking-603,Google,Networking,Oksana Hladka,BalkanStore,Romania,Dnipropetrovska,Dnipro,2,526.75,8.47,1045.03,online,store
+26,2024-10-10 18:27:34,60,Lenovo Monitors-662,Lenovo,Monitors,Andriy Shevchenko,NordicParts,Sweden,Kyivska,Kyiv,1,571.4,75.79,495.61,online,phone_order
+27,2023-11-28 18:03:52,13,Bosch Smartphone-636,Bosch,Smartphones,Olena Koval,EuroSupply,Poland,Dnipropetrovska,Dnipro,2,648.29,167.95,1128.63,invoice,phone_order
+28,2024-08-06 10:50:45,15,Sony Laptops-874,Sony,Laptops,Pavlo Boyko,LocalDistributor,Ukraine,Kyivska,Kyiv,1,3280.14,184.77,3095.37,invoice,store
+29,2024-05-19 13:53:22,132,Google Networking-603,Google,Networking,Oksana Hladka,NordicParts,Sweden,Dnipropetrovska,Dnipro,2,289.97,90.42,489.52,online,marketplace
+30,2024-12-06 10:31:23,42,Google Home Appli-210,Google,Home Appliances,Volodymyr Ivanov,NordicParts,Sweden,Zaporizka,Zaporizhzhia,1,1093.31,55.17,1038.14,cash,store
+31,2024-08-26 17:47:07,165,Canon Kitchen-857,Canon,Kitchen,Ivan Petrenko,USADirect,USA,Kharkivska,Kharkiv,1,1825.55,301.29,1524.26,online,store
+32,2024-12-11 17:50:00,55,Apple Gaming-626,Apple,Gaming,Maria Bondar,NordicParts,Sweden,Dnipropetrovska,Dnipro,2,129.74,7.12,252.36,card,online_store
+33,2024-08-16 12:22:11,156,Asus Kitchen-324,Asus,Kitchen,Ivan Petrenko,USADirect,USA,Dnipropetrovska,Dnipro,1,617.67,7.35,610.32,invoice,phone_order
+34,2023-04-18 10:21:10,127,Sony Networking-316,Sony,Networking,Ivan Petrenko,BalkanStore,Romania,Ivano-Frankivska,Ivano-Frankivsk,1,464.56,75.99,388.57,invoice,store
+35,2024-04-12 16:54:16,96,Seagate Cameras-392,Seagate,Cameras,Andriy Shevchenko,USADirect,USA,Kharkivska,Kharkiv,1,997.09,156.93,840.16,cash,wholesale
+36,2025-02-14 10:52:29,93,Dell Smartwatch-105,Dell,Smartwatches,Andriy Shevchenko,EuroSupply,Poland,Zaporizka,Zaporizhzhia,1,545.95,69.83,476.12,online,online_store
+37,2024-10-08 17:08:28,139,Dell Storage-800,Dell,Storage,Maria Bondar,USADirect,USA,Kharkivska,Kharkiv,1,153.25,1.31,151.94,invoice,wholesale
+38,2024-05-24 16:37:25,18,Apple Laptops-334,Apple,Laptops,Dmytro Melnyk,AsiaWholesale,China,Zaporizka,Zaporizhzhia,1,485.53,5.16,480.37,cash,online_store
+39,2025-02-25 09:45:17,125,LG Networking-275,LG,Networking,Andriy Shevchenko,BalkanStore,Romania,Kharkivska,Kharkiv,1,282.35,20.97,261.38,card,marketplace
+40,2024-05-08 13:00:45,77,Apple Headphones-174,Apple,Headphones,Maria Bondar,BalkanStore,Romania,Kyivska,Kyiv,1,596.64,28.07,568.57,cash,wholesale
+41,2024-05-27 12:04:32,109,Canon Printers-462,Canon,Printers,Iryna Savchuk,AsiaWholesale,China,Vinnytska,Vinnytsia,1,850.96,131.87,719.09,card,store
+42,2024-05-08 17:33:59,174,Asus Wearables-211,Asus,Wearables,Oksana Hladka,GigaTrade,Germany,Lvivska,Lviv,1,237.12,16.98,220.14,online,online_store
+43,2025-02-01 20:52:56,111,Bosch Printers-721,Bosch,Printers,Natalia Romanyuk,EuroSupply,Poland,Poltavska,Poltava,1,922.9,117.73,805.17,card,phone_order
+44,2023-11-26 12:38:53,21,Xiaomi Laptops-918,Xiaomi,Laptops,Ivan Petrenko,TechImport UA,Ukraine,Vinnytska,Vinnytsia,3,1302.74,30.82,3877.4,online,phone_order
+45,2024-05-19 08:55:33,35,Asus Accessorie-796,Asus,Accessories,Iryna Savchuk,LocalDistributor,Ukraine,Dnipropetrovska,Dnipro,1,168.59,23.65,144.94,cash,wholesale
+46,2023-12-10 15:45:21,139,Dell Storage-800,Dell,Storage,Olena Koval,LocalDistributor,Ukraine,Kyivska,Kyiv,3,117.91,57.5,296.23,card,phone_order
+47,2023-08-31 12:34:58,147,Panasonic TV-513,Panasonic,TV,Kateryna Marchenko,AsiaWholesale,China,Kharkivska,Kharkiv,1,2138.75,121.63,2017.12,online,wholesale
+48,2023-09-21 19:12:15,99,Huawei Cameras-386,Huawei,Cameras,Volodymyr Ivanov,BalkanStore,Romania,Ternopilska,Ternopil,1,1230.55,101.66,1128.89,card,phone_order
+49,2023-11-23 19:42:53,140,OnePlus Storage-358,OnePlus,Storage,Kateryna Marchenko,LocalDistributor,Ukraine,Odeska,Odesa,10,496.41,603.63,4360.47,invoice,phone_order
+50,2024-03-30 12:39:00,54,Acer Gaming-534,Acer,Gaming,Kateryna Marchenko,NordicParts,Sweden,Vinnytska,Vinnytsia,2,328.35,22.29,634.41,invoice,store
+51,2024-02-16 11:37:08,117,Philips Printers-199,Philips,Printers,Olena Koval,USADirect,USA,Ivano-Frankivska,Ivano-Frankivsk,3,596.21,189.69,1598.94,online,phone_order
+52,2024-12-14 16:04:00,11,Huawei Smartphone-201,Huawei,Smartphones,Olena Koval,GigaTrade,Germany,Poltavska,Poltava,1,959.77,64.35,895.42,cash,marketplace
+53,2023-02-26 19:28:50,14,Canon Smartphone-337,Canon,Smartphones,Volodymyr Ivanov,TechImport UA,Ukraine,Lvivska,Lviv,1,2459.4,375.66,2083.74,online,online_store
+54,2024-04-22 09:53:57,152,Dell TV-499,Dell,TV,Natalia Romanyuk,NordicParts,Sweden,Dnipropetrovska,Dnipro,3,843.79,257.03,2274.34,invoice,store
+55,2025-02-17 16:06:42,81,OnePlus Smartwatch-561,OnePlus,Smartwatches,Andriy Shevchenko,BalkanStore,Romania,Zaporizka,Zaporizhzhia,1,200.37,16.32,184.05,invoice,store
+56,2023-01-01 16:25:05,21,Xiaomi Laptops-918,Xiaomi,Laptops,Kateryna Marchenko,GigaTrade,Germany,Ternopilska,Ternopil,1,1377.83,70.57,1307.26,online,phone_order
+57,2023-06-07 12:46:54,167,HP Kitchen-957,HP,Kitchen,Serhii Kravchenko,BalkanStore,Romania,Ternopilska,Ternopil,1,605.06,200.81,404.25,card,wholesale
+58,2024-02-22 19:02:37,148,Acer TV-633,Acer,TV,Volodymyr Ivanov,EuroSupply,Poland,Ivano-Frankivska,Ivano-Frankivsk,2,945.3,219.71,1670.89,invoice,online_store
+59,2024-03-24 18:47:52,43,HP Home Appli-825,HP,Home Appliances,Maria Bondar,NordicParts,Sweden,Kharkivska,Kharkiv,1,659.45,115.77,543.68,cash,marketplace
+60,2023-09-22 13:53:13,120,Apple Networking-367,Apple,Networking,Iryna Savchuk,AsiaWholesale,China,Vinnytska,Vinnytsia,1,93.31,8.12,85.19,cash,wholesale
+61,2023-03-24 21:03:50,106,Panasonic Printers-114,Panasonic,Printers,Olena Koval,AsiaWholesale,China,Zaporizka,Zaporizhzhia,5,278.89,222.94,1171.51,cash,store
+62,2023-06-28 15:29:33,122,Seagate Networking-417,Seagate,Networking,Olena Koval,AsiaWholesale,China,Ivano-Frankivska,Ivano-Frankivsk,2,662.58,160.86,1164.3,online,online_store
+63,2024-12-13 21:32:55,21,Xiaomi Laptops-918,Xiaomi,Laptops,Olena Koval,LocalDistributor,Ukraine,Vinnytska,Vinnytsia,2,2139.12,348.99,3929.25,invoice,wholesale
+64,2023-04-26 11:24:17,128,Nikon Networking-818,Nikon,Networking,Kateryna Marchenko,TechImport UA,Ukraine,Vinnytska,Vinnytsia,1,101.32,12.7,88.62,invoice,marketplace
+65,2024-08-07 09:44:07,52,Xiaomi Gaming-477,Xiaomi,Gaming,Oksana Hladka,AsiaWholesale,China,Ivano-Frankivska,Ivano-Frankivsk,1,690.51,63.97,626.54,online,wholesale
+66,2023-04-04 10:19:19,81,OnePlus Smartwatch-561,OnePlus,Smartwatches,Andriy Shevchenko,GigaTrade,Germany,Odeska,Odesa,2,212.99,65.2,360.78,card,wholesale
+67,2024-08-21 14:30:38,84,Philips Smartwatch-435,Philips,Smartwatches,Ivan Petrenko,AsiaWholesale,China,Odeska,Odesa,1,317.45,47.04,270.41,invoice,online_store
+68,2023-07-22 15:57:27,3,Philips Smartphone-227,Philips,Smartphones,Ivan Petrenko,EuroSupply,Poland,Kyivska,Kyiv,1,1100.08,89.6,1010.48,card,wholesale
+69,2024-08-08 20:59:16,72,Microsoft Headphones-325,Microsoft,Headphones,Volodymyr Ivanov,AsiaWholesale,China,Kyivska,Kyiv,1,38.34,3.45,34.89,invoice,marketplace
+70,2024-11-06 20:16:19,112,Huawei Printers-405,Huawei,Printers,Ivan Petrenko,TechImport UA,Ukraine,Poltavska,Poltava,1,1745.1,31.7,1713.4,cash,online_store
+71,2025-02-09 15:01:32,122,Seagate Networking-417,Seagate,Networking,Dmytro Melnyk,TechImport UA,Ukraine,Ternopilska,Ternopil,3,919.16,168.51,2588.97,cash,online_store
+72,2023-10-08 13:07:23,78,Lenovo Smartwatch-680,Lenovo,Smartwatches,Andriy Shevchenko,BalkanStore,Romania,Lvivska,Lviv,1,72.14,8.53,63.61,online,store
+73,2023-12-27 18:30:48,135,Sony Storage-654,Sony,Storage,Natalia Romanyuk,AsiaWholesale,China,Kharkivska,Kharkiv,5,238.68,147.08,1046.32,online,online_store
+74,2025-02-16 08:29:19,35,Asus Accessorie-796,Asus,Accessories,Ivan Petrenko,NordicParts,Sweden,Kharkivska,Kharkiv,2,125.83,40.55,211.11,card,store
+75,2023-04-05 11:04:47,162,Canon Kitchen-125,Canon,Kitchen,Oksana Hladka,EuroSupply,Poland,Kharkivska,Kharkiv,1,1197.07,196.1,1000.97,online,wholesale
+76,2023-10-24 08:30:19,42,Google Home Appli-210,Google,Home Appliances,Dmytro Melnyk,AsiaWholesale,China,Lvivska,Lviv,1,903.86,19.33,884.53,invoice,phone_order
+77,2023-06-05 16:43:23,26,Nikon Laptops-815,Nikon,Laptops,Dmytro Melnyk,USADirect,USA,Vinnytska,Vinnytsia,2,1951.43,518.54,3384.32,card,marketplace
+78,2024-08-24 17:28:57,27,OnePlus Laptops-606,OnePlus,Laptops,Ivan Petrenko,TechImport UA,Ukraine,Lvivska,Lviv,2,904.57,152.18,1656.96,online,phone_order
+79,2023-12-07 18:18:55,97,Sony Cameras-798,Sony,Cameras,Olena Koval,USADirect,USA,Kharkivska,Kharkiv,3,1365.92,622.5,3475.26,invoice,wholesale
+80,2023-01-29 10:27:10,18,Apple Laptops-334,Apple,Laptops,Maria Bondar,NordicParts,Sweden,Zaporizka,Zaporizhzhia,1,1065.96,133.47,932.49,card,phone_order
+81,2024-01-14 12:36:17,58,Dell Monitors-467,Dell,Monitors,Ivan Petrenko,USADirect,USA,Dnipropetrovska,Dnipro,1,360.44,41.22,319.22,online,online_store
+82,2024-08-15 11:52:05,175,Philips Wearables-292,Philips,Wearables,Dmytro Melnyk,AsiaWholesale,China,Kharkivska,Kharkiv,2,466.27,93.14,839.4,card,marketplace
+83,2024-08-16 18:42:25,27,OnePlus Laptops-606,OnePlus,Laptops,Olena Koval,TechImport UA,Ukraine,Dnipropetrovska,Dnipro,2,860.0,200.1,1519.9,cash,wholesale
+84,2024-09-04 19:30:18,116,Microsoft Printers-709,Microsoft,Printers,Serhii Kravchenko,GigaTrade,Germany,Vinnytska,Vinnytsia,2,432.09,144.04,720.14,invoice,wholesale
+85,2023-09-19 18:45:06,102,Samsung Cameras-850,Samsung,Cameras,Ivan Petrenko,AsiaWholesale,China,Vinnytska,Vinnytsia,10,1879.54,2486.99,16308.41,online,wholesale
+86,2023-02-14 08:44:50,64,Nikon Monitors-988,Nikon,Monitors,Andriy Shevchenko,AsiaWholesale,China,Odeska,Odesa,1,426.67,76.2,350.47,online,wholesale
+87,2023-03-11 13:13:38,45,Bosch Home Appli-725,Bosch,Home Appliances,Pavlo Boyko,NordicParts,Sweden,Kyivska,Kyiv,4,485.66,267.01,1675.63,online,phone_order
+88,2024-10-23 10:45:28,3,Philips Smartphone-227,Philips,Smartphones,Maria Bondar,AsiaWholesale,China,Zaporizka,Zaporizhzhia,4,688.44,28.8,2724.96,invoice,marketplace
+89,2023-03-21 13:06:51,68,Bosch Headphones-158,Bosch,Headphones,Iryna Savchuk,GigaTrade,Germany,Vinnytska,Vinnytsia,1,327.96,42.01,285.95,cash,wholesale
+90,2023-10-09 16:27:17,148,Acer TV-633,Acer,TV,Oksana Hladka,AsiaWholesale,China,Ivano-Frankivska,Ivano-Frankivsk,1,667.06,41.87,625.19,card,marketplace
+91,2025-01-04 21:10:42,161,Apple Kitchen-698,Apple,Kitchen,Dmytro Melnyk,TechImport UA,Ukraine,Poltavska,Poltava,1,615.09,63.88,551.21,card,online_store
+92,2023-09-27 08:24:02,4,Dell Smartphone-278,Dell,Smartphones,Natalia Romanyuk,BalkanStore,Romania,Ternopilska,Ternopil,1,1279.14,109.14,1170.0,online,store
+93,2023-10-23 08:51:02,166,Google Kitchen-354,Google,Kitchen,Maria Bondar,GigaTrade,Germany,Lvivska,Lviv,2,945.43,72.62,1818.24,card,phone_order
+94,2023-03-03 12:35:04,123,Canon Networking-694,Canon,Networking,Iryna Savchuk,NordicParts,Sweden,Lvivska,Lviv,1,308.14,17.42,290.72,online,wholesale
+95,2023-01-21 21:45:30,19,OnePlus Laptops-495,OnePlus,Laptops,Oksana Hladka,USADirect,USA,Odeska,Odesa,2,1002.61,166.1,1839.12,online,marketplace
+96,2023-12-24 19:48:15,49,Lenovo Gaming-292,Lenovo,Gaming,Iryna Savchuk,LocalDistributor,Ukraine,Odeska,Odesa,1,1091.78,84.31,1007.47,cash,online_store
+97,2024-07-13 14:53:10,73,Canon Headphones-266,Canon,Headphones,Serhii Kravchenko,USADirect,USA,Vinnytska,Vinnytsia,5,633.09,165.21,3000.24,online,wholesale
+98,2023-01-24 11:02:27,42,Google Home Appli-210,Google,Home Appliances,Iryna Savchuk,NordicParts,Sweden,Kyivska,Kyiv,4,734.87,321.4,2618.08,cash,store
+99,2023-10-02 09:41:04,121,LG Networking-730,LG,Networking,Dmytro Melnyk,BalkanStore,Romania,Odeska,Odesa,2,640.23,17.05,1263.41,invoice,wholesale
+100,2025-02-27 13:31:15,81,OnePlus Smartwatch-561,OnePlus,Smartwatches,Ivan Petrenko,AsiaWholesale,China,Zaporizka,Zaporizhzhia,1,191.7,12.84,178.86,cash,wholesale
+101,2024-05-29 21:34:00,97,Sony Cameras-798,Sony,Cameras,Serhii Kravchenko,LocalDistributor,Ukraine,Odeska,Odesa,1,1910.05,203.85,1706.2,online,online_store
+102,2024-08-02 19:45:11,173,Dell Wearables-250,Dell,Wearables,Kateryna Marchenko,GigaTrade,Germany,Odeska,Odesa,2,200.37,40.13,360.61,invoice,marketplace
+103,2024-07-17 19:45:35,132,Google Networking-603,Google,Networking,Dmytro Melnyk,LocalDistributor,Ukraine,Odeska,Odesa,2,491.64,7.74,975.54,invoice,marketplace
+104,2023-12-15 20:02:24,161,Apple Kitchen-698,Apple,Kitchen,Dmytro Melnyk,LocalDistributor,Ukraine,Kyivska,Kyiv,1,561.41,26.59,534.82,invoice,phone_order
+105,2025-02-01 16:44:40,35,Asus Accessorie-796,Asus,Accessories,Natalia Romanyuk,EuroSupply,Poland,Odeska,Odesa,5,115.16,2.33,573.47,invoice,marketplace
+106,2023-08-13 19:20:36,177,Bosch Wearables-517,Bosch,Wearables,Oksana Hladka,USADirect,USA,Kyivska,Kyiv,2,316.94,58.66,575.22,online,phone_order
+107,2023-09-06 18:13:36,136,Bosch Storage-266,Bosch,Storage,Oksana Hladka,EuroSupply,Poland,Zaporizka,Zaporizhzhia,1,117.34,5.11,112.23,invoice,store
+108,2023-02-10 10:43:53,19,OnePlus Laptops-495,OnePlus,Laptops,Volodymyr Ivanov,EuroSupply,Poland,Kyivska,Kyiv,5,1109.91,912.96,4636.59,invoice,marketplace
+109,2024-08-29 14:08:14,165,Canon Kitchen-857,Canon,Kitchen,Olena Koval,GigaTrade,Germany,Ivano-Frankivska,Ivano-Frankivsk,1,1175.54,162.89,1012.65,card,store
+110,2023-10-10 11:43:14,87,Dell Smartwatch-751,Dell,Smartwatches,Oksana Hladka,TechImport UA,Ukraine,Odeska,Odesa,1,483.24,0.48,482.76,card,phone_order
+111,2024-06-28 16:40:09,87,Dell Smartwatch-751,Dell,Smartwatches,Ivan Petrenko,USADirect,USA,Poltavska,Poltava,2,291.51,8.41,574.61,invoice,online_store
+112,2024-07-18 18:47:07,80,Nikon Smartwatch-557,Nikon,Smartwatches,Serhii Kravchenko,EuroSupply,Poland,Kharkivska,Kharkiv,1,531.15,76.2,454.95,invoice,store
+113,2023-01-14 19:33:09,138,HP Storage-555,HP,Storage,Dmytro Melnyk,TechImport UA,Ukraine,Odeska,Odesa,1,311.12,39.15,271.97,invoice,marketplace
+114,2023-05-08 13:03:58,167,HP Kitchen-957,HP,Kitchen,Pavlo Boyko,GigaTrade,Germany,Dnipropetrovska,Dnipro,1,744.8,13.39,731.41,online,online_store
+115,2023-10-01 19:44:34,84,Philips Smartwatch-435,Philips,Smartwatches,Serhii Kravchenko,LocalDistributor,Ukraine,Ternopilska,Ternopil,1,369.09,66.09,303.0,card,online_store
+116,2023-01-07 12:27:14,15,Sony Laptops-874,Sony,Laptops,Ivan Petrenko,EuroSupply,Poland,Kharkivska,Kharkiv,2,1788.71,482.28,3095.14,card,wholesale
+117,2024-05-25 17:58:00,119,HP Networking-305,HP,Networking,Serhii Kravchenko,NordicParts,Sweden,Kyivska,Kyiv,1,445.69,78.03,367.66,invoice,online_store
+118,2023-10-10 12:27:46,108,Bosch Printers-430,Bosch,Printers,Serhii Kravchenko,AsiaWholesale,China,Vinnytska,Vinnytsia,2,197.27,11.47,383.07,cash,wholesale
+119,2023-11-05 13:31:58,20,Apple Laptops-828,Apple,Laptops,Olena Koval,NordicParts,Sweden,Poltavska,Poltava,1,306.33,37.47,268.86,online,wholesale
+120,2024-07-24 08:20:42,61,Philips Monitors-115,Philips,Monitors,Dmytro Melnyk,NordicParts,Sweden,Zaporizka,Zaporizhzhia,1,547.74,199.83,347.91,invoice,phone_order
+121,2024-02-20 12:47:20,176,Panasonic Wearables-439,Panasonic,Wearables,Dmytro Melnyk,NordicParts,Sweden,Odeska,Odesa,1,266.7,9.0,257.7,invoice,marketplace
+122,2024-08-19 16:43:38,119,HP Networking-305,HP,Networking,Natalia Romanyuk,NordicParts,Sweden,Ternopilska,Ternopil,4,413.83,47.96,1607.36,online,online_store
+123,2024-08-20 09:24:22,19,OnePlus Laptops-495,OnePlus,Laptops,Dmytro Melnyk,TechImport UA,Ukraine,Kharkivska,Kharkiv,1,1566.46,185.67,1380.79,online,wholesale
+124,2023-12-05 10:11:12,138,HP Storage-555,HP,Storage,Maria Bondar,BalkanStore,Romania,Kharkivska,Kharkiv,1,263.52,29.44,234.08,card,wholesale
+125,2024-12-13 20:17:57,10,Apple Smartphone-779,Apple,Smartphones,Iryna Savchuk,GigaTrade,Germany,Kharkivska,Kharkiv,1,470.14,27.23,442.91,invoice,phone_order
+126,2024-01-11 14:40:49,8,Sony Smartphone-429,Sony,Smartphones,Serhii Kravchenko,AsiaWholesale,China,Vinnytska,Vinnytsia,1,3777.08,317.5,3459.58,invoice,marketplace
+127,2023-12-08 11:09:03,25,Seagate Laptops-663,Seagate,Laptops,Pavlo Boyko,GigaTrade,Germany,Kyivska,Kyiv,1,2378.47,309.68,2068.79,invoice,online_store
+128,2024-08-12 17:44:56,132,Google Networking-603,Google,Networking,Iryna Savchuk,EuroSupply,Poland,Ternopilska,Ternopil,1,547.19,8.42,538.77,cash,online_store
+129,2024-03-15 12:12:27,10,Apple Smartphone-779,Apple,Smartphones,Maria Bondar,LocalDistributor,Ukraine,Dnipropetrovska,Dnipro,1,239.18,0.04,239.14,invoice,wholesale
+130,2023-03-20 08:20:01,96,Seagate Cameras-392,Seagate,Cameras,Natalia Romanyuk,AsiaWholesale,China,Poltavska,Poltava,1,841.04,80.06,760.98,card,store
+131,2024-02-08 13:09:48,124,Huawei Networking-757,Huawei,Networking,Ivan Petrenko,GigaTrade,Germany,Kharkivska,Kharkiv,1,403.8,66.87,336.93,cash,store
+132,2024-01-07 21:14:22,49,Lenovo Gaming-292,Lenovo,Gaming,Oksana Hladka,TechImport UA,Ukraine,Poltavska,Poltava,2,835.31,12.3,1658.32,invoice,marketplace
+133,2023-09-15 13:53:50,180,Panasonic Wearables-938,Panasonic,Wearables,Dmytro Melnyk,GigaTrade,Germany,Odeska,Odesa,1,419.4,75.26,344.14,online,online_store
+134,2023-09-22 19:15:16,169,Nikon Kitchen-814,Nikon,Kitchen,Kateryna Marchenko,NordicParts,Sweden,Kharkivska,Kharkiv,1,288.32,14.5,273.82,invoice,wholesale
+135,2023-09-29 10:55:42,134,Nikon Storage-469,Nikon,Storage,Oksana Hladka,TechImport UA,Ukraine,Kharkivska,Kharkiv,1,200.5,10.34,190.16,card,wholesale
+136,2024-10-29 21:57:22,127,Sony Networking-316,Sony,Networking,Dmytro Melnyk,USADirect,USA,Ternopilska,Ternopil,2,602.5,188.57,1016.43,card,phone_order
+137,2024-07-18 19:26:25,12,Lenovo Smartphone-691,Lenovo,Smartphones,Serhii Kravchenko,GigaTrade,Germany,Odeska,Odesa,2,2606.63,455.58,4757.68,card,online_store
+138,2024-12-25 08:55:16,48,HP Home Appli-792,HP,Home Appliances,Dmytro Melnyk,USADirect,USA,Dnipropetrovska,Dnipro,1,1263.25,206.37,1056.88,card,online_store
+139,2023-12-20 09:21:28,165,Canon Kitchen-857,Canon,Kitchen,Oksana Hladka,BalkanStore,Romania,Zaporizka,Zaporizhzhia,1,1689.41,83.42,1605.99,cash,online_store
+140,2023-07-03 10:21:42,55,Apple Gaming-626,Apple,Gaming,Oksana Hladka,USADirect,USA,Kharkivska,Kharkiv,1,204.97,9.18,195.79,cash,store
+141,2024-02-07 18:58:15,148,Acer TV-633,Acer,TV,Serhii Kravchenko,BalkanStore,Romania,Ternopilska,Ternopil,1,810.23,109.47,700.76,invoice,store
+142,2023-05-18 14:18:47,123,Canon Networking-694,Canon,Networking,Kateryna Marchenko,EuroSupply,Poland,Poltavska,Poltava,1,396.33,10.27,386.06,card,online_store
+143,2024-07-19 12:31:06,72,Microsoft Headphones-325,Microsoft,Headphones,Volodymyr Ivanov,NordicParts,Sweden,Lvivska,Lviv,3,47.28,7.75,134.09,cash,marketplace
+144,2024-01-03 13:46:51,127,Sony Networking-316,Sony,Networking,Dmytro Melnyk,NordicParts,Sweden,Ternopilska,Ternopil,1,680.13,27.63,652.5,card,store
+145,2025-02-28 09:37:02,37,Canon Accessorie-759,Canon,Accessories,Pavlo Boyko,BalkanStore,Romania,Kharkivska,Kharkiv,2,109.08,13.46,204.7,card,phone_order
+146,2023-11-02 11:31:34,87,Dell Smartwatch-751,Dell,Smartwatches,Oksana Hladka,BalkanStore,Romania,Poltavska,Poltava,2,492.51,54.5,930.52,online,online_store
+147,2023-02-12 12:20:11,61,Philips Monitors-115,Philips,Monitors,Natalia Romanyuk,EuroSupply,Poland,Kyivska,Kyiv,2,598.83,159.32,1038.34,invoice,store
+148,2025-02-11 20:06:32,159,Lenovo Kitchen-875,Lenovo,Kitchen,Pavlo Boyko,AsiaWholesale,China,Lvivska,Lviv,1,234.08,3.84,230.24,invoice,wholesale
+149,2024-11-13 08:12:13,132,Google Networking-603,Google,Networking,Ivan Petrenko,LocalDistributor,Ukraine,Kharkivska,Kharkiv,1,562.03,49.33,512.7,card,online_store
+150,2023-02-02 10:26:23,155,Microsoft Kitchen-147,Microsoft,Kitchen,Natalia Romanyuk,USADirect,USA,Odeska,Odesa,1,542.35,72.97,469.38,online,phone_order
+151,2023-10-22 14:24:49,4,Dell Smartphone-278,Dell,Smartphones,Kateryna Marchenko,LocalDistributor,Ukraine,Vinnytska,Vinnytsia,1,2382.22,628.2,1754.02,online,online_store
+152,2024-03-12 13:49:42,94,Huawei Cameras-903,Huawei,Cameras,Olena Koval,LocalDistributor,Ukraine,Kharkivska,Kharkiv,2,1629.16,273.92,2984.4,invoice,online_store
+153,2024-03-14 21:50:26,106,Panasonic Printers-114,Panasonic,Printers,Kateryna Marchenko,NordicParts,Sweden,Ivano-Frankivska,Ivano-Frankivsk,1,241.74,11.15,230.59,online,wholesale
+154,2023-01-17 20:54:20,53,Philips Gaming-183,Philips,Gaming,Pavlo Boyko,EuroSupply,Poland,Kyivska,Kyiv,1,278.63,5.96,272.67,card,phone_order
+155,2024-08-05 08:33:02,147,Panasonic TV-513,Panasonic,TV,Volodymyr Ivanov,NordicParts,Sweden,Dnipropetrovska,Dnipro,5,1723.31,1469.61,7146.94,cash,wholesale
+156,2024-12-30 19:40:58,89,Apple Smartwatch-590,Apple,Smartwatches,Pavlo Boyko,BalkanStore,Romania,Kyivska,Kyiv,2,370.88,100.49,641.27,cash,marketplace
+157,2024-05-28 12:53:54,73,Canon Headphones-266,Canon,Headphones,Ivan Petrenko,USADirect,USA,Zaporizka,Zaporizhzhia,4,653.78,156.59,2458.53,online,phone_order
+158,2023-02-13 12:02:15,102,Samsung Cameras-850,Samsung,Cameras,Volodymyr Ivanov,AsiaWholesale,China,Ivano-Frankivska,Ivano-Frankivsk,1,2913.7,500.13,2413.57,invoice,online_store
+159,2023-01-03 18:44:35,8,Sony Smartphone-429,Sony,Smartphones,Pavlo Boyko,NordicParts,Sweden,Ivano-Frankivska,Ivano-Frankivsk,1,2857.27,437.69,2419.58,card,phone_order
+160,2023-12-22 20:51:33,48,HP Home Appli-792,HP,Home Appliances,Oksana Hladka,EuroSupply,Poland,Kharkivska,Kharkiv,3,1474.1,568.15,3854.15,card,marketplace
+161,2023-03-05 16:11:27,79,Sony Smartwatch-330,Sony,Smartwatches,Pavlo Boyko,TechImport UA,Ukraine,Kyivska,Kyiv,1,504.12,16.18,487.94,invoice,phone_order
+162,2024-06-28 19:50:36,163,Philips Kitchen-554,Philips,Kitchen,Natalia Romanyuk,EuroSupply,Poland,Ivano-Frankivska,Ivano-Frankivsk,1,178.98,24.97,154.01,online,phone_order
+163,2024-08-31 19:28:40,131,Huawei Networking-277,Huawei,Networking,Ivan Petrenko,USADirect,USA,Lvivska,Lviv,1,509.47,69.16,440.31,card,wholesale
+164,2024-03-07 18:36:58,129,LG Networking-145,LG,Networking,Andriy Shevchenko,BalkanStore,Romania,Ivano-Frankivska,Ivano-Frankivsk,2,732.31,215.26,1249.36,card,online_store
+165,2024-12-08 21:49:09,25,Seagate Laptops-663,Seagate,Laptops,Iryna Savchuk,LocalDistributor,Ukraine,Ternopilska,Ternopil,3,3709.36,126.37,11001.71,online,phone_order
+166,2024-07-13 12:55:23,134,Nikon Storage-469,Nikon,Storage,Oksana Hladka,LocalDistributor,Ukraine,Dnipropetrovska,Dnipro,1,114.77,1.09,113.68,invoice,wholesale
+167,2023-06-11 13:07:32,182,Samsung Wearables-930,Samsung,Wearables,Maria Bondar,LocalDistributor,Ukraine,Dnipropetrovska,Dnipro,5,54.92,15.24,259.36,online,phone_order
+168,2023-08-31 13:13:51,46,Acer Home Appli-591,Acer,Home Appliances,Maria Bondar,EuroSupply,Poland,Odeska,Odesa,1,1016.41,177.28,839.13,card,store
+169,2024-06-16 21:54:28,125,LG Networking-275,LG,Networking,Andriy Shevchenko,TechImport UA,Ukraine,Ivano-Frankivska,Ivano-Frankivsk,3,287.34,152.97,709.05,invoice,wholesale
+170,2023-04-10 16:21:16,104,Xiaomi Printers-804,Xiaomi,Printers,Ivan Petrenko,AsiaWholesale,China,Ivano-Frankivska,Ivano-Frankivsk,1,1347.17,184.57,1162.6,card,store
+171,2025-01-31 20:53:17,155,Microsoft Kitchen-147,Microsoft,Kitchen,Oksana Hladka,TechImport UA,Ukraine,Ternopilska,Ternopil,1,460.29,6.14,454.15,card,marketplace
+172,2024-08-15 13:23:48,108,Bosch Printers-430,Bosch,Printers,Iryna Savchuk,AsiaWholesale,China,Poltavska,Poltava,1,298.18,11.25,286.93,cash,phone_order
+173,2023-12-11 15:27:22,48,HP Home Appli-792,HP,Home Appliances,Serhii Kravchenko,TechImport UA,Ukraine,Poltavska,Poltava,1,1162.02,76.52,1085.5,online,store
+174,2024-08-02 09:55:08,4,Dell Smartphone-278,Dell,Smartphones,Natalia Romanyuk,NordicParts,Sweden,Ternopilska,Ternopil,2,2268.45,253.95,4282.95,cash,phone_order
+175,2024-10-22 13:15:00,94,Huawei Cameras-903,Huawei,Cameras,Kateryna Marchenko,AsiaWholesale,China,Kyivska,Kyiv,5,2234.21,1168.9,10002.15,online,online_store
+176,2025-02-25 12:36:49,164,Xiaomi Kitchen-259,Xiaomi,Kitchen,Kateryna Marchenko,EuroSupply,Poland,Ternopilska,Ternopil,1,403.5,8.39,395.11,cash,marketplace
+177,2024-12-03 13:57:33,31,Seagate Accessorie-971,Seagate,Accessories,Maria Bondar,EuroSupply,Poland,Poltavska,Poltava,2,493.49,172.53,814.45,card,wholesale
+178,2024-11-20 17:40:49,100,Acer Cameras-774,Acer,Cameras,Natalia Romanyuk,LocalDistributor,Ukraine,Kharkivska,Kharkiv,5,1264.78,162.85,6161.05,cash,phone_order
+179,2024-11-07 17:51:55,100,Acer Cameras-774,Acer,Cameras,Kateryna Marchenko,LocalDistributor,Ukraine,Kyivska,Kyiv,1,2510.08,152.58,2357.5,online,phone_order
+180,2024-11-30 19:34:16,63,Asus Monitors-550,Asus,Monitors,Olena Koval,NordicParts,Sweden,Poltavska,Poltava,1,512.04,81.03,431.01,cash,store
+181,2023-05-26 21:50:34,158,Sony Kitchen-279,Sony,Kitchen,Maria Bondar,LocalDistributor,Ukraine,Kharkivska,Kharkiv,1,369.93,43.58,326.35,invoice,wholesale
+182,2024-03-10 09:52:26,71,Sony Headphones-571,Sony,Headphones,Maria Bondar,LocalDistributor,Ukraine,Odeska,Odesa,10,319.62,370.96,2825.24,card,wholesale
+183,2023-11-19 10:37:09,37,Canon Accessorie-759,Canon,Accessories,Ivan Petrenko,GigaTrade,Germany,Lvivska,Lviv,1,103.98,59.71,44.27,invoice,wholesale
+184,2023-11-20 12:43:09,90,Sony Smartwatch-409,Sony,Smartwatches,Maria Bondar,EuroSupply,Poland,Odeska,Odesa,1,387.66,37.59,350.07,invoice,online_store
+185,2023-06-29 19:35:01,83,Nikon Smartwatch-605,Nikon,Smartwatches,Kateryna Marchenko,USADirect,USA,Ternopilska,Ternopil,4,116.68,30.67,436.05,invoice,phone_order
+186,2025-01-17 17:06:24,132,Google Networking-603,Google,Networking,Oksana Hladka,USADirect,USA,Dnipropetrovska,Dnipro,2,297.18,55.95,538.41,cash,store
+187,2024-06-29 12:55:54,37,Canon Accessorie-759,Canon,Accessories,Serhii Kravchenko,LocalDistributor,Ukraine,Poltavska,Poltava,2,58.31,1.09,115.53,online,marketplace
+188,2023-10-10 11:17:02,14,Canon Smartphone-337,Canon,Smartphones,Natalia Romanyuk,AsiaWholesale,China,Dnipropetrovska,Dnipro,1,1987.17,140.68,1846.49,invoice,store
+189,2023-09-02 13:30:05,175,Philips Wearables-292,Philips,Wearables,Maria Bondar,TechImport UA,Ukraine,Odeska,Odesa,1,450.51,65.74,384.77,online,store
+190,2024-03-04 14:44:35,143,Bosch Storage-211,Bosch,Storage,Pavlo Boyko,AsiaWholesale,China,Kharkivska,Kharkiv,1,130.51,13.47,117.04,card,phone_order
+191,2024-02-28 18:20:26,34,Apple Accessorie-280,Apple,Accessories,Pavlo Boyko,NordicParts,Sweden,Odeska,Odesa,1,206.83,3.67,203.16,online,online_store
+192,2023-07-31 20:15:58,148,Acer TV-633,Acer,TV,Serhii Kravchenko,EuroSupply,Poland,Zaporizka,Zaporizhzhia,4,620.66,366.39,2116.25,online,online_store
+193,2024-07-13 21:08:56,94,Huawei Cameras-903,Huawei,Cameras,Serhii Kravchenko,AsiaWholesale,China,Zaporizka,Zaporizhzhia,2,1822.06,622.98,3021.14,invoice,online_store
+194,2023-02-27 12:21:55,76,OnePlus Headphones-263,OnePlus,Headphones,Natalia Romanyuk,USADirect,USA,Vinnytska,Vinnytsia,2,416.75,4.39,829.11,cash,online_store
+195,2023-10-17 13:16:49,49,Lenovo Gaming-292,Lenovo,Gaming,Andriy Shevchenko,USADirect,USA,Odeska,Odesa,5,789.56,240.85,3706.95,cash,phone_order
+196,2024-07-08 18:04:42,78,Lenovo Smartwatch-680,Lenovo,Smartwatches,Maria Bondar,BalkanStore,Romania,Kyivska,Kyiv,1,89.91,3.02,86.89,cash,online_store
+197,2024-11-06 18:26:57,131,Huawei Networking-277,Huawei,Networking,Dmytro Melnyk,AsiaWholesale,China,Dnipropetrovska,Dnipro,2,492.71,93.84,891.58,invoice,online_store
+198,2024-08-22 21:51:42,52,Xiaomi Gaming-477,Xiaomi,Gaming,Pavlo Boyko,TechImport UA,Ukraine,Odeska,Odesa,1,1031.98,108.74,923.24,invoice,online_store
+199,2023-12-30 10:16:04,97,Sony Cameras-798,Sony,Cameras,Oksana Hladka,LocalDistributor,Ukraine,Dnipropetrovska,Dnipro,1,953.07,65.61,887.46,card,store
+200,2024-08-01 14:53:58,63,Asus Monitors-550,Asus,Monitors,Oksana Hladka,NordicParts,Sweden,Vinnytska,Vinnytsia,1,513.87,32.39,481.48,card,phone_order
+201,2024-04-08 11:15:34,159,Lenovo Kitchen-875,Lenovo,Kitchen,Volodymyr Ivanov,AsiaWholesale,China,Ternopilska,Ternopil,1,275.55,23.04,252.51,cash,store
+202,2025-02-11 17:31:08,13,Bosch Smartphone-636,Bosch,Smartphones,Ivan Petrenko,AsiaWholesale,China,Kyivska,Kyiv,1,1077.7,64.45,1013.25,card,online_store
+203,2023-03-20 08:08:48,97,Sony Cameras-798,Sony,Cameras,Maria Bondar,USADirect,USA,Ivano-Frankivska,Ivano-Frankivsk,1,975.95,112.82,863.13,online,online_store
+204,2023-04-24 16:22:08,115,Microsoft Printers-620,Microsoft,Printers,Oksana Hladka,AsiaWholesale,China,Lvivska,Lviv,2,567.58,116.48,1018.68,card,store
+205,2025-01-16 12:38:44,14,Canon Smartphone-337,Canon,Smartphones,Volodymyr Ivanov,EuroSupply,Poland,Lvivska,Lviv,1,2013.69,209.33,1804.36,online,marketplace
+206,2023-01-01 09:51:58,62,HP Monitors-433,HP,Monitors,Olena Koval,USADirect,USA,Ternopilska,Ternopil,2,435.98,28.68,843.28,invoice,wholesale
+207,2023-09-16 20:03:32,13,Bosch Smartphone-636,Bosch,Smartphones,Oksana Hladka,GigaTrade,Germany,Lvivska,Lviv,1,785.28,57.79,727.49,invoice,store
+208,2024-11-23 10:44:02,42,Google Home Appli-210,Google,Home Appliances,Olena Koval,NordicParts,Sweden,Ternopilska,Ternopil,1,990.67,57.89,932.78,cash,store
+209,2023-08-11 18:18:01,90,Sony Smartwatch-409,Sony,Smartwatches,Volodymyr Ivanov,USADirect,USA,Poltavska,Poltava,1,551.47,60.79,490.68,cash,wholesale
+210,2025-02-17 10:33:58,96,Seagate Cameras-392,Seagate,Cameras,Iryna Savchuk,AsiaWholesale,China,Kharkivska,Kharkiv,1,951.24,192.15,759.09,cash,wholesale
+211,2024-08-28 14:52:33,141,Acer Storage-629,Acer,Storage,Kateryna Marchenko,LocalDistributor,Ukraine,Kharkivska,Kharkiv,1,416.79,68.76,348.03,invoice,online_store
+212,2023-12-13 18:25:15,127,Sony Networking-316,Sony,Networking,Pavlo Boyko,TechImport UA,Ukraine,Zaporizka,Zaporizhzhia,2,685.35,212.98,1157.72,card,online_store
+213,2023-03-08 10:03:16,163,Philips Kitchen-554,Philips,Kitchen,Oksana Hladka,NordicParts,Sweden,Ivano-Frankivska,Ivano-Frankivsk,1,170.06,0.07,169.99,cash,store
+214,2023-06-16 18:15:57,119,HP Networking-305,HP,Networking,Olena Koval,AsiaWholesale,China,Lvivska,Lviv,1,376.39,170.65,205.74,cash,store
+215,2024-12-08 09:24:07,134,Nikon Storage-469,Nikon,Storage,Oksana Hladka,GigaTrade,Germany,Zaporizka,Zaporizhzhia,2,101.21,1.02,201.4,online,wholesale
+216,2024-11-19 13:17:31,161,Apple Kitchen-698,Apple,Kitchen,Dmytro Melnyk,NordicParts,Sweden,Kharkivska,Kharkiv,1,646.29,83.45,562.84,cash,online_store
+217,2023-06-12 17:11:45,35,Asus Accessorie-796,Asus,Accessories,Iryna Savchuk,GigaTrade,Germany,Ternopilska,Ternopil,3,133.98,67.78,334.16,online,marketplace
+218,2024-03-24 16:15:26,130,Apple Networking-487,Apple,Networking,Oksana Hladka,AsiaWholesale,China,Poltavska,Poltava,1,101.49,4.99,96.5,online,marketplace
+219,2024-09-11 16:46:47,106,Panasonic Printers-114,Panasonic,Printers,Iryna Savchuk,NordicParts,Sweden,Odeska,Odesa,2,316.51,82.4,550.62,cash,wholesale
+220,2023-07-15 12:26:23,132,Google Networking-603,Google,Networking,Olena Koval,BalkanStore,Romania,Ternopilska,Ternopil,1,376.64,16.7,359.94,invoice,wholesale
+221,2024-07-23 10:45:38,29,Acer Laptops-192,Acer,Laptops,Kateryna Marchenko,AsiaWholesale,China,Odeska,Odesa,5,1038.73,867.59,4326.06,cash,online_store
+222,2024-11-21 15:41:50,35,Asus Accessorie-796,Asus,Accessories,Pavlo Boyko,AsiaWholesale,China,Vinnytska,Vinnytsia,4,130.01,45.99,474.05,card,wholesale
+223,2023-02-04 20:38:44,92,LG Smartwatch-912,LG,Smartwatches,Maria Bondar,NordicParts,Sweden,Kyivska,Kyiv,1,62.15,35.54,26.61,online,phone_order
+224,2023-12-04 09:26:29,160,Dell Kitchen-645,Dell,Kitchen,Andriy Shevchenko,USADirect,USA,Dnipropetrovska,Dnipro,3,328.74,61.78,924.44,online,phone_order
+225,2024-11-28 17:09:10,28,Canon Laptops-267,Canon,Laptops,Ivan Petrenko,USADirect,USA,Vinnytska,Vinnytsia,1,822.32,106.9,715.42,card,store
+226,2023-04-11 13:04:27,99,Huawei Cameras-386,Huawei,Cameras,Oksana Hladka,GigaTrade,Germany,Kharkivska,Kharkiv,2,1924.84,482.83,3366.85,cash,online_store
+227,2023-05-01 09:19:24,174,Asus Wearables-211,Asus,Wearables,Olena Koval,GigaTrade,Germany,Zaporizka,Zaporizhzhia,4,179.82,120.72,598.56,invoice,phone_order
+228,2024-03-28 08:28:28,176,Panasonic Wearables-439,Panasonic,Wearables,Oksana Hladka,TechImport UA,Ukraine,Vinnytska,Vinnytsia,1,183.58,19.69,163.89,cash,marketplace
+229,2023-07-20 09:04:00,111,Bosch Printers-721,Bosch,Printers,Maria Bondar,LocalDistributor,Ukraine,Kyivska,Kyiv,1,958.17,132.15,826.02,cash,online_store
+230,2023-07-06 19:39:28,60,Lenovo Monitors-662,Lenovo,Monitors,Olena Koval,USADirect,USA,Kharkivska,Kharkiv,5,365.82,53.49,1775.61,card,marketplace
+231,2024-05-20 15:37:16,9,Panasonic Smartphone-622,Panasonic,Smartphones,Serhii Kravchenko,NordicParts,Sweden,Odeska,Odesa,1,876.36,87.79,788.57,online,wholesale
+232,2024-06-23 13:04:05,56,Canon Gaming-987,Canon,Gaming,Serhii Kravchenko,GigaTrade,Germany,Dnipropetrovska,Dnipro,1,621.01,75.52,545.49,invoice,phone_order
+233,2023-06-11 08:39:12,8,Sony Smartphone-429,Sony,Smartphones,Maria Bondar,GigaTrade,Germany,Ivano-Frankivska,Ivano-Frankivsk,1,3278.6,226.66,3051.94,card,wholesale
+234,2024-01-16 14:26:43,144,Asus Storage-613,Asus,Storage,Ivan Petrenko,LocalDistributor,Ukraine,Kyivska,Kyiv,1,436.69,69.02,367.67,card,phone_order
+235,2024-02-28 13:46:58,69,Lenovo Headphones-221,Lenovo,Headphones,Volodymyr Ivanov,BalkanStore,Romania,Kyivska,Kyiv,1,213.07,4.69,208.38,invoice,store
+236,2024-10-05 17:37:38,2,Nikon Smartphone-376,Nikon,Smartphones,Kateryna Marchenko,EuroSupply,Poland,Dnipropetrovska,Dnipro,1,3558.73,450.98,3107.75,card,marketplace
+237,2024-12-10 12:14:14,29,Acer Laptops-192,Acer,Laptops,Pavlo Boyko,TechImport UA,Ukraine,Ternopilska,Ternopil,10,544.34,232.74,5210.66,cash,marketplace
+238,2024-04-24 21:15:58,137,Microsoft Storage-273,Microsoft,Storage,Kateryna Marchenko,GigaTrade,Germany,Kharkivska,Kharkiv,1,1039.95,152.09,887.86,invoice,store
+239,2023-02-22 12:39:35,165,Canon Kitchen-857,Canon,Kitchen,Iryna Savchuk,EuroSupply,Poland,Kyivska,Kyiv,1,2120.54,333.24,1787.3,invoice,wholesale
+240,2024-11-28 15:04:56,182,Samsung Wearables-930,Samsung,Wearables,Dmytro Melnyk,NordicParts,Sweden,Dnipropetrovska,Dnipro,1,53.54,1.87,51.67,online,marketplace
+241,2023-10-21 08:19:23,65,Nikon Monitors-653,Nikon,Monitors,Dmytro Melnyk,LocalDistributor,Ukraine,Ivano-Frankivska,Ivano-Frankivsk,1,419.26,0.23,419.03,card,wholesale
+242,2023-06-16 12:37:31,64,Nikon Monitors-988,Nikon,Monitors,Natalia Romanyuk,USADirect,USA,Vinnytska,Vinnytsia,1,462.0,61.45,400.55,invoice,marketplace
+243,2023-07-06 12:41:03,111,Bosch Printers-721,Bosch,Printers,Kateryna Marchenko,LocalDistributor,Ukraine,Lvivska,Lviv,5,683.27,30.41,3385.94,online,store
+244,2023-10-01 18:46:59,32,Dell Accessorie-515,Dell,Accessories,Kateryna Marchenko,TechImport UA,Ukraine,Vinnytska,Vinnytsia,1,328.47,49.27,279.2,card,store
+245,2024-05-19 11:48:16,113,HP Printers-808,HP,Printers,Dmytro Melnyk,BalkanStore,Romania,Odeska,Odesa,2,491.64,68.3,914.98,card,online_store
+246,2025-01-26 11:11:22,174,Asus Wearables-211,Asus,Wearables,Olena Koval,GigaTrade,Germany,Vinnytska,Vinnytsia,2,289.52,100.45,478.59,card,online_store
+247,2023-10-27 08:04:47,67,Canon Monitors-919,Canon,Monitors,Olena Koval,TechImport UA,Ukraine,Zaporizka,Zaporizhzhia,1,237.62,37.36,200.26,card,wholesale
+248,2023-05-13 08:27:28,69,Lenovo Headphones-221,Lenovo,Headphones,Maria Bondar,BalkanStore,Romania,Zaporizka,Zaporizhzhia,1,269.34,4.29,265.05,cash,online_store
+249,2025-01-17 16:16:34,45,Bosch Home Appli-725,Bosch,Home Appliances,Pavlo Boyko,NordicParts,Sweden,Dnipropetrovska,Dnipro,2,551.7,421.33,682.07,cash,wholesale
+250,2024-07-14 11:16:04,90,Sony Smartwatch-409,Sony,Smartwatches,Kateryna Marchenko,LocalDistributor,Ukraine,Kharkivska,Kharkiv,1,522.67,40.0,482.67,online,store
+251,2023-09-10 21:00:27,13,Bosch Smartphone-636,Bosch,Smartphones,Pavlo Boyko,EuroSupply,Poland,Ternopilska,Ternopil,1,1006.46,151.45,855.01,card,store
+252,2023-06-12 12:50:09,42,Google Home Appli-210,Google,Home Appliances,Dmytro Melnyk,LocalDistributor,Ukraine,Lvivska,Lviv,1,868.52,65.73,802.79,card,wholesale
+253,2024-02-11 21:43:43,148,Acer TV-633,Acer,TV,Pavlo Boyko,GigaTrade,Germany,Kyivska,Kyiv,2,836.1,227.64,1444.56,invoice,phone_order
+254,2023-09-27 08:20:52,158,Sony Kitchen-279,Sony,Kitchen,Pavlo Boyko,BalkanStore,Romania,Kyivska,Kyiv,2,351.42,115.46,587.38,online,phone_order
+255,2023-06-18 18:40:48,78,Lenovo Smartwatch-680,Lenovo,Smartwatches,Volodymyr Ivanov,USADirect,USA,Zaporizka,Zaporizhzhia,5,57.14,29.34,256.36,invoice,online_store
+256,2023-12-14 12:10:47,80,Nikon Smartwatch-557,Nikon,Smartwatches,Ivan Petrenko,USADirect,USA,Ternopilska,Ternopil,1,625.58,39.38,586.2,online,phone_order
+257,2024-03-10 19:39:33,6,Google Smartphone-522,Google,Smartphones,Kateryna Marchenko,EuroSupply,Poland,Kharkivska,Kharkiv,1,2480.13,217.55,2262.58,card,wholesale
+258,2023-11-21 12:36:41,157,Huawei Kitchen-923,Huawei,Kitchen,Kateryna Marchenko,NordicParts,Sweden,Odeska,Odesa,3,1786.72,625.32,4734.84,card,store
+259,2024-12-23 13:49:53,178,Asus Wearables-833,Asus,Wearables,Olena Koval,GigaTrade,Germany,Odeska,Odesa,1,400.98,26.81,374.17,invoice,store
+260,2024-10-18 13:59:36,116,Microsoft Printers-709,Microsoft,Printers,Pavlo Boyko,NordicParts,Sweden,Lvivska,Lviv,1,611.07,47.07,564.0,cash,phone_order
+261,2024-05-20 10:43:07,133,Xiaomi Storage-122,Xiaomi,Storage,Oksana Hladka,BalkanStore,Romania,Vinnytska,Vinnytsia,2,638.63,35.37,1241.89,cash,online_store
+262,2023-05-03 19:40:45,29,Acer Laptops-192,Acer,Laptops,Maria Bondar,AsiaWholesale,China,Ternopilska,Ternopil,1,677.83,89.21,588.62,card,wholesale
+263,2024-07-05 12:26:02,35,Asus Accessorie-796,Asus,Accessories,Pavlo Boyko,BalkanStore,Romania,Lvivska,Lviv,2,89.71,27.93,151.49,online,marketplace
+264,2025-01-07 13:33:02,104,Xiaomi Printers-804,Xiaomi,Printers,Serhii Kravchenko,USADirect,USA,Lvivska,Lviv,2,1237.89,1388.11,1087.67,cash,store
+265,2023-11-18 08:50:42,86,Asus Smartwatch-731,Asus,Smartwatches,Serhii Kravchenko,LocalDistributor,Ukraine,Kharkivska,Kharkiv,1,190.66,13.5,177.16,cash,marketplace
+266,2024-03-08 15:31:11,89,Apple Smartwatch-590,Apple,Smartwatches,Maria Bondar,AsiaWholesale,China,Vinnytska,Vinnytsia,2,402.14,53.24,751.04,card,phone_order
+267,2023-09-14 11:40:52,126,Samsung Networking-244,Samsung,Networking,Dmytro Melnyk,NordicParts,Sweden,Ivano-Frankivska,Ivano-Frankivsk,1,578.71,317.51,261.2,cash,wholesale
+268,2023-06-29 21:25:30,133,Xiaomi Storage-122,Xiaomi,Storage,Kateryna Marchenko,EuroSupply,Poland,Odeska,Odesa,1,511.86,4.07,507.79,online,marketplace
+269,2023-11-10 17:09:05,56,Canon Gaming-987,Canon,Gaming,Dmytro Melnyk,USADirect,USA,Ternopilska,Ternopil,5,694.01,224.96,3245.09,card,marketplace
+270,2025-01-31 15:15:40,141,Acer Storage-629,Acer,Storage,Serhii Kravchenko,TechImport UA,Ukraine,Odeska,Odesa,1,543.47,40.24,503.23,cash,online_store
+271,2024-06-29 19:49:44,154,Philips TV-597,Philips,TV,Pavlo Boyko,NordicParts,Sweden,Ternopilska,Ternopil,2,1325.34,335.66,2315.02,card,marketplace
+272,2023-11-30 15:39:25,53,Philips Gaming-183,Philips,Gaming,Kateryna Marchenko,BalkanStore,Romania,Ivano-Frankivska,Ivano-Frankivsk,1,260.21,6.87,253.34,cash,store
+273,2025-01-22 21:53:13,75,Asus Headphones-666,Asus,Headphones,Natalia Romanyuk,GigaTrade,Germany,Lvivska,Lviv,4,528.68,83.61,2031.11,card,marketplace
+274,2025-02-10 14:25:13,179,Nikon Wearables-414,Nikon,Wearables,Olena Koval,NordicParts,Sweden,Kharkivska,Kharkiv,2,354.6,6.28,702.92,card,online_store
+275,2023-08-10 09:12:49,42,Google Home Appli-210,Google,Home Appliances,Volodymyr Ivanov,LocalDistributor,Ukraine,Odeska,Odesa,1,834.55,148.2,686.35,card,phone_order
+276,2024-05-21 14:25:53,59,Acer Monitors-992,Acer,Monitors,Dmytro Melnyk,AsiaWholesale,China,Odeska,Odesa,1,111.46,16.81,94.65,invoice,store
+277,2023-10-19 09:14:21,39,Google Home Appli-438,Google,Home Appliances,Andriy Shevchenko,NordicParts,Sweden,Kharkivska,Kharkiv,2,1873.8,576.24,3171.36,invoice,wholesale
+278,2024-11-09 21:40:40,39,Google Home Appli-438,Google,Home Appliances,Iryna Savchuk,EuroSupply,Poland,Lvivska,Lviv,1,1785.34,168.26,1617.08,invoice,wholesale
+279,2023-12-27 15:09:38,77,Apple Headphones-174,Apple,Headphones,Kateryna Marchenko,TechImport UA,Ukraine,Poltavska,Poltava,1,420.55,59.22,361.33,cash,wholesale
+280,2023-01-31 10:53:02,146,Philips TV-876,Philips,TV,Andriy Shevchenko,AsiaWholesale,China,Kyivska,Kyiv,1,582.46,61.24,521.22,card,marketplace
+281,2023-06-09 14:37:19,137,Microsoft Storage-273,Microsoft,Storage,Oksana Hladka,USADirect,USA,Vinnytska,Vinnytsia,1,683.69,5.18,678.51,invoice,marketplace
+282,2024-02-23 15:58:16,43,HP Home Appli-825,HP,Home Appliances,Ivan Petrenko,TechImport UA,Ukraine,Ternopilska,Ternopil,1,632.72,97.06,535.66,online,online_store
+283,2023-05-18 12:51:25,142,Nikon Storage-666,Nikon,Storage,Andriy Shevchenko,USADirect,USA,Poltavska,Poltava,1,522.74,23.33,499.41,cash,phone_order
+284,2024-10-09 08:47:37,68,Bosch Headphones-158,Bosch,Headphones,Andriy Shevchenko,TechImport UA,Ukraine,Odeska,Odesa,2,357.91,24.12,691.7,invoice,marketplace
+285,2024-09-27 21:01:06,130,Apple Networking-487,Apple,Networking,Kateryna Marchenko,USADirect,USA,Kharkivska,Kharkiv,2,69.65,19.63,119.67,cash,store
+286,2024-12-11 15:12:57,148,Acer TV-633,Acer,TV,Oksana Hladka,AsiaWholesale,China,Odeska,Odesa,1,650.57,86.84,563.73,invoice,marketplace
+287,2024-11-02 21:11:40,93,Dell Smartwatch-105,Dell,Smartwatches,Natalia Romanyuk,LocalDistributor,Ukraine,Poltavska,Poltava,2,628.11,44.85,1211.37,card,wholesale
+288,2023-03-04 17:22:53,90,Sony Smartwatch-409,Sony,Smartwatches,Olena Koval,NordicParts,Sweden,Ternopilska,Ternopil,1,459.51,20.63,438.88,online,wholesale
+289,2023-05-24 18:01:46,2,Nikon Smartphone-376,Nikon,Smartphones,Natalia Romanyuk,NordicParts,Sweden,Odeska,Odesa,1,2772.64,358.91,2413.73,invoice,wholesale
+290,2024-03-08 16:38:42,71,Sony Headphones-571,Sony,Headphones,Kateryna Marchenko,USADirect,USA,Odeska,Odesa,1,249.11,6.74,242.37,cash,marketplace
+291,2023-09-23 21:19:48,23,Google Laptops-592,Google,Laptops,Olena Koval,EuroSupply,Poland,Ivano-Frankivska,Ivano-Frankivsk,10,2879.65,2828.26,25968.24,invoice,online_store
+292,2024-08-05 14:38:41,48,HP Home Appli-792,HP,Home Appliances,Ivan Petrenko,USADirect,USA,Lvivska,Lviv,1,1195.27,132.32,1062.95,cash,wholesale
+293,2023-11-27 22:37:09,90,Sony Smartwatch-409,Sony,Smartwatches,Iryna Savchuk,GigaTrade,Germany,Lvivska,Lviv,2,597.16,183.3,1011.02,card,store
+294,2024-08-23 18:55:05,2,Nikon Smartphone-376,Nikon,Smartphones,Dmytro Melnyk,EuroSupply,Poland,Kyivska,Kyiv,1,3571.18,476.26,3094.92,cash,phone_order
+295,2023-06-03 14:18:34,35,Asus Accessorie-796,Asus,Accessories,Olena Koval,EuroSupply,Poland,Kyivska,Kyiv,2,100.58,24.34,176.82,invoice,phone_order
+296,2024-02-08 09:03:28,53,Philips Gaming-183,Philips,Gaming,Ivan Petrenko,LocalDistributor,Ukraine,Ivano-Frankivska,Ivano-Frankivsk,2,351.1,10.49,691.71,cash,store
+297,2023-09-26 21:57:57,91,Bosch Smartwatch-674,Bosch,Smartwatches,Natalia Romanyuk,TechImport UA,Ukraine,Poltavska,Poltava,1,171.76,24.67,147.09,online,wholesale
+298,2023-06-30 13:36:28,168,LG Kitchen-114,LG,Kitchen,Kateryna Marchenko,LocalDistributor,Ukraine,Poltavska,Poltava,4,792.58,513.2,2657.12,card,online_store
+299,2024-12-30 20:27:44,47,Dell Home Appli-324,Dell,Home Appliances,Pavlo Boyko,LocalDistributor,Ukraine,Odeska,Odesa,1,899.02,494.51,404.51,online,marketplace
+300,2024-06-12 21:26:10,7,Google Smartphone-310,Google,Smartphones,Serhii Kravchenko,LocalDistributor,Ukraine,Ternopilska,Ternopil,3,657.15,177.02,1794.43,card,wholesale
+301,2024-07-16 10:16:11,171,Sony Wearables-512,Sony,Wearables,Iryna Savchuk,AsiaWholesale,China,Odeska,Odesa,3,27.1,3.62,77.68,invoice,marketplace
+302,2023-09-01 18:42:38,121,LG Networking-730,LG,Networking,Ivan Petrenko,LocalDistributor,Ukraine,Odeska,Odesa,3,374.83,135.21,989.28,online,marketplace
+303,2024-12-17 14:50:12,144,Asus Storage-613,Asus,Storage,Iryna Savchuk,LocalDistributor,Ukraine,Poltavska,Poltava,1,425.3,5.88,419.42,online,store
+304,2024-12-29 08:07:35,17,HP Laptops-268,HP,Laptops,Volodymyr Ivanov,LocalDistributor,Ukraine,Odeska,Odesa,1,368.73,55.03,313.7,cash,marketplace
+305,2024-02-14 16:38:37,52,Xiaomi Gaming-477,Xiaomi,Gaming,Olena Koval,GigaTrade,Germany,Dnipropetrovska,Dnipro,1,778.82,50.62,728.2,invoice,wholesale
+306,2023-05-14 21:15:17,8,Sony Smartphone-429,Sony,Smartphones,Pavlo Boyko,LocalDistributor,Ukraine,Zaporizka,Zaporizhzhia,4,2550.21,218.48,9982.36,cash,phone_order
+307,2023-06-30 13:06:33,146,Philips TV-876,Philips,TV,Olena Koval,GigaTrade,Germany,Vinnytska,Vinnytsia,1,511.24,11.18,500.06,card,online_store
+308,2023-08-17 09:16:22,164,Xiaomi Kitchen-259,Xiaomi,Kitchen,Iryna Savchuk,NordicParts,Sweden,Poltavska,Poltava,1,661.17,102.52,558.65,cash,online_store
+309,2024-09-12 12:33:47,31,Seagate Accessorie-971,Seagate,Accessories,Iryna Savchuk,AsiaWholesale,China,Zaporizka,Zaporizhzhia,2,762.77,203.44,1322.1,invoice,store
+310,2025-01-17 11:23:42,55,Apple Gaming-626,Apple,Gaming,Ivan Petrenko,NordicParts,Sweden,Dnipropetrovska,Dnipro,2,208.61,12.57,404.65,card,online_store
+311,2024-11-10 15:20:45,100,Acer Cameras-774,Acer,Cameras,Andriy Shevchenko,AsiaWholesale,China,Lvivska,Lviv,4,1913.62,84.63,7569.85,card,online_store
+312,2024-04-19 14:08:04,175,Philips Wearables-292,Philips,Wearables,Natalia Romanyuk,LocalDistributor,Ukraine,Zaporizka,Zaporizhzhia,1,399.51,3.92,395.59,card,online_store
+313,2023-09-01 19:40:55,17,HP Laptops-268,HP,Laptops,Maria Bondar,NordicParts,Sweden,Zaporizka,Zaporizhzhia,1,426.94,47.15,379.79,online,phone_order
+314,2024-02-22 09:39:53,52,Xiaomi Gaming-477,Xiaomi,Gaming,Volodymyr Ivanov,LocalDistributor,Ukraine,Odeska,Odesa,4,1077.56,45.59,4264.65,cash,store
+315,2023-04-26 15:27:18,142,Nikon Storage-666,Nikon,Storage,Andriy Shevchenko,LocalDistributor,Ukraine,Zaporizka,Zaporizhzhia,3,681.34,193.27,1850.75,card,marketplace
+316,2023-03-24 10:24:24,182,Samsung Wearables-930,Samsung,Wearables,Maria Bondar,TechImport UA,Ukraine,Poltavska,Poltava,1,89.34,0.74,88.6,invoice,wholesale
+317,2023-11-29 19:21:04,107,Asus Printers-376,Asus,Printers,Kateryna Marchenko,GigaTrade,Germany,Odeska,Odesa,2,1645.86,188.65,3103.07,cash,store
+318,2023-11-25 20:19:55,138,HP Storage-555,HP,Storage,Iryna Savchuk,USADirect,USA,Dnipropetrovska,Dnipro,2,382.89,100.77,665.01,cash,wholesale
+319,2024-03-15 15:14:47,27,OnePlus Laptops-606,OnePlus,Laptops,Volodymyr Ivanov,TechImport UA,Ukraine,Odeska,Odesa,1,780.85,130.82,650.03,cash,store
+320,2023-05-12 19:12:18,73,Canon Headphones-266,Canon,Headphones,Iryna Savchuk,AsiaWholesale,China,Lvivska,Lviv,1,450.63,74.99,375.64,invoice,wholesale
+321,2023-09-25 20:13:04,133,Xiaomi Storage-122,Xiaomi,Storage,Oksana Hladka,TechImport UA,Ukraine,Zaporizka,Zaporizhzhia,2,370.39,127.04,613.74,cash,phone_order
+322,2024-04-02 14:39:26,177,Bosch Wearables-517,Bosch,Wearables,Ivan Petrenko,EuroSupply,Poland,Poltavska,Poltava,2,240.95,59.14,422.76,invoice,marketplace
+323,2023-11-22 17:37:41,176,Panasonic Wearables-439,Panasonic,Wearables,Pavlo Boyko,TechImport UA,Ukraine,Kyivska,Kyiv,1,170.2,21.21,148.99,invoice,store
+324,2024-06-27 17:22:12,73,Canon Headphones-266,Canon,Headphones,Andriy Shevchenko,AsiaWholesale,China,Lvivska,Lviv,1,387.88,6.93,380.95,invoice,marketplace
+325,2023-03-31 12:55:25,164,Xiaomi Kitchen-259,Xiaomi,Kitchen,Dmytro Melnyk,GigaTrade,Germany,Vinnytska,Vinnytsia,1,659.26,81.5,577.76,invoice,wholesale
+326,2023-05-22 15:44:03,59,Acer Monitors-992,Acer,Monitors,Oksana Hladka,NordicParts,Sweden,Kharkivska,Kharkiv,1,82.79,10.92,71.87,invoice,wholesale
+327,2023-06-14 17:05:30,60,Lenovo Monitors-662,Lenovo,Monitors,Ivan Petrenko,NordicParts,Sweden,Vinnytska,Vinnytsia,1,441.88,7.8,434.08,online,marketplace
+328,2023-06-17 08:34:23,146,Philips TV-876,Philips,TV,Oksana Hladka,LocalDistributor,Ukraine,Vinnytska,Vinnytsia,2,873.34,296.63,1450.05,card,marketplace
+329,2023-05-13 15:20:06,32,Dell Accessorie-515,Dell,Accessories,Natalia Romanyuk,TechImport UA,Ukraine,Kharkivska,Kharkiv,1,433.45,41.9,391.55,cash,wholesale
+330,2023-03-18 08:31:56,143,Bosch Storage-211,Bosch,Storage,Dmytro Melnyk,BalkanStore,Romania,Kharkivska,Kharkiv,1,102.03,15.43,86.6,card,online_store
+331,2023-10-29 09:51:09,131,Huawei Networking-277,Huawei,Networking,Volodymyr Ivanov,GigaTrade,Germany,Odeska,Odesa,1,262.83,5.43,257.4,card,phone_order
+332,2023-01-19 18:05:27,23,Google Laptops-592,Google,Laptops,Andriy Shevchenko,NordicParts,Sweden,Poltavska,Poltava,1,1918.4,63.28,1855.12,online,marketplace
+333,2023-06-09 11:15:25,4,Dell Smartphone-278,Dell,Smartphones,Maria Bondar,NordicParts,Sweden,Lvivska,Lviv,10,1376.95,777.08,12992.42,invoice,marketplace
+334,2024-06-27 21:10:03,177,Bosch Wearables-517,Bosch,Wearables,Kateryna Marchenko,EuroSupply,Poland,Odeska,Odesa,3,178.22,71.99,462.67,online,store
+335,2024-09-02 18:05:25,124,Huawei Networking-757,Huawei,Networking,Kateryna Marchenko,BalkanStore,Romania,Poltavska,Poltava,3,421.77,517.0,748.31,online,online_store
+336,2023-02-19 16:00:45,40,Acer Home Appli-622,Acer,Home Appliances,Maria Bondar,BalkanStore,Romania,Ternopilska,Ternopil,1,187.3,9.77,177.53,online,online_store
+337,2023-12-08 13:38:57,48,HP Home Appli-792,HP,Home Appliances,Ivan Petrenko,GigaTrade,Germany,Ivano-Frankivska,Ivano-Frankivsk,1,1571.56,252.18,1319.38,invoice,store
+338,2024-08-17 17:07:18,85,Panasonic Smartwatch-679,Panasonic,Smartwatches,Dmytro Melnyk,USADirect,USA,Odeska,Odesa,3,191.29,85.13,488.74,card,store
+339,2024-12-01 14:13:47,167,HP Kitchen-957,HP,Kitchen,Iryna Savchuk,TechImport UA,Ukraine,Zaporizka,Zaporizhzhia,3,695.39,177.3,1908.87,online,wholesale
+340,2024-05-29 19:01:01,103,Dell Cameras-522,Dell,Cameras,Oksana Hladka,AsiaWholesale,China,Odeska,Odesa,2,1945.36,54.79,3835.93,cash,wholesale
+341,2023-12-25 09:03:16,147,Panasonic TV-513,Panasonic,TV,Dmytro Melnyk,USADirect,USA,Zaporizka,Zaporizhzhia,1,2124.0,1051.92,1072.08,invoice,phone_order
+342,2024-11-13 08:16:42,56,Canon Gaming-987,Canon,Gaming,Dmytro Melnyk,USADirect,USA,Ivano-Frankivska,Ivano-Frankivsk,2,552.51,59.69,1045.33,card,phone_order
+343,2024-05-11 13:33:47,38,Seagate Home Appli-867,Seagate,Home Appliances,Natalia Romanyuk,GigaTrade,Germany,Lvivska,Lviv,1,585.66,94.03,491.63,online,store
+344,2024-12-15 18:18:47,22,Apple Laptops-476,Apple,Laptops,Kateryna Marchenko,EuroSupply,Poland,Ternopilska,Ternopil,2,2583.59,515.37,4651.81,invoice,marketplace
+345,2023-07-05 20:13:03,96,Seagate Cameras-392,Seagate,Cameras,Maria Bondar,USADirect,USA,Ternopilska,Ternopil,2,1275.27,32.88,2517.66,cash,online_store
+346,2024-06-30 16:26:20,57,Lenovo Monitors-692,Lenovo,Monitors,Serhii Kravchenko,USADirect,USA,Poltavska,Poltava,10,334.67,197.61,3149.09,cash,phone_order
+347,2024-10-05 20:13:15,159,Lenovo Kitchen-875,Lenovo,Kitchen,Natalia Romanyuk,BalkanStore,Romania,Lvivska,Lviv,4,264.08,160.03,896.29,cash,marketplace
+348,2023-01-28 19:22:36,126,Samsung Networking-244,Samsung,Networking,Natalia Romanyuk,AsiaWholesale,China,Ivano-Frankivska,Ivano-Frankivsk,3,541.63,208.14,1416.75,invoice,phone_order
+349,2024-05-26 10:32:22,182,Samsung Wearables-930,Samsung,Wearables,Olena Koval,NordicParts,Sweden,Kyivska,Kyiv,5,52.35,19.54,242.21,card,wholesale
+350,2023-06-19 16:32:41,149,Asus TV-537,Asus,TV,Kateryna Marchenko,USADirect,USA,Kharkivska,Kharkiv,1,2246.67,341.33,1905.34,cash,marketplace
+351,2023-05-05 18:20:33,43,HP Home Appli-825,HP,Home Appliances,Kateryna Marchenko,NordicParts,Sweden,Lvivska,Lviv,1,564.38,79.96,484.42,invoice,marketplace
+352,2024-12-31 10:24:26,97,Sony Cameras-798,Sony,Cameras,Serhii Kravchenko,GigaTrade,Germany,Zaporizka,Zaporizhzhia,3,1039.67,347.76,2771.25,online,online_store
+353,2023-09-01 16:04:51,71,Sony Headphones-571,Sony,Headphones,Oksana Hladka,AsiaWholesale,China,Kyivska,Kyiv,2,390.63,124.76,656.5,online,marketplace
+354,2023-06-02 15:04:10,45,Bosch Home Appli-725,Bosch,Home Appliances,Dmytro Melnyk,TechImport UA,Ukraine,Odeska,Odesa,1,607.74,106.95,500.79,card,marketplace
+355,2024-12-18 12:15:54,120,Apple Networking-367,Apple,Networking,Pavlo Boyko,TechImport UA,Ukraine,Ternopilska,Ternopil,2,109.07,6.74,211.4,invoice,wholesale
+356,2023-03-12 16:07:59,95,Canon Cameras-957,Canon,Cameras,Olena Koval,BalkanStore,Romania,Kyivska,Kyiv,1,1112.99,67.78,1045.21,online,online_store
+357,2023-09-10 17:21:04,136,Bosch Storage-266,Bosch,Storage,Dmytro Melnyk,USADirect,USA,Odeska,Odesa,1,72.41,10.8,61.61,invoice,marketplace
+358,2023-08-19 20:29:50,143,Bosch Storage-211,Bosch,Storage,Serhii Kravchenko,AsiaWholesale,China,Vinnytska,Vinnytsia,1,96.09,14.08,82.01,card,wholesale
+359,2023-12-16 19:18:54,23,Google Laptops-592,Google,Laptops,Ivan Petrenko,GigaTrade,Germany,Vinnytska,Vinnytsia,1,2739.34,452.46,2286.88,invoice,phone_order
+360,2024-12-23 15:49:12,171,Sony Wearables-512,Sony,Wearables,Pavlo Boyko,USADirect,USA,Lvivska,Lviv,2,25.6,4.04,47.16,invoice,marketplace
+361,2024-12-22 10:15:13,162,Canon Kitchen-125,Canon,Kitchen,Ivan Petrenko,GigaTrade,Germany,Ivano-Frankivska,Ivano-Frankivsk,1,759.84,20.78,739.06,online,marketplace
+362,2023-01-09 08:14:48,147,Panasonic TV-513,Panasonic,TV,Oksana Hladka,EuroSupply,Poland,Vinnytska,Vinnytsia,1,1948.47,241.14,1707.33,invoice,phone_order
+363,2023-07-25 18:19:10,7,Google Smartphone-310,Google,Smartphones,Ivan Petrenko,USADirect,USA,Zaporizka,Zaporizhzhia,1,798.2,102.75,695.45,cash,phone_order
+364,2024-10-10 17:44:26,26,Nikon Laptops-815,Nikon,Laptops,Dmytro Melnyk,LocalDistributor,Ukraine,Zaporizka,Zaporizhzhia,2,2421.5,513.75,4329.25,invoice,online_store
+365,2023-08-27 20:54:24,139,Dell Storage-800,Dell,Storage,Oksana Hladka,NordicParts,Sweden,Lvivska,Lviv,2,226.07,53.67,398.47,card,marketplace
+366,2023-12-21 13:25:34,123,Canon Networking-694,Canon,Networking,Kateryna Marchenko,NordicParts,Sweden,Odeska,Odesa,2,528.53,259.68,797.38,online,store
+367,2024-05-02 08:53:23,86,Asus Smartwatch-731,Asus,Smartwatches,Oksana Hladka,LocalDistributor,Ukraine,Dnipropetrovska,Dnipro,2,100.64,88.31,112.97,online,marketplace
+368,2023-11-01 08:45:32,175,Philips Wearables-292,Philips,Wearables,Maria Bondar,NordicParts,Sweden,Poltavska,Poltava,1,362.59,62.59,300.0,card,online_store
+369,2023-06-07 13:38:26,172,OnePlus Wearables-286,OnePlus,Wearables,Iryna Savchuk,TechImport UA,Ukraine,Poltavska,Poltava,1,287.79,18.63,269.16,cash,phone_order
+370,2023-06-09 19:01:58,149,Asus TV-537,Asus,TV,Kateryna Marchenko,NordicParts,Sweden,Dnipropetrovska,Dnipro,2,2038.94,458.25,3619.63,online,phone_order
+371,2024-12-22 17:06:56,135,Sony Storage-654,Sony,Storage,Kateryna Marchenko,LocalDistributor,Ukraine,Kyivska,Kyiv,1,247.59,20.39,227.2,invoice,store
+372,2023-03-31 11:46:03,1,Apple Smartphone-922,Apple,Smartphones,Iryna Savchuk,AsiaWholesale,China,Odeska,Odesa,1,2834.96,168.8,2666.16,invoice,store
+373,2023-05-30 08:33:03,54,Acer Gaming-534,Acer,Gaming,Natalia Romanyuk,GigaTrade,Germany,Ivano-Frankivska,Ivano-Frankivsk,3,359.08,163.7,913.54,cash,phone_order
+374,2023-10-12 18:55:47,136,Bosch Storage-266,Bosch,Storage,Olena Koval,TechImport UA,Ukraine,Vinnytska,Vinnytsia,1,105.85,4.06,101.79,cash,store
+375,2024-06-27 15:39:14,162,Canon Kitchen-125,Canon,Kitchen,Ivan Petrenko,LocalDistributor,Ukraine,Ternopilska,Ternopil,3,1326.02,210.49,3767.57,cash,wholesale
+376,2024-03-11 19:41:47,61,Philips Monitors-115,Philips,Monitors,Andriy Shevchenko,GigaTrade,Germany,Lvivska,Lviv,3,540.99,98.01,1524.96,invoice,wholesale
+377,2023-04-18 19:51:05,99,Huawei Cameras-386,Huawei,Cameras,Kateryna Marchenko,NordicParts,Sweden,Kyivska,Kyiv,1,2040.47,41.27,1999.2,invoice,online_store
+378,2023-12-18 15:28:58,17,HP Laptops-268,HP,Laptops,Oksana Hladka,BalkanStore,Romania,Zaporizka,Zaporizhzhia,1,425.86,74.94,350.92,cash,phone_order
+379,2023-03-16 11:39:08,182,Samsung Wearables-930,Samsung,Wearables,Volodymyr Ivanov,AsiaWholesale,China,Ivano-Frankivska,Ivano-Frankivsk,5,47.43,29.9,207.25,invoice,online_store
+380,2024-09-23 11:07:29,138,HP Storage-555,HP,Storage,Kateryna Marchenko,LocalDistributor,Ukraine,Zaporizka,Zaporizhzhia,4,460.5,184.43,1657.57,invoice,store
+381,2023-09-06 15:27:11,173,Dell Wearables-250,Dell,Wearables,Andriy Shevchenko,LocalDistributor,Ukraine,Kharkivska,Kharkiv,1,195.14,25.43,169.71,online,store
+382,2024-12-12 15:21:37,10,Apple Smartphone-779,Apple,Smartphones,Oksana Hladka,AsiaWholesale,China,Kharkivska,Kharkiv,2,307.68,18.8,596.56,cash,online_store
+383,2024-10-28 10:06:09,141,Acer Storage-629,Acer,Storage,Serhii Kravchenko,GigaTrade,Germany,Dnipropetrovska,Dnipro,1,611.56,22.56,589.0,invoice,online_store
+384,2023-04-09 20:33:18,18,Apple Laptops-334,Apple,Laptops,Pavlo Boyko,BalkanStore,Romania,Poltavska,Poltava,2,731.27,217.64,1244.9,card,marketplace
+385,2024-08-29 15:23:56,174,Asus Wearables-211,Asus,Wearables,Iryna Savchuk,USADirect,USA,Lvivska,Lviv,1,196.36,30.77,165.59,invoice,store
+386,2024-04-20 13:30:25,171,Sony Wearables-512,Sony,Wearables,Serhii Kravchenko,BalkanStore,Romania,Lvivska,Lviv,3,32.05,10.37,85.78,online,marketplace
+387,2024-06-16 12:15:26,84,Philips Smartwatch-435,Philips,Smartwatches,Andriy Shevchenko,BalkanStore,Romania,Vinnytska,Vinnytsia,1,203.8,31.92,171.88,online,store
+388,2024-06-16 13:24:43,141,Acer Storage-629,Acer,Storage,Kateryna Marchenko,LocalDistributor,Ukraine,Zaporizka,Zaporizhzhia,1,410.44,2.26,408.18,cash,online_store
+389,2024-10-17 16:00:03,3,Philips Smartphone-227,Philips,Smartphones,Dmytro Melnyk,EuroSupply,Poland,Kyivska,Kyiv,1,818.61,124.98,693.63,invoice,wholesale
+390,2023-06-23 14:48:30,89,Apple Smartwatch-590,Apple,Smartwatches,Serhii Kravchenko,USADirect,USA,Kharkivska,Kharkiv,1,460.88,19.15,441.73,online,wholesale
+391,2023-07-26 15:07:03,133,Xiaomi Storage-122,Xiaomi,Storage,Kateryna Marchenko,AsiaWholesale,China,Kyivska,Kyiv,1,487.54,4.38,483.16,cash,store
+392,2023-10-30 11:02:09,126,Samsung Networking-244,Samsung,Networking,Olena Koval,LocalDistributor,Ukraine,Lvivska,Lviv,4,368.33,147.47,1325.85,online,marketplace
+393,2023-12-10 18:08:34,155,Microsoft Kitchen-147,Microsoft,Kitchen,Serhii Kravchenko,LocalDistributor,Ukraine,Lvivska,Lviv,2,335.63,73.57,597.69,cash,online_store
+394,2024-06-19 17:21:09,38,Seagate Home Appli-867,Seagate,Home Appliances,Olena Koval,AsiaWholesale,China,Zaporizka,Zaporizhzhia,1,703.57,117.05,586.52,card,wholesale
+395,2024-01-03 21:40:23,119,HP Networking-305,HP,Networking,Dmytro Melnyk,BalkanStore,Romania,Poltavska,Poltava,2,454.42,85.57,823.27,cash,phone_order
+396,2024-12-07 21:46:21,149,Asus TV-537,Asus,TV,Dmytro Melnyk,BalkanStore,Romania,Ternopilska,Ternopil,10,1834.1,1083.43,17257.57,online,marketplace
+397,2024-11-13 20:07:43,114,Panasonic Printers-336,Panasonic,Printers,Iryna Savchuk,NordicParts,Sweden,Ivano-Frankivska,Ivano-Frankivsk,2,1493.81,230.63,2756.99,cash,wholesale
+398,2025-02-22 11:49:28,128,Nikon Networking-818,Nikon,Networking,Andriy Shevchenko,AsiaWholesale,China,Ivano-Frankivska,Ivano-Frankivsk,1,92.59,16.57,76.02,card,wholesale
+399,2024-07-30 10:01:17,74,Huawei Headphones-802,Huawei,Headphones,Serhii Kravchenko,USADirect,USA,Vinnytska,Vinnytsia,4,407.18,182.29,1446.43,online,store
+400,2024-09-07 17:36:17,168,LG Kitchen-114,LG,Kitchen,Kateryna Marchenko,TechImport UA,Ukraine,Kharkivska,Kharkiv,1,799.91,61.1,738.81,card,online_store
+401,2023-05-02 08:58:51,67,Canon Monitors-919,Canon,Monitors,Olena Koval,NordicParts,Sweden,Vinnytska,Vinnytsia,1,210.32,122.06,88.26,online,store
+402,2024-07-08 12:32:35,124,Huawei Networking-757,Huawei,Networking,Natalia Romanyuk,EuroSupply,Poland,Zaporizka,Zaporizhzhia,1,334.0,52.89,281.11,card,phone_order
+403,2025-02-02 08:52:18,171,Sony Wearables-512,Sony,Wearables,Volodymyr Ivanov,GigaTrade,Germany,Poltavska,Poltava,1,22.24,0.83,21.41,invoice,store
+404,2023-03-01 08:52:03,149,Asus TV-537,Asus,TV,Dmytro Melnyk,AsiaWholesale,China,Ternopilska,Ternopil,3,2208.77,536.05,6090.26,invoice,online_store
+405,2023-07-05 09:33:11,21,Xiaomi Laptops-918,Xiaomi,Laptops,Volodymyr Ivanov,LocalDistributor,Ukraine,Dnipropetrovska,Dnipro,5,1076.08,780.06,4600.34,online,store
+406,2023-08-16 20:35:12,170,Lenovo Wearables-177,Lenovo,Wearables,Kateryna Marchenko,EuroSupply,Poland,Ternopilska,Ternopil,3,512.25,267.23,1269.52,cash,wholesale
+407,2023-10-29 11:14:10,116,Microsoft Printers-709,Microsoft,Printers,Pavlo Boyko,BalkanStore,Romania,Kyivska,Kyiv,1,339.48,7.75,331.73,online,online_store
+408,2023-09-19 09:12:45,13,Bosch Smartphone-636,Bosch,Smartphones,Ivan Petrenko,TechImport UA,Ukraine,Ivano-Frankivska,Ivano-Frankivsk,2,746.84,19.35,1474.33,online,phone_order
+409,2023-12-29 16:07:45,58,Dell Monitors-467,Dell,Monitors,Iryna Savchuk,LocalDistributor,Ukraine,Lvivska,Lviv,1,596.83,64.11,532.72,cash,marketplace
+410,2023-01-29 10:40:28,127,Sony Networking-316,Sony,Networking,Natalia Romanyuk,TechImport UA,Ukraine,Kharkivska,Kharkiv,1,477.13,139.89,337.24,cash,marketplace
+411,2023-11-10 16:25:18,69,Lenovo Headphones-221,Lenovo,Headphones,Dmytro Melnyk,GigaTrade,Germany,Ternopilska,Ternopil,5,369.73,155.71,1692.94,card,wholesale
+412,2024-04-10 16:05:48,21,Xiaomi Laptops-918,Xiaomi,Laptops,Andriy Shevchenko,GigaTrade,Germany,Odeska,Odesa,1,1418.72,798.18,620.54,invoice,wholesale
+413,2023-10-20 15:02:54,173,Dell Wearables-250,Dell,Wearables,Olena Koval,NordicParts,Sweden,Zaporizka,Zaporizhzhia,1,399.11,1.13,397.98,cash,phone_order
+414,2024-08-03 12:30:54,99,Huawei Cameras-386,Huawei,Cameras,Volodymyr Ivanov,NordicParts,Sweden,Vinnytska,Vinnytsia,1,2389.38,78.25,2311.13,card,store
+415,2024-12-29 13:59:38,87,Dell Smartwatch-751,Dell,Smartwatches,Kateryna Marchenko,AsiaWholesale,China,Poltavska,Poltava,2,352.43,119.24,585.62,cash,wholesale
+416,2023-10-10 10:42:30,173,Dell Wearables-250,Dell,Wearables,Natalia Romanyuk,GigaTrade,Germany,Poltavska,Poltava,1,323.55,34.5,289.05,card,store
+417,2024-05-30 19:22:07,155,Microsoft Kitchen-147,Microsoft,Kitchen,Pavlo Boyko,EuroSupply,Poland,Ternopilska,Ternopil,1,450.78,20.82,429.96,invoice,wholesale
+418,2023-10-25 20:09:38,95,Canon Cameras-957,Canon,Cameras,Maria Bondar,AsiaWholesale,China,Kyivska,Kyiv,1,675.3,54.84,620.46,invoice,wholesale
+419,2023-11-28 12:26:24,144,Asus Storage-613,Asus,Storage,Volodymyr Ivanov,BalkanStore,Romania,Dnipropetrovska,Dnipro,2,303.91,35.03,572.79,invoice,marketplace
+420,2024-12-03 20:05:55,171,Sony Wearables-512,Sony,Wearables,Kateryna Marchenko,NordicParts,Sweden,Lvivska,Lviv,10,29.44,33.02,261.38,card,store
+421,2023-07-18 08:27:04,66,Apple Monitors-548,Apple,Monitors,Volodymyr Ivanov,LocalDistributor,Ukraine,Lvivska,Lviv,1,285.09,19.68,265.41,invoice,online_store
+422,2024-06-27 18:01:03,55,Apple Gaming-626,Apple,Gaming,Natalia Romanyuk,AsiaWholesale,China,Dnipropetrovska,Dnipro,1,174.82,18.31,156.51,invoice,wholesale
+423,2023-09-14 16:45:29,170,Lenovo Wearables-177,Lenovo,Wearables,Pavlo Boyko,BalkanStore,Romania,Ivano-Frankivska,Ivano-Frankivsk,2,276.09,94.0,458.18,cash,marketplace
+424,2023-10-26 15:48:46,132,Google Networking-603,Google,Networking,Kateryna Marchenko,USADirect,USA,Vinnytska,Vinnytsia,1,355.83,55.49,300.34,cash,wholesale
+425,2023-01-25 08:01:10,33,Panasonic Accessorie-349,Panasonic,Accessories,Serhii Kravchenko,USADirect,USA,Dnipropetrovska,Dnipro,1,250.98,26.61,224.37,cash,store
+426,2024-06-28 10:03:35,102,Samsung Cameras-850,Samsung,Cameras,Olena Koval,AsiaWholesale,China,Ivano-Frankivska,Ivano-Frankivsk,2,2883.21,583.87,5182.55,card,marketplace
+427,2025-02-02 19:50:52,140,OnePlus Storage-358,OnePlus,Storage,Serhii Kravchenko,BalkanStore,Romania,Poltavska,Poltava,5,805.45,257.03,3770.22,invoice,marketplace
+428,2024-02-19 08:58:52,62,HP Monitors-433,HP,Monitors,Kateryna Marchenko,EuroSupply,Poland,Vinnytska,Vinnytsia,2,418.02,12.41,823.63,cash,phone_order
+429,2024-06-01 15:58:07,105,Philips Printers-735,Philips,Printers,Andriy Shevchenko,GigaTrade,Germany,Kyivska,Kyiv,2,439.88,30.61,849.15,online,wholesale
+430,2023-10-12 09:40:57,98,Bosch Cameras-755,Bosch,Cameras,Pavlo Boyko,TechImport UA,Ukraine,Zaporizka,Zaporizhzhia,1,2009.8,251.53,1758.27,card,wholesale
+431,2024-11-08 21:20:42,139,Dell Storage-800,Dell,Storage,Maria Bondar,LocalDistributor,Ukraine,Dnipropetrovska,Dnipro,2,161.47,44.82,278.12,online,online_store
+432,2023-09-22 18:14:22,109,Canon Printers-462,Canon,Printers,Olena Koval,NordicParts,Sweden,Kyivska,Kyiv,10,524.84,853.62,4394.78,cash,store
+433,2023-04-20 12:16:17,11,Huawei Smartphone-201,Huawei,Smartphones,Maria Bondar,BalkanStore,Romania,Ternopilska,Ternopil,2,849.61,3.69,1695.53,cash,store
+434,2023-01-12 09:59:55,21,Xiaomi Laptops-918,Xiaomi,Laptops,Ivan Petrenko,AsiaWholesale,China,Poltavska,Poltava,1,1700.74,107.08,1593.66,online,online_store
+435,2023-03-21 09:12:26,35,Asus Accessorie-796,Asus,Accessories,Serhii Kravchenko,LocalDistributor,Ukraine,Lvivska,Lviv,1,168.63,22.68,145.95,card,phone_order
+436,2024-10-13 11:08:31,113,HP Printers-808,HP,Printers,Dmytro Melnyk,TechImport UA,Ukraine,Dnipropetrovska,Dnipro,1,965.06,95.19,869.87,online,store
+437,2023-05-17 09:05:35,152,Dell TV-499,Dell,TV,Andriy Shevchenko,LocalDistributor,Ukraine,Kyivska,Kyiv,1,860.95,35.5,825.45,card,store
+438,2023-04-10 17:46:11,30,HP Accessorie-607,HP,Accessories,Ivan Petrenko,LocalDistributor,Ukraine,Kharkivska,Kharkiv,2,13.5,2.57,24.43,cash,store
+439,2023-12-10 21:14:30,49,Lenovo Gaming-292,Lenovo,Gaming,Volodymyr Ivanov,USADirect,USA,Lvivska,Lviv,1,802.84,141.76,661.08,card,online_store
+440,2024-04-15 16:30:13,24,Samsung Laptops-603,Samsung,Laptops,Maria Bondar,EuroSupply,Poland,Ternopilska,Ternopil,1,412.01,9.88,402.13,invoice,marketplace
+441,2024-03-20 17:27:45,67,Canon Monitors-919,Canon,Monitors,Andriy Shevchenko,BalkanStore,Romania,Odeska,Odesa,1,313.92,43.0,270.92,card,marketplace
+442,2024-07-02 14:43:06,159,Lenovo Kitchen-875,Lenovo,Kitchen,Natalia Romanyuk,AsiaWholesale,China,Dnipropetrovska,Dnipro,5,317.19,79.16,1506.79,online,online_store
+443,2024-09-09 19:05:44,153,Apple TV-828,Apple,TV,Serhii Kravchenko,AsiaWholesale,China,Kharkivska,Kharkiv,2,1408.59,113.79,2703.39,online,marketplace
+444,2025-02-13 16:02:14,133,Xiaomi Storage-122,Xiaomi,Storage,Olena Koval,AsiaWholesale,China,Ternopilska,Ternopil,2,751.17,213.42,1288.92,invoice,wholesale
+445,2023-11-21 13:44:54,21,Xiaomi Laptops-918,Xiaomi,Laptops,Maria Bondar,USADirect,USA,Vinnytska,Vinnytsia,3,2109.89,838.41,5491.26,online,phone_order
+446,2023-07-06 12:59:43,82,Lenovo Smartwatch-625,Lenovo,Smartwatches,Natalia Romanyuk,NordicParts,Sweden,Dnipropetrovska,Dnipro,1,240.7,20.85,219.85,card,wholesale
+447,2024-06-01 15:47:45,169,Nikon Kitchen-814,Nikon,Kitchen,Natalia Romanyuk,BalkanStore,Romania,Kharkivska,Kharkiv,1,249.78,20.66,229.12,invoice,wholesale
+448,2023-03-14 09:40:48,76,OnePlus Headphones-263,OnePlus,Headphones,Oksana Hladka,NordicParts,Sweden,Dnipropetrovska,Dnipro,10,544.53,660.74,4784.56,cash,phone_order
+449,2024-04-02 14:10:57,32,Dell Accessorie-515,Dell,Accessories,Maria Bondar,TechImport UA,Ukraine,Ivano-Frankivska,Ivano-Frankivsk,5,377.08,134.18,1751.22,card,marketplace
+450,2023-08-21 12:52:58,81,OnePlus Smartwatch-561,OnePlus,Smartwatches,Dmytro Melnyk,NordicParts,Sweden,Vinnytska,Vinnytsia,1,121.81,9.04,112.77,invoice,phone_order
+451,2024-09-17 15:39:28,96,Seagate Cameras-392,Seagate,Cameras,Pavlo Boyko,USADirect,USA,Lvivska,Lviv,2,1186.29,217.29,2155.29,online,online_store
+452,2023-02-18 16:03:56,88,Apple Smartwatch-837,Apple,Smartwatches,Volodymyr Ivanov,NordicParts,Sweden,Ivano-Frankivska,Ivano-Frankivsk,4,424.91,5.21,1694.43,invoice,store
+453,2023-08-18 18:08:36,73,Canon Headphones-266,Canon,Headphones,Andriy Shevchenko,BalkanStore,Romania,Kyivska,Kyiv,2,485.06,158.64,811.48,card,wholesale
+454,2024-10-27 13:12:37,117,Philips Printers-199,Philips,Printers,Serhii Kravchenko,BalkanStore,Romania,Odeska,Odesa,1,457.34,41.34,416.0,invoice,online_store
+455,2023-05-06 18:21:51,169,Nikon Kitchen-814,Nikon,Kitchen,Kateryna Marchenko,BalkanStore,Romania,Zaporizka,Zaporizhzhia,10,183.61,287.68,1548.42,cash,store
+456,2024-06-16 21:22:06,1,Apple Smartphone-922,Apple,Smartphones,Andriy Shevchenko,TechImport UA,Ukraine,Vinnytska,Vinnytsia,4,2469.91,1640.65,8238.99,online,marketplace
+457,2023-05-27 17:56:04,10,Apple Smartphone-779,Apple,Smartphones,Maria Bondar,USADirect,USA,Ivano-Frankivska,Ivano-Frankivsk,2,309.55,86.14,532.96,online,online_store
+458,2023-06-03 18:41:20,134,Nikon Storage-469,Nikon,Storage,Volodymyr Ivanov,TechImport UA,Ukraine,Odeska,Odesa,2,184.24,1.66,366.82,online,phone_order
+459,2024-10-07 12:35:17,46,Acer Home Appli-591,Acer,Home Appliances,Natalia Romanyuk,NordicParts,Sweden,Dnipropetrovska,Dnipro,1,1172.42,426.47,745.95,card,marketplace
+460,2023-12-01 22:25:06,13,Bosch Smartphone-636,Bosch,Smartphones,Volodymyr Ivanov,NordicParts,Sweden,Ternopilska,Ternopil,1,812.53,107.28,705.25,card,marketplace
+461,2024-07-24 09:58:25,121,LG Networking-730,LG,Networking,Volodymyr Ivanov,GigaTrade,Germany,Dnipropetrovska,Dnipro,1,636.71,5.37,631.34,cash,phone_order
+462,2023-05-10 13:31:54,144,Asus Storage-613,Asus,Storage,Iryna Savchuk,AsiaWholesale,China,Kyivska,Kyiv,1,360.41,13.9,346.51,invoice,wholesale
+463,2024-10-04 17:30:36,157,Huawei Kitchen-923,Huawei,Kitchen,Dmytro Melnyk,TechImport UA,Ukraine,Dnipropetrovska,Dnipro,5,995.93,293.67,4685.98,card,wholesale
+464,2023-02-27 13:02:58,122,Seagate Networking-417,Seagate,Networking,Dmytro Melnyk,NordicParts,Sweden,Vinnytska,Vinnytsia,4,893.12,87.93,3484.55,invoice,phone_order
+465,2023-05-26 12:07:33,26,Nikon Laptops-815,Nikon,Laptops,Ivan Petrenko,BalkanStore,Romania,Ternopilska,Ternopil,1,2244.07,1328.12,915.95,invoice,online_store
+466,2024-05-09 13:45:55,27,OnePlus Laptops-606,OnePlus,Laptops,Serhii Kravchenko,TechImport UA,Ukraine,Kyivska,Kyiv,2,838.05,92.5,1583.6,invoice,online_store
+467,2024-01-04 08:15:59,70,Seagate Headphones-152,Seagate,Headphones,Ivan Petrenko,NordicParts,Sweden,Kharkivska,Kharkiv,3,88.4,32.68,232.52,online,phone_order
+468,2023-08-20 16:46:37,174,Asus Wearables-211,Asus,Wearables,Ivan Petrenko,BalkanStore,Romania,Poltavska,Poltava,5,279.77,242.33,1156.52,invoice,phone_order
+469,2023-05-02 18:35:17,52,Xiaomi Gaming-477,Xiaomi,Gaming,Andriy Shevchenko,GigaTrade,Germany,Odeska,Odesa,1,896.07,89.19,806.88,invoice,store
+470,2023-01-06 16:52:24,58,Dell Monitors-467,Dell,Monitors,Oksana Hladka,NordicParts,Sweden,Kyivska,Kyiv,1,367.58,46.72,320.86,cash,phone_order
+471,2023-11-12 15:19:20,149,Asus TV-537,Asus,TV,Ivan Petrenko,EuroSupply,Poland,Poltavska,Poltava,5,2189.71,510.38,10438.17,cash,wholesale
+472,2024-10-26 20:32:34,22,Apple Laptops-476,Apple,Laptops,Oksana Hladka,TechImport UA,Ukraine,Ivano-Frankivska,Ivano-Frankivsk,1,3247.21,92.46,3154.75,online,phone_order
+473,2023-03-06 16:20:24,162,Canon Kitchen-125,Canon,Kitchen,Iryna Savchuk,GigaTrade,Germany,Lvivska,Lviv,3,1146.19,43.8,3394.77,invoice,wholesale
+474,2023-03-29 10:46:56,95,Canon Cameras-957,Canon,Cameras,Serhii Kravchenko,AsiaWholesale,China,Ternopilska,Ternopil,2,1159.18,274.59,2043.77,card,online_store
+475,2025-01-18 18:48:39,97,Sony Cameras-798,Sony,Cameras,Serhii Kravchenko,AsiaWholesale,China,Zaporizka,Zaporizhzhia,2,1246.32,319.19,2173.45,card,store
+476,2024-01-18 13:22:35,64,Nikon Monitors-988,Nikon,Monitors,Olena Koval,NordicParts,Sweden,Lvivska,Lviv,2,616.63,102.4,1130.86,cash,marketplace
+477,2023-06-06 10:02:32,131,Huawei Networking-277,Huawei,Networking,Oksana Hladka,GigaTrade,Germany,Ternopilska,Ternopil,1,299.37,0.98,298.39,online,store
+478,2023-07-29 19:14:18,117,Philips Printers-199,Philips,Printers,Maria Bondar,NordicParts,Sweden,Lvivska,Lviv,4,443.3,137.71,1635.49,cash,online_store
+479,2025-01-06 11:31:24,106,Panasonic Printers-114,Panasonic,Printers,Pavlo Boyko,BalkanStore,Romania,Zaporizka,Zaporizhzhia,1,260.83,22.4,238.43,cash,wholesale
+480,2023-07-31 18:11:21,74,Huawei Headphones-802,Huawei,Headphones,Kateryna Marchenko,GigaTrade,Germany,Vinnytska,Vinnytsia,1,297.06,29.33,267.73,invoice,marketplace
+481,2023-04-01 21:58:27,73,Canon Headphones-266,Canon,Headphones,Volodymyr Ivanov,NordicParts,Sweden,Ternopilska,Ternopil,1,324.78,55.35,269.43,invoice,marketplace
+482,2024-01-04 14:55:32,103,Dell Cameras-522,Dell,Cameras,Iryna Savchuk,BalkanStore,Romania,Kyivska,Kyiv,1,2220.92,393.22,1827.7,card,marketplace
+483,2024-10-24 09:30:33,5,OnePlus Smartphone-855,OnePlus,Smartphones,Kateryna Marchenko,GigaTrade,Germany,Kharkivska,Kharkiv,1,585.79,67.97,517.82,card,online_store
+484,2024-05-29 17:06:09,35,Asus Accessorie-796,Asus,Accessories,Dmytro Melnyk,EuroSupply,Poland,Poltavska,Poltava,2,81.17,6.53,155.81,card,phone_order
+485,2023-04-06 14:43:11,5,OnePlus Smartphone-855,OnePlus,Smartphones,Olena Koval,TechImport UA,Ukraine,Ivano-Frankivska,Ivano-Frankivsk,1,541.15,70.03,471.12,cash,phone_order
+486,2023-07-28 21:56:09,119,HP Networking-305,HP,Networking,Maria Bondar,LocalDistributor,Ukraine,Lvivska,Lviv,5,278.63,7.32,1385.83,online,store
+487,2024-11-04 14:30:22,41,Dell Home Appli-145,Dell,Home Appliances,Iryna Savchuk,USADirect,USA,Vinnytska,Vinnytsia,1,860.59,105.59,755.0,online,wholesale
+488,2023-03-01 08:56:18,177,Bosch Wearables-517,Bosch,Wearables,Oksana Hladka,NordicParts,Sweden,Zaporizka,Zaporizhzhia,1,288.46,46.51,241.95,cash,phone_order
+489,2024-04-02 09:31:22,15,Sony Laptops-874,Sony,Laptops,Oksana Hladka,BalkanStore,Romania,Lvivska,Lviv,3,2512.02,822.07,6713.99,online,online_store
+490,2024-06-29 08:57:44,82,Lenovo Smartwatch-625,Lenovo,Smartwatches,Kateryna Marchenko,EuroSupply,Poland,Kharkivska,Kharkiv,1,306.72,39.69,267.03,invoice,online_store
+491,2023-04-22 10:50:11,64,Nikon Monitors-988,Nikon,Monitors,Andriy Shevchenko,USADirect,USA,Vinnytska,Vinnytsia,1,488.15,53.67,434.48,card,marketplace
+492,2024-08-23 11:44:55,34,Apple Accessorie-280,Apple,Accessories,Serhii Kravchenko,LocalDistributor,Ukraine,Kyivska,Kyiv,2,209.49,19.06,399.92,cash,phone_order
+493,2023-04-06 21:06:25,125,LG Networking-275,LG,Networking,Andriy Shevchenko,BalkanStore,Romania,Ternopilska,Ternopil,1,211.7,36.14,175.56,card,store
+494,2024-01-06 12:48:37,74,Huawei Headphones-802,Huawei,Headphones,Ivan Petrenko,BalkanStore,Romania,Ternopilska,Ternopil,1,450.76,51.25,399.51,invoice,online_store
+495,2023-08-02 18:45:21,128,Nikon Networking-818,Nikon,Networking,Maria Bondar,USADirect,USA,Ternopilska,Ternopil,1,102.59,6.17,96.42,invoice,store
+496,2023-03-03 10:42:47,148,Acer TV-633,Acer,TV,Maria Bondar,LocalDistributor,Ukraine,Kharkivska,Kharkiv,3,632.14,61.32,1835.1,invoice,wholesale
+497,2024-03-14 15:37:26,28,Canon Laptops-267,Canon,Laptops,Serhii Kravchenko,USADirect,USA,Poltavska,Poltava,1,1157.68,69.04,1088.64,invoice,wholesale
+498,2024-01-08 17:06:46,75,Asus Headphones-666,Asus,Headphones,Volodymyr Ivanov,NordicParts,Sweden,Ternopilska,Ternopil,1,591.24,94.16,497.08,cash,store
+499,2024-02-03 12:08:05,53,Philips Gaming-183,Philips,Gaming,Oksana Hladka,AsiaWholesale,China,Poltavska,Poltava,2,257.5,27.74,487.26,invoice,wholesale
+500,2024-01-11 15:15:28,132,Google Networking-603,Google,Networking,Maria Bondar,NordicParts,Sweden,Ivano-Frankivska,Ivano-Frankivsk,2,389.45,84.72,694.18,online,phone_order
+501,2024-08-31 08:40:40,92,LG Smartwatch-912,LG,Smartwatches,Olena Koval,TechImport UA,Ukraine,Zaporizka,Zaporizhzhia,1,51.53,15.1,36.43,invoice,phone_order
+502,2024-08-14 19:49:53,12,Lenovo Smartphone-691,Lenovo,Smartphones,Maria Bondar,AsiaWholesale,China,Kyivska,Kyiv,5,3208.75,2181.81,13861.94,card,phone_order
+503,2023-09-27 11:43:12,32,Dell Accessorie-515,Dell,Accessories,Serhii Kravchenko,EuroSupply,Poland,Odeska,Odesa,1,297.66,16.67,280.99,cash,store
+504,2023-07-15 15:52:15,48,HP Home Appli-792,HP,Home Appliances,Olena Koval,EuroSupply,Poland,Ternopilska,Ternopil,1,1635.8,200.14,1435.66,online,online_store
+505,2024-11-30 11:05:47,138,HP Storage-555,HP,Storage,Oksana Hladka,GigaTrade,Germany,Poltavska,Poltava,1,273.2,33.95,239.25,cash,phone_order
+506,2024-05-23 12:43:51,65,Nikon Monitors-653,Nikon,Monitors,Iryna Savchuk,EuroSupply,Poland,Zaporizka,Zaporizhzhia,1,625.12,67.82,557.3,card,store
+507,2024-11-04 15:55:13,77,Apple Headphones-174,Apple,Headphones,Ivan Petrenko,AsiaWholesale,China,Poltavska,Poltava,2,355.2,93.08,617.32,cash,store
+508,2024-02-16 17:11:31,171,Sony Wearables-512,Sony,Wearables,Olena Koval,AsiaWholesale,China,Odeska,Odesa,5,28.5,1.69,140.81,cash,phone_order
+509,2024-04-17 09:01:05,132,Google Networking-603,Google,Networking,Volodymyr Ivanov,GigaTrade,Germany,Kyivska,Kyiv,1,635.46,44.69,590.77,invoice,store
+510,2024-10-24 18:48:53,111,Bosch Printers-721,Bosch,Printers,Olena Koval,GigaTrade,Germany,Vinnytska,Vinnytsia,2,667.04,23.83,1310.25,online,wholesale
+511,2023-11-11 15:50:59,30,HP Accessorie-607,HP,Accessories,Maria Bondar,AsiaWholesale,China,Kyivska,Kyiv,10,10.89,8.64,100.26,card,online_store
+512,2024-08-24 17:32:18,66,Apple Monitors-548,Apple,Monitors,Volodymyr Ivanov,GigaTrade,Germany,Poltavska,Poltava,2,283.48,47.9,519.06,cash,online_store
+513,2023-11-22 15:22:58,43,HP Home Appli-825,HP,Home Appliances,Oksana Hladka,USADirect,USA,Lvivska,Lviv,4,901.01,73.43,3530.61,online,store
+514,2023-03-28 16:44:04,102,Samsung Cameras-850,Samsung,Cameras,Iryna Savchuk,NordicParts,Sweden,Ivano-Frankivska,Ivano-Frankivsk,1,2641.91,306.6,2335.31,invoice,store
+515,2024-08-27 08:32:52,41,Dell Home Appli-145,Dell,Home Appliances,Iryna Savchuk,TechImport UA,Ukraine,Poltavska,Poltava,2,1555.07,436.56,2673.58,card,wholesale
+516,2024-08-11 19:53:36,64,Nikon Monitors-988,Nikon,Monitors,Kateryna Marchenko,LocalDistributor,Ukraine,Odeska,Odesa,5,630.08,314.99,2835.41,card,wholesale
+517,2023-01-10 18:23:33,182,Samsung Wearables-930,Samsung,Wearables,Natalia Romanyuk,USADirect,USA,Poltavska,Poltava,1,45.91,3.66,42.25,invoice,phone_order
+518,2023-03-20 18:16:11,32,Dell Accessorie-515,Dell,Accessories,Maria Bondar,USADirect,USA,Kyivska,Kyiv,1,365.12,8.39,356.73,cash,wholesale
+519,2023-01-11 20:56:08,89,Apple Smartwatch-590,Apple,Smartwatches,Iryna Savchuk,USADirect,USA,Odeska,Odesa,1,336.18,28.56,307.62,card,store
+520,2023-05-28 12:49:02,36,LG Accessorie-625,LG,Accessories,Volodymyr Ivanov,LocalDistributor,Ukraine,Odeska,Odesa,1,711.68,77.11,634.57,card,marketplace
+521,2023-01-07 16:50:19,108,Bosch Printers-430,Bosch,Printers,Andriy Shevchenko,AsiaWholesale,China,Kyivska,Kyiv,1,406.46,55.34,351.12,online,phone_order
+522,2024-12-25 10:11:58,21,Xiaomi Laptops-918,Xiaomi,Laptops,Oksana Hladka,BalkanStore,Romania,Ivano-Frankivska,Ivano-Frankivsk,1,1566.07,234.49,1331.58,card,marketplace
+523,2023-02-06 18:28:06,58,Dell Monitors-467,Dell,Monitors,Iryna Savchuk,BalkanStore,Romania,Ivano-Frankivska,Ivano-Frankivsk,2,404.83,92.95,716.71,invoice,phone_order
+524,2024-12-14 10:18:22,72,Microsoft Headphones-325,Microsoft,Headphones,Iryna Savchuk,BalkanStore,Romania,Poltavska,Poltava,4,65.47,45.97,215.91,invoice,store
+525,2023-06-06 17:19:51,170,Lenovo Wearables-177,Lenovo,Wearables,Dmytro Melnyk,BalkanStore,Romania,Zaporizka,Zaporizhzhia,2,235.62,15.7,455.54,cash,phone_order
+526,2024-11-20 10:42:09,136,Bosch Storage-266,Bosch,Storage,Serhii Kravchenko,TechImport UA,Ukraine,Odeska,Odesa,1,112.95,43.25,69.7,online,online_store
+527,2024-04-03 15:18:42,164,Xiaomi Kitchen-259,Xiaomi,Kitchen,Ivan Petrenko,TechImport UA,Ukraine,Zaporizka,Zaporizhzhia,1,698.07,44.06,654.01,cash,phone_order
+528,2024-02-17 09:06:55,117,Philips Printers-199,Philips,Printers,Dmytro Melnyk,USADirect,USA,Vinnytska,Vinnytsia,3,615.36,194.22,1651.86,invoice,phone_order
+529,2023-09-06 18:11:28,151,Bosch TV-909,Bosch,TV,Olena Koval,USADirect,USA,Kharkivska,Kharkiv,1,1501.83,246.16,1255.67,card,marketplace
+530,2024-09-13 08:47:51,157,Huawei Kitchen-923,Huawei,Kitchen,Maria Bondar,EuroSupply,Poland,Kyivska,Kyiv,1,1554.07,43.4,1510.67,card,wholesale
+531,2023-05-23 15:08:50,108,Bosch Printers-430,Bosch,Printers,Pavlo Boyko,EuroSupply,Poland,Kyivska,Kyiv,4,393.59,152.88,1421.48,online,store
+532,2024-10-11 15:01:02,102,Samsung Cameras-850,Samsung,Cameras,Serhii Kravchenko,NordicParts,Sweden,Vinnytska,Vinnytsia,1,2532.33,439.76,2092.57,online,wholesale
+533,2023-11-22 10:46:35,129,LG Networking-145,LG,Networking,Oksana Hladka,TechImport UA,Ukraine,Kharkivska,Kharkiv,4,649.98,421.02,2178.9,invoice,wholesale
+534,2023-01-12 17:51:41,144,Asus Storage-613,Asus,Storage,Kateryna Marchenko,LocalDistributor,Ukraine,Lvivska,Lviv,1,524.49,16.58,507.91,cash,phone_order
+535,2025-02-25 12:43:37,60,Lenovo Monitors-662,Lenovo,Monitors,Dmytro Melnyk,LocalDistributor,Ukraine,Zaporizka,Zaporizhzhia,1,511.96,60.65,451.31,card,store
+536,2024-05-22 09:24:00,146,Philips TV-876,Philips,TV,Maria Bondar,EuroSupply,Poland,Vinnytska,Vinnytsia,2,776.03,2.59,1549.47,card,online_store
+537,2025-01-26 17:38:37,135,Sony Storage-654,Sony,Storage,Iryna Savchuk,AsiaWholesale,China,Poltavska,Poltava,1,370.43,1.89,368.54,online,store
+538,2023-10-24 10:40:10,92,LG Smartwatch-912,LG,Smartwatches,Ivan Petrenko,USADirect,USA,Dnipropetrovska,Dnipro,2,41.13,8.95,73.31,card,online_store
+539,2023-09-25 21:40:54,54,Acer Gaming-534,Acer,Gaming,Oksana Hladka,TechImport UA,Ukraine,Vinnytska,Vinnytsia,1,357.52,31.51,326.01,cash,store
+540,2024-12-31 19:01:19,31,Seagate Accessorie-971,Seagate,Accessories,Olena Koval,NordicParts,Sweden,Ternopilska,Ternopil,1,462.14,0.98,461.16,card,store
+541,2024-04-09 11:35:42,142,Nikon Storage-666,Nikon,Storage,Iryna Savchuk,TechImport UA,Ukraine,Zaporizka,Zaporizhzhia,5,576.85,336.24,2548.01,cash,wholesale
+542,2024-09-11 21:52:21,105,Philips Printers-735,Philips,Printers,Natalia Romanyuk,GigaTrade,Germany,Zaporizka,Zaporizhzhia,1,491.38,37.17,454.21,invoice,online_store
+543,2024-11-10 14:52:20,3,Philips Smartphone-227,Philips,Smartphones,Iryna Savchuk,GigaTrade,Germany,Vinnytska,Vinnytsia,1,800.16,19.85,780.31,online,phone_order
+544,2023-07-08 15:30:57,139,Dell Storage-800,Dell,Storage,Maria Bondar,BalkanStore,Romania,Zaporizka,Zaporizhzhia,2,172.33,25.48,319.18,invoice,phone_order
+545,2023-11-17 18:10:49,96,Seagate Cameras-392,Seagate,Cameras,Maria Bondar,BalkanStore,Romania,Lvivska,Lviv,1,913.08,141.73,771.35,online,marketplace
+546,2024-08-05 21:21:28,131,Huawei Networking-277,Huawei,Networking,Andriy Shevchenko,AsiaWholesale,China,Ivano-Frankivska,Ivano-Frankivsk,2,503.72,66.19,941.25,card,wholesale
+547,2023-03-25 16:02:17,116,Microsoft Printers-709,Microsoft,Printers,Maria Bondar,GigaTrade,Germany,Dnipropetrovska,Dnipro,1,448.99,29.18,419.81,invoice,wholesale
+548,2024-05-15 12:01:42,158,Sony Kitchen-279,Sony,Kitchen,Kateryna Marchenko,USADirect,USA,Ivano-Frankivska,Ivano-Frankivsk,1,307.57,20.72,286.85,cash,wholesale
+549,2024-04-10 19:33:42,72,Microsoft Headphones-325,Microsoft,Headphones,Natalia Romanyuk,AsiaWholesale,China,Dnipropetrovska,Dnipro,1,66.24,0.79,65.45,online,online_store
+550,2024-02-15 18:40:05,108,Bosch Printers-430,Bosch,Printers,Dmytro Melnyk,TechImport UA,Ukraine,Ivano-Frankivska,Ivano-Frankivsk,1,261.97,29.52,232.45,invoice,wholesale
+551,2023-01-19 12:18:32,77,Apple Headphones-174,Apple,Headphones,Pavlo Boyko,LocalDistributor,Ukraine,Dnipropetrovska,Dnipro,1,366.87,56.03,310.84,invoice,phone_order
+552,2023-08-27 10:12:37,31,Seagate Accessorie-971,Seagate,Accessories,Maria Bondar,AsiaWholesale,China,Kharkivska,Kharkiv,2,703.33,92.91,1313.75,invoice,store
+553,2024-09-22 10:41:58,56,Canon Gaming-987,Canon,Gaming,Dmytro Melnyk,BalkanStore,Romania,Dnipropetrovska,Dnipro,2,378.1,88.05,668.15,cash,phone_order
+554,2023-01-05 15:20:55,84,Philips Smartwatch-435,Philips,Smartwatches,Andriy Shevchenko,AsiaWholesale,China,Odeska,Odesa,1,264.34,29.2,235.14,invoice,online_store
+555,2024-07-18 13:56:00,27,OnePlus Laptops-606,OnePlus,Laptops,Maria Bondar,TechImport UA,Ukraine,Kyivska,Kyiv,4,676.04,396.14,2308.02,card,online_store
+556,2024-04-05 18:48:28,86,Asus Smartwatch-731,Asus,Smartwatches,Oksana Hladka,NordicParts,Sweden,Ivano-Frankivska,Ivano-Frankivsk,1,152.54,2.43,150.11,cash,phone_order
+557,2024-01-04 09:56:20,144,Asus Storage-613,Asus,Storage,Olena Koval,USADirect,USA,Kyivska,Kyiv,1,444.36,67.65,376.71,online,marketplace
+558,2024-06-17 14:32:49,11,Huawei Smartphone-201,Huawei,Smartphones,Serhii Kravchenko,TechImport UA,Ukraine,Vinnytska,Vinnytsia,4,649.95,171.95,2427.85,online,online_store
+559,2024-01-29 18:17:50,43,HP Home Appli-825,HP,Home Appliances,Pavlo Boyko,BalkanStore,Romania,Ternopilska,Ternopil,2,461.04,78.74,843.34,online,wholesale
+560,2025-02-18 09:30:44,18,Apple Laptops-334,Apple,Laptops,Iryna Savchuk,AsiaWholesale,China,Kharkivska,Kharkiv,1,599.68,101.79,497.89,cash,marketplace
+561,2024-01-10 18:50:39,155,Microsoft Kitchen-147,Microsoft,Kitchen,Serhii Kravchenko,AsiaWholesale,China,Lvivska,Lviv,1,447.99,51.13,396.86,card,phone_order
+562,2023-02-20 21:09:40,75,Asus Headphones-666,Asus,Headphones,Volodymyr Ivanov,GigaTrade,Germany,Dnipropetrovska,Dnipro,2,535.23,143.53,926.93,card,store
+563,2023-10-13 12:43:42,165,Canon Kitchen-857,Canon,Kitchen,Oksana Hladka,NordicParts,Sweden,Poltavska,Poltava,1,1298.49,141.67,1156.82,card,marketplace
+564,2025-01-27 13:12:39,150,Dell TV-222,Dell,TV,Ivan Petrenko,TechImport UA,Ukraine,Dnipropetrovska,Dnipro,3,1409.51,211.34,4017.19,online,online_store
+565,2024-09-06 21:16:30,15,Sony Laptops-874,Sony,Laptops,Dmytro Melnyk,GigaTrade,Germany,Lvivska,Lviv,1,2795.33,93.47,2701.86,card,phone_order
+566,2023-12-14 14:28:27,86,Asus Smartwatch-731,Asus,Smartwatches,Iryna Savchuk,TechImport UA,Ukraine,Odeska,Odesa,1,180.3,5.22,175.08,card,phone_order
+567,2023-04-08 19:33:53,113,HP Printers-808,HP,Printers,Maria Bondar,AsiaWholesale,China,Dnipropetrovska,Dnipro,1,750.56,102.17,648.39,card,online_store
+568,2024-09-25 10:14:42,151,Bosch TV-909,Bosch,TV,Kateryna Marchenko,GigaTrade,Germany,Kharkivska,Kharkiv,3,2254.35,775.86,5987.19,cash,online_store
+569,2023-09-15 11:09:12,23,Google Laptops-592,Google,Laptops,Iryna Savchuk,EuroSupply,Poland,Ivano-Frankivska,Ivano-Frankivsk,1,2655.63,404.81,2250.82,card,online_store
+570,2023-05-08 08:57:21,80,Nikon Smartwatch-557,Nikon,Smartwatches,Oksana Hladka,NordicParts,Sweden,Ivano-Frankivska,Ivano-Frankivsk,1,319.39,27.49,291.9,invoice,store
+571,2023-08-20 20:47:25,109,Canon Printers-462,Canon,Printers,Dmytro Melnyk,USADirect,USA,Kharkivska,Kharkiv,1,575.68,100.46,475.22,invoice,store
+572,2025-02-10 21:15:02,118,Asus Printers-878,Asus,Printers,Olena Koval,EuroSupply,Poland,Zaporizka,Zaporizhzhia,3,1007.15,450.86,2570.59,card,phone_order
+573,2023-03-05 11:30:03,123,Canon Networking-694,Canon,Networking,Andriy Shevchenko,BalkanStore,Romania,Poltavska,Poltava,1,422.69,52.53,370.16,cash,online_store
+574,2023-06-14 19:06:21,154,Philips TV-597,Philips,TV,Oksana Hladka,NordicParts,Sweden,Lvivska,Lviv,1,1066.64,65.07,1001.57,card,store
+575,2023-07-20 18:49:38,116,Microsoft Printers-709,Microsoft,Printers,Olena Koval,USADirect,USA,Vinnytska,Vinnytsia,1,434.5,1.95,432.55,online,marketplace
+576,2023-04-17 14:53:55,140,OnePlus Storage-358,OnePlus,Storage,Oksana Hladka,BalkanStore,Romania,Odeska,Odesa,5,531.21,840.87,1815.18,card,wholesale
+577,2024-01-29 13:34:27,103,Dell Cameras-522,Dell,Cameras,Olena Koval,TechImport UA,Ukraine,Kharkivska,Kharkiv,1,1988.28,164.71,1823.57,card,online_store
+578,2023-08-30 13:29:00,132,Google Networking-603,Google,Networking,Serhii Kravchenko,AsiaWholesale,China,Odeska,Odesa,2,537.62,116.66,958.58,cash,wholesale
+579,2023-10-06 13:30:45,124,Huawei Networking-757,Huawei,Networking,Kateryna Marchenko,BalkanStore,Romania,Kyivska,Kyiv,1,423.56,66.69,356.87,card,marketplace
+580,2024-01-21 11:04:37,41,Dell Home Appli-145,Dell,Home Appliances,Oksana Hladka,AsiaWholesale,China,Kyivska,Kyiv,2,944.69,22.74,1866.64,card,phone_order
+581,2023-11-28 16:24:06,46,Acer Home Appli-591,Acer,Home Appliances,Serhii Kravchenko,EuroSupply,Poland,Ternopilska,Ternopil,2,1236.35,116.89,2355.81,invoice,phone_order
+582,2024-03-04 17:03:43,22,Apple Laptops-476,Apple,Laptops,Kateryna Marchenko,EuroSupply,Poland,Kyivska,Kyiv,1,1987.26,226.39,1760.87,online,marketplace
+583,2023-06-13 14:29:11,145,Xiaomi Storage-700,Xiaomi,Storage,Maria Bondar,LocalDistributor,Ukraine,Lvivska,Lviv,4,615.05,381.85,2078.35,cash,marketplace
+584,2023-11-28 17:31:29,155,Microsoft Kitchen-147,Microsoft,Kitchen,Natalia Romanyuk,TechImport UA,Ukraine,Odeska,Odesa,5,237.17,149.58,1036.27,cash,online_store
+585,2023-07-07 09:22:30,135,Sony Storage-654,Sony,Storage,Maria Bondar,USADirect,USA,Dnipropetrovska,Dnipro,1,294.19,22.46,271.73,invoice,marketplace
+586,2024-01-06 16:57:05,6,Google Smartphone-522,Google,Smartphones,Dmytro Melnyk,NordicParts,Sweden,Kyivska,Kyiv,2,2442.55,286.4,4598.7,card,store
+587,2024-12-17 19:54:32,110,Seagate Printers-127,Seagate,Printers,Natalia Romanyuk,NordicParts,Sweden,Odeska,Odesa,1,1155.98,101.94,1054.04,card,phone_order
+588,2023-06-02 20:26:03,165,Canon Kitchen-857,Canon,Kitchen,Volodymyr Ivanov,TechImport UA,Ukraine,Lvivska,Lviv,1,1744.84,29.21,1715.63,online,marketplace
+589,2025-02-18 21:52:55,78,Lenovo Smartwatch-680,Lenovo,Smartwatches,Kateryna Marchenko,LocalDistributor,Ukraine,Ivano-Frankivska,Ivano-Frankivsk,1,99.69,4.84,94.85,online,online_store
+590,2024-12-05 09:48:14,144,Asus Storage-613,Asus,Storage,Oksana Hladka,EuroSupply,Poland,Poltavska,Poltava,10,306.2,78.02,2983.98,card,wholesale
+591,2024-01-23 15:12:37,6,Google Smartphone-522,Google,Smartphones,Pavlo Boyko,LocalDistributor,Ukraine,Lvivska,Lviv,1,3509.27,605.35,2903.92,invoice,phone_order
+592,2023-10-03 20:56:10,93,Dell Smartwatch-105,Dell,Smartwatches,Kateryna Marchenko,GigaTrade,Germany,Dnipropetrovska,Dnipro,1,661.34,6.74,654.6,card,marketplace
+593,2023-11-24 16:55:19,56,Canon Gaming-987,Canon,Gaming,Oksana Hladka,USADirect,USA,Poltavska,Poltava,1,589.62,78.09,511.53,cash,phone_order
+594,2024-12-17 21:00:34,2,Nikon Smartphone-376,Nikon,Smartphones,Volodymyr Ivanov,AsiaWholesale,China,Zaporizka,Zaporizhzhia,10,2271.54,157.13,22558.27,invoice,store
+595,2025-01-18 18:17:09,41,Dell Home Appli-145,Dell,Home Appliances,Olena Koval,GigaTrade,Germany,Dnipropetrovska,Dnipro,1,1156.09,69.18,1086.91,invoice,phone_order
+596,2023-01-16 09:40:32,108,Bosch Printers-430,Bosch,Printers,Maria Bondar,AsiaWholesale,China,Poltavska,Poltava,5,291.38,158.05,1298.85,card,online_store
+597,2024-08-31 13:16:26,52,Xiaomi Gaming-477,Xiaomi,Gaming,Dmytro Melnyk,EuroSupply,Poland,Odeska,Odesa,1,618.57,83.99,534.58,cash,wholesale
+598,2023-12-20 17:23:10,151,Bosch TV-909,Bosch,TV,Olena Koval,EuroSupply,Poland,Odeska,Odesa,1,1969.68,1114.14,855.54,online,online_store
+599,2023-04-22 10:47:33,143,Bosch Storage-211,Bosch,Storage,Serhii Kravchenko,BalkanStore,Romania,Vinnytska,Vinnytsia,2,181.53,31.7,331.36,online,wholesale
+600,2025-02-22 14:50:00,17,HP Laptops-268,HP,Laptops,Maria Bondar,LocalDistributor,Ukraine,Kharkivska,Kharkiv,1,363.22,24.43,338.79,card,phone_order
+601,2024-08-16 15:57:14,38,Seagate Home Appli-867,Seagate,Home Appliances,Pavlo Boyko,TechImport UA,Ukraine,Zaporizka,Zaporizhzhia,3,1016.91,304.11,2746.62,card,marketplace
+602,2024-12-01 09:19:43,53,Philips Gaming-183,Philips,Gaming,Maria Bondar,AsiaWholesale,China,Ternopilska,Ternopil,1,274.19,10.97,263.22,cash,online_store
+603,2023-06-17 14:03:33,37,Canon Accessorie-759,Canon,Accessories,Andriy Shevchenko,AsiaWholesale,China,Dnipropetrovska,Dnipro,10,67.36,76.28,597.32,cash,store
+604,2023-04-30 15:26:56,155,Microsoft Kitchen-147,Microsoft,Kitchen,Andriy Shevchenko,LocalDistributor,Ukraine,Dnipropetrovska,Dnipro,1,337.62,37.65,299.97,card,phone_order
+605,2024-06-20 12:30:26,56,Canon Gaming-987,Canon,Gaming,Volodymyr Ivanov,USADirect,USA,Dnipropetrovska,Dnipro,4,553.05,122.27,2089.93,online,wholesale
+606,2023-10-03 11:38:27,16,Asus Laptops-544,Asus,Laptops,Kateryna Marchenko,BalkanStore,Romania,Vinnytska,Vinnytsia,1,1316.22,215.98,1100.24,online,online_store
+607,2024-04-09 11:54:39,151,Bosch TV-909,Bosch,TV,Natalia Romanyuk,BalkanStore,Romania,Vinnytska,Vinnytsia,1,2115.73,108.24,2007.49,card,store
+608,2024-11-14 21:31:08,96,Seagate Cameras-392,Seagate,Cameras,Ivan Petrenko,BalkanStore,Romania,Vinnytska,Vinnytsia,3,1045.86,157.67,2979.91,cash,wholesale
+609,2023-01-25 19:18:52,55,Apple Gaming-626,Apple,Gaming,Olena Koval,NordicParts,Sweden,Zaporizka,Zaporizhzhia,1,189.96,1.14,188.82,card,store
+610,2023-09-06 09:24:06,15,Sony Laptops-874,Sony,Laptops,Dmytro Melnyk,EuroSupply,Poland,Dnipropetrovska,Dnipro,1,1915.77,219.0,1696.77,invoice,store
+611,2023-07-04 13:30:32,71,Sony Headphones-571,Sony,Headphones,Volodymyr Ivanov,USADirect,USA,Lvivska,Lviv,1,292.39,34.48,257.91,invoice,marketplace
+612,2023-03-02 14:11:53,11,Huawei Smartphone-201,Huawei,Smartphones,Maria Bondar,LocalDistributor,Ukraine,Poltavska,Poltava,2,709.96,149.27,1270.65,cash,phone_order
+613,2023-09-29 18:10:17,32,Dell Accessorie-515,Dell,Accessories,Iryna Savchuk,AsiaWholesale,China,Kharkivska,Kharkiv,3,354.8,114.92,949.48,online,store
+614,2023-06-05 10:06:38,144,Asus Storage-613,Asus,Storage,Oksana Hladka,LocalDistributor,Ukraine,Odeska,Odesa,1,484.19,75.35,408.84,cash,online_store
+615,2025-01-21 12:53:22,6,Google Smartphone-522,Google,Smartphones,Pavlo Boyko,EuroSupply,Poland,Kharkivska,Kharkiv,1,3291.51,288.77,3002.74,cash,online_store
+616,2023-10-03 16:20:20,175,Philips Wearables-292,Philips,Wearables,Oksana Hladka,EuroSupply,Poland,Lvivska,Lviv,1,273.08,39.98,233.1,card,wholesale
+617,2024-09-13 14:13:35,21,Xiaomi Laptops-918,Xiaomi,Laptops,Dmytro Melnyk,EuroSupply,Poland,Odeska,Odesa,1,824.14,39.15,784.99,cash,online_store
+618,2024-06-24 11:30:06,73,Canon Headphones-266,Canon,Headphones,Serhii Kravchenko,TechImport UA,Ukraine,Odeska,Odesa,1,359.29,12.91,346.38,card,wholesale
+619,2024-07-12 11:08:11,176,Panasonic Wearables-439,Panasonic,Wearables,Andriy Shevchenko,LocalDistributor,Ukraine,Lvivska,Lviv,1,264.89,20.54,244.35,cash,store
+620,2023-03-03 21:20:19,55,Apple Gaming-626,Apple,Gaming,Kateryna Marchenko,USADirect,USA,Ternopilska,Ternopil,5,248.27,190.86,1050.49,invoice,marketplace
+621,2024-12-24 09:35:00,140,OnePlus Storage-358,OnePlus,Storage,Olena Koval,BalkanStore,Romania,Vinnytska,Vinnytsia,1,672.89,81.12,591.77,card,store
+622,2024-07-11 12:20:44,172,OnePlus Wearables-286,OnePlus,Wearables,Volodymyr Ivanov,AsiaWholesale,China,Zaporizka,Zaporizhzhia,1,434.86,53.21,381.65,online,phone_order
+623,2024-06-29 08:53:06,15,Sony Laptops-874,Sony,Laptops,Oksana Hladka,USADirect,USA,Zaporizka,Zaporizhzhia,1,2240.29,3.23,2237.06,invoice,phone_order
+624,2024-09-05 18:36:17,10,Apple Smartphone-779,Apple,Smartphones,Andriy Shevchenko,USADirect,USA,Kyivska,Kyiv,2,297.57,67.23,527.91,cash,online_store
+625,2023-08-09 19:57:26,144,Asus Storage-613,Asus,Storage,Natalia Romanyuk,AsiaWholesale,China,Zaporizka,Zaporizhzhia,2,595.13,116.47,1073.79,online,store
+626,2024-01-10 11:44:02,51,Acer Gaming-966,Acer,Gaming,Dmytro Melnyk,LocalDistributor,Ukraine,Lvivska,Lviv,1,1225.66,692.45,533.21,online,wholesale
+627,2023-08-28 17:52:30,163,Philips Kitchen-554,Philips,Kitchen,Serhii Kravchenko,NordicParts,Sweden,Dnipropetrovska,Dnipro,4,224.7,66.21,832.59,cash,store
+628,2023-07-01 20:53:40,7,Google Smartphone-310,Google,Smartphones,Dmytro Melnyk,AsiaWholesale,China,Kyivska,Kyiv,4,728.72,12.26,2902.62,card,phone_order
+629,2024-05-21 14:56:03,177,Bosch Wearables-517,Bosch,Wearables,Iryna Savchuk,BalkanStore,Romania,Kharkivska,Kharkiv,3,225.16,101.57,573.91,cash,online_store
+630,2024-11-05 19:50:48,83,Nikon Smartwatch-605,Nikon,Smartwatches,Volodymyr Ivanov,LocalDistributor,Ukraine,Dnipropetrovska,Dnipro,1,108.43,12.18,96.25,card,marketplace
+631,2023-12-29 17:52:38,63,Asus Monitors-550,Asus,Monitors,Kateryna Marchenko,TechImport UA,Ukraine,Odeska,Odesa,2,425.72,72.6,778.84,card,online_store
+632,2024-05-25 18:37:16,152,Dell TV-499,Dell,TV,Natalia Romanyuk,GigaTrade,Germany,Poltavska,Poltava,1,999.16,34.23,964.93,card,wholesale
+633,2023-06-12 16:38:37,12,Lenovo Smartphone-691,Lenovo,Smartphones,Kateryna Marchenko,EuroSupply,Poland,Zaporizka,Zaporizhzhia,3,2122.48,1434.87,4932.57,invoice,store
+634,2023-10-04 18:35:50,124,Huawei Networking-757,Huawei,Networking,Iryna Savchuk,EuroSupply,Poland,Kharkivska,Kharkiv,1,277.52,36.66,240.86,online,phone_order
+635,2023-06-23 17:40:12,7,Google Smartphone-310,Google,Smartphones,Pavlo Boyko,USADirect,USA,Kyivska,Kyiv,1,850.27,110.57,739.7,card,wholesale
+636,2025-02-14 16:10:03,41,Dell Home Appli-145,Dell,Home Appliances,Volodymyr Ivanov,TechImport UA,Ukraine,Ternopilska,Ternopil,1,1043.7,16.58,1027.12,card,online_store
+637,2023-06-01 16:03:14,138,HP Storage-555,HP,Storage,Olena Koval,EuroSupply,Poland,Lvivska,Lviv,2,505.97,362.34,649.6,cash,wholesale
+638,2023-06-29 21:01:52,134,Nikon Storage-469,Nikon,Storage,Maria Bondar,EuroSupply,Poland,Zaporizka,Zaporizhzhia,1,142.07,7.23,134.84,online,store
+639,2024-04-11 09:18:55,144,Asus Storage-613,Asus,Storage,Maria Bondar,GigaTrade,Germany,Dnipropetrovska,Dnipro,1,452.59,56.61,395.98,online,phone_order
+640,2025-01-19 17:55:15,105,Philips Printers-735,Philips,Printers,Volodymyr Ivanov,BalkanStore,Romania,Odeska,Odesa,2,343.29,122.75,563.83,invoice,marketplace
+641,2023-09-29 11:39:24,171,Sony Wearables-512,Sony,Wearables,Olena Koval,USADirect,USA,Lvivska,Lviv,1,28.95,1.53,27.42,online,marketplace
+642,2023-04-16 16:13:12,157,Huawei Kitchen-923,Huawei,Kitchen,Oksana Hladka,BalkanStore,Romania,Zaporizka,Zaporizhzhia,1,791.16,72.47,718.69,invoice,online_store
+643,2023-12-05 18:00:08,173,Dell Wearables-250,Dell,Wearables,Natalia Romanyuk,USADirect,USA,Vinnytska,Vinnytsia,1,389.35,44.16,345.19,card,online_store
+644,2023-06-11 19:39:38,178,Asus Wearables-833,Asus,Wearables,Andriy Shevchenko,TechImport UA,Ukraine,Lvivska,Lviv,2,500.1,72.87,927.33,cash,store
+645,2023-05-15 10:10:02,165,Canon Kitchen-857,Canon,Kitchen,Natalia Romanyuk,LocalDistributor,Ukraine,Poltavska,Poltava,1,1237.56,138.82,1098.74,cash,wholesale
+646,2025-02-23 15:22:22,96,Seagate Cameras-392,Seagate,Cameras,Iryna Savchuk,BalkanStore,Romania,Poltavska,Poltava,1,1468.85,125.36,1343.49,invoice,marketplace
+647,2024-03-10 13:05:09,143,Bosch Storage-211,Bosch,Storage,Oksana Hladka,EuroSupply,Poland,Kyivska,Kyiv,2,114.91,30.52,199.3,cash,marketplace
+648,2024-03-18 10:25:01,49,Lenovo Gaming-292,Lenovo,Gaming,Andriy Shevchenko,USADirect,USA,Kharkivska,Kharkiv,4,789.56,505.36,2652.88,invoice,phone_order
+649,2024-12-23 11:03:04,115,Microsoft Printers-620,Microsoft,Printers,Oksana Hladka,EuroSupply,Poland,Dnipropetrovska,Dnipro,5,317.74,207.06,1381.64,online,store
+650,2024-04-12 08:39:25,81,OnePlus Smartwatch-561,OnePlus,Smartwatches,Ivan Petrenko,GigaTrade,Germany,Ivano-Frankivska,Ivano-Frankivsk,1,165.87,14.92,150.95,card,store
+651,2023-02-01 18:44:53,58,Dell Monitors-467,Dell,Monitors,Kateryna Marchenko,EuroSupply,Poland,Zaporizka,Zaporizhzhia,1,461.64,45.33,416.31,cash,store
+652,2024-03-15 09:44:30,143,Bosch Storage-211,Bosch,Storage,Maria Bondar,AsiaWholesale,China,Vinnytska,Vinnytsia,2,85.36,23.23,147.49,invoice,wholesale
+653,2023-12-14 16:27:49,86,Asus Smartwatch-731,Asus,Smartwatches,Maria Bondar,EuroSupply,Poland,Kyivska,Kyiv,2,130.86,32.04,229.68,card,wholesale
+654,2024-08-19 19:27:29,102,Samsung Cameras-850,Samsung,Cameras,Olena Koval,GigaTrade,Germany,Zaporizka,Zaporizhzhia,2,3095.12,515.47,5674.77,online,marketplace
+655,2023-10-07 13:23:49,127,Sony Networking-316,Sony,Networking,Pavlo Boyko,GigaTrade,Germany,Odeska,Odesa,1,703.28,54.23,649.05,online,wholesale
+656,2023-12-24 15:33:46,161,Apple Kitchen-698,Apple,Kitchen,Iryna Savchuk,USADirect,USA,Dnipropetrovska,Dnipro,1,608.62,97.56,511.06,invoice,marketplace
+657,2023-09-13 14:15:16,69,Lenovo Headphones-221,Lenovo,Headphones,Ivan Petrenko,GigaTrade,Germany,Ivano-Frankivska,Ivano-Frankivsk,4,384.07,111.08,1425.2,invoice,marketplace
+658,2023-11-16 16:52:50,37,Canon Accessorie-759,Canon,Accessories,Kateryna Marchenko,LocalDistributor,Ukraine,Odeska,Odesa,1,105.26,24.8,80.46,invoice,marketplace
+659,2024-09-09 21:09:28,182,Samsung Wearables-930,Samsung,Wearables,Pavlo Boyko,USADirect,USA,Poltavska,Poltava,1,62.18,7.21,54.97,card,phone_order
+660,2024-08-08 18:19:58,59,Acer Monitors-992,Acer,Monitors,Pavlo Boyko,NordicParts,Sweden,Zaporizka,Zaporizhzhia,10,92.35,9.06,914.44,cash,online_store
+661,2023-04-06 21:52:29,57,Lenovo Monitors-692,Lenovo,Monitors,Kateryna Marchenko,EuroSupply,Poland,Lvivska,Lviv,1,632.51,52.87,579.64,invoice,marketplace
+662,2024-02-05 19:25:28,97,Sony Cameras-798,Sony,Cameras,Serhii Kravchenko,GigaTrade,Germany,Zaporizka,Zaporizhzhia,1,2124.16,188.37,1935.79,card,store
+663,2023-11-08 21:14:05,105,Philips Printers-735,Philips,Printers,Andriy Shevchenko,EuroSupply,Poland,Kyivska,Kyiv,1,611.7,173.82,437.88,card,wholesale
+664,2024-02-20 19:21:15,89,Apple Smartwatch-590,Apple,Smartwatches,Oksana Hladka,TechImport UA,Ukraine,Odeska,Odesa,3,461.85,184.52,1201.03,invoice,phone_order
+665,2023-11-11 16:10:02,70,Seagate Headphones-152,Seagate,Headphones,Natalia Romanyuk,USADirect,USA,Zaporizka,Zaporizhzhia,1,166.51,25.85,140.66,online,online_store
+666,2023-01-06 18:04:04,36,LG Accessorie-625,LG,Accessories,Iryna Savchuk,BalkanStore,Romania,Kharkivska,Kharkiv,3,443.18,95.44,1234.1,invoice,phone_order
+667,2024-10-27 12:00:57,89,Apple Smartwatch-590,Apple,Smartwatches,Dmytro Melnyk,GigaTrade,Germany,Poltavska,Poltava,1,450.86,33.09,417.77,cash,marketplace
+668,2025-02-12 13:34:26,61,Philips Monitors-115,Philips,Monitors,Dmytro Melnyk,USADirect,USA,Lvivska,Lviv,1,707.08,344.73,362.35,card,marketplace
+669,2024-08-01 16:16:38,38,Seagate Home Appli-867,Seagate,Home Appliances,Ivan Petrenko,GigaTrade,Germany,Dnipropetrovska,Dnipro,1,944.65,54.36,890.29,cash,marketplace
+670,2023-01-29 17:44:33,45,Bosch Home Appli-725,Bosch,Home Appliances,Dmytro Melnyk,EuroSupply,Poland,Vinnytska,Vinnytsia,2,584.72,21.93,1147.51,invoice,wholesale
+671,2023-12-15 20:37:09,84,Philips Smartwatch-435,Philips,Smartwatches,Natalia Romanyuk,TechImport UA,Ukraine,Ternopilska,Ternopil,5,233.06,101.4,1063.9,invoice,wholesale
+672,2024-03-02 09:14:14,114,Panasonic Printers-336,Panasonic,Printers,Natalia Romanyuk,BalkanStore,Romania,Vinnytska,Vinnytsia,1,1132.58,465.57,667.01,online,store
+673,2023-11-29 14:42:32,79,Sony Smartwatch-330,Sony,Smartwatches,Iryna Savchuk,NordicParts,Sweden,Poltavska,Poltava,2,656.63,171.66,1141.6,invoice,phone_order
+674,2023-04-03 12:12:39,75,Asus Headphones-666,Asus,Headphones,Iryna Savchuk,USADirect,USA,Ivano-Frankivska,Ivano-Frankivsk,1,478.39,19.81,458.58,cash,phone_order
+675,2023-05-14 21:56:49,14,Canon Smartphone-337,Canon,Smartphones,Dmytro Melnyk,TechImport UA,Ukraine,Kyivska,Kyiv,2,2438.34,590.75,4285.93,online,online_store
+676,2024-01-14 10:00:29,87,Dell Smartwatch-751,Dell,Smartwatches,Dmytro Melnyk,GigaTrade,Germany,Dnipropetrovska,Dnipro,1,221.3,1.75,219.55,card,phone_order
+677,2024-12-24 17:05:49,173,Dell Wearables-250,Dell,Wearables,Oksana Hladka,NordicParts,Sweden,Odeska,Odesa,2,205.72,41.25,370.19,card,store
+678,2024-03-30 10:50:48,92,LG Smartwatch-912,LG,Smartwatches,Kateryna Marchenko,GigaTrade,Germany,Kharkivska,Kharkiv,2,55.36,13.68,97.04,card,phone_order
+679,2024-02-22 13:11:40,154,Philips TV-597,Philips,TV,Andriy Shevchenko,USADirect,USA,Vinnytska,Vinnytsia,1,1373.09,142.22,1230.87,cash,marketplace
+680,2024-07-26 14:43:49,160,Dell Kitchen-645,Dell,Kitchen,Ivan Petrenko,LocalDistributor,Ukraine,Odeska,Odesa,2,317.52,26.44,608.6,online,phone_order
+681,2024-09-16 12:47:35,178,Asus Wearables-833,Asus,Wearables,Kateryna Marchenko,TechImport UA,Ukraine,Ivano-Frankivska,Ivano-Frankivsk,2,302.18,48.61,555.75,cash,online_store
+682,2024-12-15 11:35:14,19,OnePlus Laptops-495,OnePlus,Laptops,Maria Bondar,BalkanStore,Romania,Ternopilska,Ternopil,1,1818.27,219.04,1599.23,cash,online_store
+683,2024-01-18 10:09:32,65,Nikon Monitors-653,Nikon,Monitors,Pavlo Boyko,LocalDistributor,Ukraine,Ternopilska,Ternopil,1,758.87,41.03,717.84,card,online_store
+684,2024-04-02 15:21:27,14,Canon Smartphone-337,Canon,Smartphones,Pavlo Boyko,NordicParts,Sweden,Zaporizka,Zaporizhzhia,4,3653.52,1808.31,12805.77,online,marketplace
+685,2023-04-22 14:27:17,106,Panasonic Printers-114,Panasonic,Printers,Iryna Savchuk,TechImport UA,Ukraine,Kharkivska,Kharkiv,1,409.83,37.39,372.44,cash,store
+686,2025-01-13 10:24:37,93,Dell Smartwatch-105,Dell,Smartwatches,Serhii Kravchenko,LocalDistributor,Ukraine,Ternopilska,Ternopil,1,574.56,67.45,507.11,card,online_store
+687,2024-06-21 20:31:29,96,Seagate Cameras-392,Seagate,Cameras,Volodymyr Ivanov,USADirect,USA,Kyivska,Kyiv,2,1542.37,11.55,3073.19,cash,phone_order
+688,2024-10-15 10:00:43,53,Philips Gaming-183,Philips,Gaming,Kateryna Marchenko,NordicParts,Sweden,Dnipropetrovska,Dnipro,1,225.03,17.62,207.41,card,store
+689,2024-02-09 08:35:29,158,Sony Kitchen-279,Sony,Kitchen,Volodymyr Ivanov,NordicParts,Sweden,Kharkivska,Kharkiv,1,285.39,171.22,114.17,online,marketplace
+690,2024-01-02 20:19:26,93,Dell Smartwatch-105,Dell,Smartwatches,Oksana Hladka,AsiaWholesale,China,Odeska,Odesa,1,692.47,75.17,617.3,online,store
+691,2023-07-02 20:31:49,64,Nikon Monitors-988,Nikon,Monitors,Olena Koval,NordicParts,Sweden,Kyivska,Kyiv,1,610.54,50.92,559.62,cash,marketplace
+692,2024-08-14 18:18:11,45,Bosch Home Appli-725,Bosch,Home Appliances,Iryna Savchuk,AsiaWholesale,China,Poltavska,Poltava,3,451.35,151.29,1202.76,online,phone_order
+693,2024-11-17 13:12:30,59,Acer Monitors-992,Acer,Monitors,Iryna Savchuk,LocalDistributor,Ukraine,Poltavska,Poltava,1,69.4,2.46,66.94,cash,marketplace
+694,2025-01-29 15:57:37,147,Panasonic TV-513,Panasonic,TV,Kateryna Marchenko,EuroSupply,Poland,Dnipropetrovska,Dnipro,1,2305.53,238.2,2067.33,card,phone_order
+695,2023-06-27 20:45:06,134,Nikon Storage-469,Nikon,Storage,Pavlo Boyko,LocalDistributor,Ukraine,Vinnytska,Vinnytsia,2,111.78,10.22,213.34,card,marketplace
+696,2024-04-09 18:13:16,43,HP Home Appli-825,HP,Home Appliances,Iryna Savchuk,USADirect,USA,Ivano-Frankivska,Ivano-Frankivsk,1,457.7,18.82,438.88,cash,phone_order
+697,2024-01-27 11:17:15,107,Asus Printers-376,Asus,Printers,Natalia Romanyuk,GigaTrade,Germany,Kyivska,Kyiv,1,1668.65,61.27,1607.38,cash,online_store
+698,2023-06-08 22:57:43,81,OnePlus Smartwatch-561,OnePlus,Smartwatches,Iryna Savchuk,BalkanStore,Romania,Kyivska,Kyiv,2,147.34,15.1,279.58,card,store
+699,2023-07-23 15:21:28,13,Bosch Smartphone-636,Bosch,Smartphones,Natalia Romanyuk,LocalDistributor,Ukraine,Kharkivska,Kharkiv,1,1155.31,177.52,977.79,online,online_store
+700,2024-07-12 13:46:20,50,Microsoft Gaming-457,Microsoft,Gaming,Maria Bondar,EuroSupply,Poland,Zaporizka,Zaporizhzhia,1,230.8,34.95,195.85,invoice,store
+701,2023-05-22 21:51:41,118,Asus Printers-878,Asus,Printers,Oksana Hladka,EuroSupply,Poland,Kyivska,Kyiv,2,1064.75,98.4,2031.1,cash,phone_order
+702,2024-03-05 21:44:43,160,Dell Kitchen-645,Dell,Kitchen,Serhii Kravchenko,AsiaWholesale,China,Odeska,Odesa,3,319.88,52.35,907.29,card,marketplace
+703,2023-04-24 11:25:43,122,Seagate Networking-417,Seagate,Networking,Natalia Romanyuk,AsiaWholesale,China,Zaporizka,Zaporizhzhia,1,1067.38,150.61,916.77,card,phone_order
+704,2023-04-11 08:36:45,71,Sony Headphones-571,Sony,Headphones,Dmytro Melnyk,LocalDistributor,Ukraine,Lvivska,Lviv,1,380.6,25.2,355.4,online,wholesale
+705,2024-09-21 09:52:08,42,Google Home Appli-210,Google,Home Appliances,Dmytro Melnyk,NordicParts,Sweden,Ternopilska,Ternopil,1,1217.83,181.68,1036.15,online,marketplace
+706,2023-07-02 20:16:10,95,Canon Cameras-957,Canon,Cameras,Iryna Savchuk,GigaTrade,Germany,Vinnytska,Vinnytsia,1,813.86,5.36,808.5,invoice,wholesale
+707,2023-06-03 12:51:34,6,Google Smartphone-522,Google,Smartphones,Pavlo Boyko,TechImport UA,Ukraine,Ivano-Frankivska,Ivano-Frankivsk,1,3438.81,464.09,2974.72,invoice,wholesale
+708,2024-08-07 21:40:14,2,Nikon Smartphone-376,Nikon,Smartphones,Natalia Romanyuk,USADirect,USA,Kyivska,Kyiv,5,3372.2,2230.69,14630.31,cash,online_store
+709,2023-09-16 17:53:11,72,Microsoft Headphones-325,Microsoft,Headphones,Oksana Hladka,AsiaWholesale,China,Odeska,Odesa,4,57.72,39.83,191.05,online,online_store
+710,2024-10-19 20:01:23,138,HP Storage-555,HP,Storage,Andriy Shevchenko,USADirect,USA,Ivano-Frankivska,Ivano-Frankivsk,2,293.57,65.34,521.8,online,marketplace
+711,2024-02-02 14:46:27,166,Google Kitchen-354,Google,Kitchen,Volodymyr Ivanov,TechImport UA,Ukraine,Lvivska,Lviv,1,915.4,129.61,785.79,online,wholesale
+712,2024-09-27 17:09:01,131,Huawei Networking-277,Huawei,Networking,Oksana Hladka,USADirect,USA,Odeska,Odesa,2,288.94,58.18,519.7,card,marketplace
+713,2023-12-11 19:27:16,20,Apple Laptops-828,Apple,Laptops,Kateryna Marchenko,EuroSupply,Poland,Zaporizka,Zaporizhzhia,2,585.53,23.63,1147.43,online,wholesale
+714,2024-05-27 09:06:29,73,Canon Headphones-266,Canon,Headphones,Kateryna Marchenko,TechImport UA,Ukraine,Zaporizka,Zaporizhzhia,2,518.85,92.32,945.38,invoice,wholesale
+715,2023-01-23 11:43:08,162,Canon Kitchen-125,Canon,Kitchen,Oksana Hladka,USADirect,USA,Ivano-Frankivska,Ivano-Frankivsk,1,1260.27,117.79,1142.48,card,phone_order
+716,2025-01-31 14:14:06,71,Sony Headphones-571,Sony,Headphones,Olena Koval,AsiaWholesale,China,Zaporizka,Zaporizhzhia,1,266.5,14.34,252.16,card,wholesale
+717,2023-06-30 14:21:17,88,Apple Smartwatch-837,Apple,Smartwatches,Volodymyr Ivanov,LocalDistributor,Ukraine,Poltavska,Poltava,1,424.39,173.38,251.01,card,marketplace
+718,2023-11-26 13:59:50,20,Apple Laptops-828,Apple,Laptops,Volodymyr Ivanov,BalkanStore,Romania,Poltavska,Poltava,1,480.65,32.52,448.13,online,marketplace
+719,2024-07-18 21:59:44,162,Canon Kitchen-125,Canon,Kitchen,Kateryna Marchenko,GigaTrade,Germany,Kyivska,Kyiv,4,1215.44,156.04,4705.72,online,phone_order
+720,2024-02-13 09:31:25,111,Bosch Printers-721,Bosch,Printers,Dmytro Melnyk,EuroSupply,Poland,Poltavska,Poltava,1,557.77,90.23,467.54,online,online_store
+721,2023-12-14 22:09:09,121,LG Networking-730,LG,Networking,Ivan Petrenko,LocalDistributor,Ukraine,Kyivska,Kyiv,1,427.31,40.84,386.47,card,store
+722,2024-08-10 10:03:19,32,Dell Accessorie-515,Dell,Accessories,Maria Bondar,EuroSupply,Poland,Kharkivska,Kharkiv,1,390.67,58.02,332.65,online,store
+723,2024-03-28 08:28:03,30,HP Accessorie-607,HP,Accessories,Iryna Savchuk,EuroSupply,Poland,Kyivska,Kyiv,1,14.32,2.28,12.04,cash,phone_order
+724,2023-11-26 19:16:03,134,Nikon Storage-469,Nikon,Storage,Kateryna Marchenko,EuroSupply,Poland,Kharkivska,Kharkiv,1,159.42,5.04,154.38,invoice,store
+725,2024-05-10 13:47:18,128,Nikon Networking-818,Nikon,Networking,Natalia Romanyuk,GigaTrade,Germany,Zaporizka,Zaporizhzhia,2,64.39,4.25,124.53,online,marketplace
+726,2024-09-21 20:07:52,2,Nikon Smartphone-376,Nikon,Smartphones,Pavlo Boyko,AsiaWholesale,China,Kyivska,Kyiv,1,2680.08,66.87,2613.21,invoice,online_store
+727,2024-12-01 10:59:53,28,Canon Laptops-267,Canon,Laptops,Volodymyr Ivanov,NordicParts,Sweden,Lvivska,Lviv,1,872.73,112.74,759.99,online,online_store
+728,2024-01-25 19:01:41,28,Canon Laptops-267,Canon,Laptops,Iryna Savchuk,NordicParts,Sweden,Ternopilska,Ternopil,1,1198.12,205.78,992.34,invoice,marketplace
+729,2023-07-13 20:19:16,43,HP Home Appli-825,HP,Home Appliances,Maria Bondar,NordicParts,Sweden,Zaporizka,Zaporizhzhia,1,863.59,44.09,819.5,card,online_store
+730,2024-01-21 11:47:08,106,Panasonic Printers-114,Panasonic,Printers,Volodymyr Ivanov,LocalDistributor,Ukraine,Zaporizka,Zaporizhzhia,2,246.36,58.14,434.58,card,online_store
+731,2023-09-12 15:46:37,177,Bosch Wearables-517,Bosch,Wearables,Dmytro Melnyk,BalkanStore,Romania,Ternopilska,Ternopil,1,244.57,37.43,207.14,invoice,wholesale
+732,2024-04-07 17:23:03,157,Huawei Kitchen-923,Huawei,Kitchen,Olena Koval,TechImport UA,Ukraine,Ivano-Frankivska,Ivano-Frankivsk,4,1408.89,884.38,4751.18,online,marketplace
+733,2024-09-22 09:34:27,171,Sony Wearables-512,Sony,Wearables,Dmytro Melnyk,AsiaWholesale,China,Zaporizka,Zaporizhzhia,1,30.37,0.15,30.22,invoice,store
+734,2023-04-14 13:47:29,4,Dell Smartphone-278,Dell,Smartphones,Olena Koval,GigaTrade,Germany,Odeska,Odesa,1,1683.47,290.33,1393.14,invoice,phone_order
+735,2024-03-28 15:32:15,112,Huawei Printers-405,Huawei,Printers,Ivan Petrenko,TechImport UA,Ukraine,Zaporizka,Zaporizhzhia,1,1347.32,55.69,1291.63,cash,wholesale
+736,2025-02-19 11:09:32,19,OnePlus Laptops-495,OnePlus,Laptops,Kateryna Marchenko,TechImport UA,Ukraine,Kyivska,Kyiv,10,897.82,563.76,8414.44,invoice,wholesale
+737,2024-10-07 14:11:06,169,Nikon Kitchen-814,Nikon,Kitchen,Oksana Hladka,USADirect,USA,Kyivska,Kyiv,2,238.86,11.86,465.86,cash,online_store
+738,2024-04-19 17:44:07,103,Dell Cameras-522,Dell,Cameras,Iryna Savchuk,USADirect,USA,Poltavska,Poltava,1,2910.9,139.57,2771.33,online,marketplace
+739,2023-11-25 18:18:03,152,Dell TV-499,Dell,TV,Maria Bondar,AsiaWholesale,China,Odeska,Odesa,1,1010.39,111.45,898.94,invoice,store
+740,2024-04-01 16:46:02,152,Dell TV-499,Dell,TV,Iryna Savchuk,LocalDistributor,Ukraine,Lvivska,Lviv,1,1062.09,8.91,1053.18,card,phone_order
+741,2025-01-12 14:31:50,24,Samsung Laptops-603,Samsung,Laptops,Volodymyr Ivanov,LocalDistributor,Ukraine,Kyivska,Kyiv,2,336.7,50.71,622.69,online,store
+742,2023-03-30 18:44:11,146,Philips TV-876,Philips,TV,Oksana Hladka,USADirect,USA,Ivano-Frankivska,Ivano-Frankivsk,1,593.3,46.21,547.09,online,marketplace
+743,2024-03-28 14:48:38,129,LG Networking-145,LG,Networking,Dmytro Melnyk,TechImport UA,Ukraine,Odeska,Odesa,2,895.92,150.74,1641.1,invoice,marketplace
+744,2025-01-09 10:48:58,83,Nikon Smartwatch-605,Nikon,Smartwatches,Ivan Petrenko,USADirect,USA,Odeska,Odesa,2,227.72,8.32,447.12,card,online_store
+745,2024-01-01 21:29:23,106,Panasonic Printers-114,Panasonic,Printers,Andriy Shevchenko,NordicParts,Sweden,Zaporizka,Zaporizhzhia,1,419.36,16.58,402.78,cash,wholesale
+746,2024-06-26 19:44:49,34,Apple Accessorie-280,Apple,Accessories,Volodymyr Ivanov,USADirect,USA,Kharkivska,Kharkiv,1,241.57,39.11,202.46,online,online_store
+747,2023-02-16 18:56:47,164,Xiaomi Kitchen-259,Xiaomi,Kitchen,Volodymyr Ivanov,LocalDistributor,Ukraine,Dnipropetrovska,Dnipro,1,566.78,33.68,533.1,cash,online_store
+748,2023-06-09 19:17:01,69,Lenovo Headphones-221,Lenovo,Headphones,Kateryna Marchenko,GigaTrade,Germany,Odeska,Odesa,4,282.69,98.19,1032.57,card,marketplace
+749,2023-08-05 20:46:32,1,Apple Smartphone-922,Apple,Smartphones,Serhii Kravchenko,USADirect,USA,Kyivska,Kyiv,1,3154.28,161.3,2992.98,card,phone_order
+750,2023-11-18 13:29:15,84,Philips Smartwatch-435,Philips,Smartwatches,Oksana Hladka,EuroSupply,Poland,Ternopilska,Ternopil,5,340.37,297.5,1404.35,card,marketplace
+751,2025-02-12 21:05:01,33,Panasonic Accessorie-349,Panasonic,Accessories,Maria Bondar,EuroSupply,Poland,Kyivska,Kyiv,1,311.93,10.99,300.94,card,wholesale
+752,2023-04-10 17:13:12,144,Asus Storage-613,Asus,Storage,Olena Koval,EuroSupply,Poland,Zaporizka,Zaporizhzhia,2,301.87,99.81,503.93,cash,store
+753,2024-05-13 21:36:22,91,Bosch Smartwatch-674,Bosch,Smartwatches,Iryna Savchuk,EuroSupply,Poland,Zaporizka,Zaporizhzhia,1,217.23,5.95,211.28,card,marketplace
+754,2023-09-29 12:26:49,14,Canon Smartphone-337,Canon,Smartphones,Volodymyr Ivanov,EuroSupply,Poland,Dnipropetrovska,Dnipro,1,2683.5,377.01,2306.49,card,store
+755,2023-04-29 21:23:03,81,OnePlus Smartwatch-561,OnePlus,Smartwatches,Volodymyr Ivanov,GigaTrade,Germany,Odeska,Odesa,1,113.28,13.28,100.0,online,marketplace
+756,2024-06-05 12:44:28,177,Bosch Wearables-517,Bosch,Wearables,Iryna Savchuk,EuroSupply,Poland,Vinnytska,Vinnytsia,1,207.42,18.63,188.79,cash,online_store
+757,2024-08-27 16:33:56,70,Seagate Headphones-152,Seagate,Headphones,Iryna Savchuk,LocalDistributor,Ukraine,Odeska,Odesa,1,112.66,16.66,96.0,invoice,marketplace
+758,2024-08-29 12:36:19,84,Philips Smartwatch-435,Philips,Smartwatches,Pavlo Boyko,BalkanStore,Romania,Dnipropetrovska,Dnipro,1,267.22,72.41,194.81,card,store
+759,2024-07-31 09:12:11,175,Philips Wearables-292,Philips,Wearables,Volodymyr Ivanov,NordicParts,Sweden,Poltavska,Poltava,3,560.15,103.32,1577.13,invoice,phone_order
+760,2024-01-27 16:11:36,159,Lenovo Kitchen-875,Lenovo,Kitchen,Olena Koval,EuroSupply,Poland,Poltavska,Poltava,1,351.98,11.12,340.86,card,phone_order
+761,2024-05-03 08:01:03,141,Acer Storage-629,Acer,Storage,Dmytro Melnyk,BalkanStore,Romania,Lvivska,Lviv,2,491.63,2.97,980.29,card,wholesale
+762,2024-03-27 15:19:28,37,Canon Accessorie-759,Canon,Accessories,Olena Koval,LocalDistributor,Ukraine,Poltavska,Poltava,1,71.01,1.73,69.28,cash,store
+763,2023-08-22 11:26:51,126,Samsung Networking-244,Samsung,Networking,Olena Koval,LocalDistributor,Ukraine,Odeska,Odesa,2,255.1,75.01,435.19,invoice,online_store
+764,2024-10-29 10:13:51,134,Nikon Storage-469,Nikon,Storage,Olena Koval,USADirect,USA,Ivano-Frankivska,Ivano-Frankivsk,1,120.79,8.32,112.47,online,marketplace
+765,2024-06-15 10:06:44,134,Nikon Storage-469,Nikon,Storage,Iryna Savchuk,EuroSupply,Poland,Vinnytska,Vinnytsia,1,122.96,15.84,107.12,cash,online_store
+766,2023-12-14 15:30:33,34,Apple Accessorie-280,Apple,Accessories,Natalia Romanyuk,LocalDistributor,Ukraine,Lvivska,Lviv,1,221.72,7.56,214.16,online,marketplace
+767,2023-02-28 21:59:40,93,Dell Smartwatch-105,Dell,Smartwatches,Maria Bondar,EuroSupply,Poland,Ternopilska,Ternopil,2,548.52,196.67,900.37,online,phone_order
+768,2024-09-11 10:32:03,58,Dell Monitors-467,Dell,Monitors,Iryna Savchuk,LocalDistributor,Ukraine,Dnipropetrovska,Dnipro,1,397.6,35.02,362.58,cash,store
+769,2025-01-25 11:18:37,95,Canon Cameras-957,Canon,Cameras,Andriy Shevchenko,TechImport UA,Ukraine,Vinnytska,Vinnytsia,1,722.05,117.37,604.68,cash,wholesale
+770,2024-12-28 18:48:10,67,Canon Monitors-919,Canon,Monitors,Olena Koval,NordicParts,Sweden,Ternopilska,Ternopil,1,398.45,47.39,351.06,cash,marketplace
+771,2023-12-02 14:30:13,100,Acer Cameras-774,Acer,Cameras,Oksana Hladka,BalkanStore,Romania,Zaporizka,Zaporizhzhia,1,2792.09,114.91,2677.18,invoice,wholesale
+772,2023-08-27 12:59:05,132,Google Networking-603,Google,Networking,Dmytro Melnyk,TechImport UA,Ukraine,Ternopilska,Ternopil,1,566.1,48.34,517.76,card,wholesale
+773,2024-12-07 09:33:33,27,OnePlus Laptops-606,OnePlus,Laptops,Serhii Kravchenko,AsiaWholesale,China,Kyivska,Kyiv,1,596.87,58.88,537.99,card,marketplace
+774,2023-02-05 16:27:22,151,Bosch TV-909,Bosch,TV,Oksana Hladka,EuroSupply,Poland,Zaporizka,Zaporizhzhia,1,1770.13,138.7,1631.43,card,online_store
+775,2024-11-11 17:19:53,9,Panasonic Smartphone-622,Panasonic,Smartphones,Dmytro Melnyk,GigaTrade,Germany,Odeska,Odesa,1,852.62,139.96,712.66,online,marketplace
+776,2023-04-25 09:11:36,115,Microsoft Printers-620,Microsoft,Printers,Volodymyr Ivanov,BalkanStore,Romania,Kharkivska,Kharkiv,1,393.48,23.81,369.67,invoice,phone_order
+777,2024-11-26 14:50:03,33,Panasonic Accessorie-349,Panasonic,Accessories,Ivan Petrenko,TechImport UA,Ukraine,Dnipropetrovska,Dnipro,1,252.17,5.69,246.48,card,store
+778,2023-11-25 15:16:49,46,Acer Home Appli-591,Acer,Home Appliances,Volodymyr Ivanov,USADirect,USA,Ivano-Frankivska,Ivano-Frankivsk,2,1338.73,52.7,2624.76,cash,store
+779,2024-09-16 10:49:49,94,Huawei Cameras-903,Huawei,Cameras,Dmytro Melnyk,AsiaWholesale,China,Ternopilska,Ternopil,1,2085.1,202.2,1882.9,card,store
+780,2023-04-21 10:42:26,124,Huawei Networking-757,Huawei,Networking,Iryna Savchuk,USADirect,USA,Poltavska,Poltava,1,353.93,14.19,339.74,card,online_store
+781,2023-04-03 21:00:56,55,Apple Gaming-626,Apple,Gaming,Olena Koval,BalkanStore,Romania,Poltavska,Poltava,2,299.92,91.39,508.45,card,marketplace
+782,2025-01-02 16:33:30,128,Nikon Networking-818,Nikon,Networking,Serhii Kravchenko,LocalDistributor,Ukraine,Dnipropetrovska,Dnipro,2,72.5,16.43,128.57,card,marketplace
+783,2023-02-22 18:53:45,72,Microsoft Headphones-325,Microsoft,Headphones,Serhii Kravchenko,EuroSupply,Poland,Dnipropetrovska,Dnipro,1,50.01,7.14,42.87,online,wholesale
+784,2023-02-13 12:59:25,116,Microsoft Printers-709,Microsoft,Printers,Dmytro Melnyk,LocalDistributor,Ukraine,Kharkivska,Kharkiv,1,621.46,48.9,572.56,invoice,wholesale
+785,2023-11-27 13:32:21,70,Seagate Headphones-152,Seagate,Headphones,Dmytro Melnyk,NordicParts,Sweden,Kharkivska,Kharkiv,3,99.69,38.77,260.3,invoice,online_store
+786,2023-03-02 21:05:14,171,Sony Wearables-512,Sony,Wearables,Natalia Romanyuk,AsiaWholesale,China,Zaporizka,Zaporizhzhia,1,28.44,0.54,27.9,cash,phone_order
+787,2024-02-10 09:52:36,109,Canon Printers-462,Canon,Printers,Ivan Petrenko,LocalDistributor,Ukraine,Ternopilska,Ternopil,5,855.94,612.79,3666.91,cash,wholesale
+788,2024-05-16 16:39:15,153,Apple TV-828,Apple,TV,Oksana Hladka,NordicParts,Sweden,Zaporizka,Zaporizhzhia,3,855.79,230.84,2336.53,cash,phone_order
+789,2023-05-01 17:05:33,144,Asus Storage-613,Asus,Storage,Natalia Romanyuk,TechImport UA,Ukraine,Vinnytska,Vinnytsia,1,347.53,32.87,314.66,online,marketplace
+790,2023-10-31 19:03:36,5,OnePlus Smartphone-855,OnePlus,Smartphones,Oksana Hladka,USADirect,USA,Poltavska,Poltava,1,812.72,129.05,683.67,online,wholesale
+791,2024-05-19 08:13:32,142,Nikon Storage-666,Nikon,Storage,Pavlo Boyko,LocalDistributor,Ukraine,Vinnytska,Vinnytsia,5,686.03,388.87,3041.28,card,online_store
+792,2024-11-24 18:20:01,173,Dell Wearables-250,Dell,Wearables,Serhii Kravchenko,BalkanStore,Romania,Poltavska,Poltava,5,269.03,221.22,1123.93,online,phone_order
+793,2023-05-13 16:39:20,157,Huawei Kitchen-923,Huawei,Kitchen,Volodymyr Ivanov,GigaTrade,Germany,Vinnytska,Vinnytsia,1,1040.58,31.77,1008.81,card,phone_order
+794,2023-01-23 10:51:47,15,Sony Laptops-874,Sony,Laptops,Pavlo Boyko,GigaTrade,Germany,Kharkivska,Kharkiv,1,2115.06,76.61,2038.45,cash,online_store
+795,2023-10-28 18:59:56,146,Philips TV-876,Philips,TV,Andriy Shevchenko,GigaTrade,Germany,Odeska,Odesa,1,822.63,36.55,786.08,online,store
+796,2023-07-07 19:58:35,155,Microsoft Kitchen-147,Microsoft,Kitchen,Iryna Savchuk,LocalDistributor,Ukraine,Vinnytska,Vinnytsia,2,384.73,96.57,672.89,card,wholesale
+797,2023-03-31 19:32:17,158,Sony Kitchen-279,Sony,Kitchen,Kateryna Marchenko,USADirect,USA,Vinnytska,Vinnytsia,1,497.74,59.12,438.62,online,store
+798,2023-12-07 19:35:38,80,Nikon Smartwatch-557,Nikon,Smartwatches,Pavlo Boyko,TechImport UA,Ukraine,Ivano-Frankivska,Ivano-Frankivsk,1,444.53,60.68,383.85,invoice,online_store
+799,2024-03-19 13:59:28,118,Asus Printers-878,Asus,Printers,Dmytro Melnyk,AsiaWholesale,China,Vinnytska,Vinnytsia,1,810.99,96.7,714.29,card,online_store
+800,2023-01-13 11:40:18,97,Sony Cameras-798,Sony,Cameras,Serhii Kravchenko,TechImport UA,Ukraine,Kharkivska,Kharkiv,1,1728.47,24.81,1703.66,card,marketplace
+801,2024-12-14 19:18:24,18,Apple Laptops-334,Apple,Laptops,Oksana Hladka,NordicParts,Sweden,Odeska,Odesa,1,1021.4,110.46,910.94,online,wholesale
+802,2024-01-04 11:24:00,108,Bosch Printers-430,Bosch,Printers,Volodymyr Ivanov,AsiaWholesale,China,Zaporizka,Zaporizhzhia,10,456.57,726.34,3839.36,invoice,wholesale
+803,2023-04-12 19:09:20,54,Acer Gaming-534,Acer,Gaming,Natalia Romanyuk,BalkanStore,Romania,Ternopilska,Ternopil,1,259.67,41.16,218.51,cash,wholesale
+804,2024-03-17 17:47:54,143,Bosch Storage-211,Bosch,Storage,Olena Koval,BalkanStore,Romania,Poltavska,Poltava,5,165.31,67.29,759.26,online,wholesale
+805,2024-08-26 12:16:37,19,OnePlus Laptops-495,OnePlus,Laptops,Maria Bondar,AsiaWholesale,China,Dnipropetrovska,Dnipro,2,1126.42,100.81,2152.03,online,online_store
+806,2023-10-09 17:37:26,89,Apple Smartwatch-590,Apple,Smartwatches,Iryna Savchuk,NordicParts,Sweden,Vinnytska,Vinnytsia,1,376.3,59.63,316.67,online,wholesale
+807,2024-06-04 16:59:39,114,Panasonic Printers-336,Panasonic,Printers,Dmytro Melnyk,USADirect,USA,Vinnytska,Vinnytsia,1,1491.38,250.73,1240.65,card,marketplace
+808,2024-05-22 19:24:02,163,Philips Kitchen-554,Philips,Kitchen,Maria Bondar,LocalDistributor,Ukraine,Zaporizka,Zaporizhzhia,1,178.17,3.95,174.22,cash,marketplace
+809,2024-12-10 13:35:59,40,Acer Home Appli-622,Acer,Home Appliances,Kateryna Marchenko,BalkanStore,Romania,Ternopilska,Ternopil,3,360.8,97.98,984.42,card,wholesale
+810,2024-08-07 13:18:51,56,Canon Gaming-987,Canon,Gaming,Maria Bondar,BalkanStore,Romania,Dnipropetrovska,Dnipro,3,428.22,24.99,1259.67,cash,phone_order
+811,2023-04-15 17:24:29,138,HP Storage-555,HP,Storage,Andriy Shevchenko,USADirect,USA,Zaporizka,Zaporizhzhia,3,403.29,164.64,1045.23,cash,marketplace
+812,2024-03-30 15:28:23,25,Seagate Laptops-663,Seagate,Laptops,Olena Koval,BalkanStore,Romania,Kharkivska,Kharkiv,1,4358.3,324.24,4034.06,invoice,phone_order
+813,2024-04-10 14:10:51,10,Apple Smartphone-779,Apple,Smartphones,Maria Bondar,TechImport UA,Ukraine,Odeska,Odesa,2,400.03,22.86,777.2,invoice,store
+814,2024-03-19 11:56:00,65,Nikon Monitors-653,Nikon,Monitors,Kateryna Marchenko,AsiaWholesale,China,Odeska,Odesa,1,612.63,45.64,566.99,cash,wholesale
+815,2024-02-06 12:56:58,25,Seagate Laptops-663,Seagate,Laptops,Natalia Romanyuk,TechImport UA,Ukraine,Ivano-Frankivska,Ivano-Frankivsk,1,2136.2,68.25,2067.95,invoice,marketplace
+816,2023-10-28 21:30:24,11,Huawei Smartphone-201,Huawei,Smartphones,Oksana Hladka,EuroSupply,Poland,Poltavska,Poltava,1,800.63,38.95,761.68,cash,phone_order
+817,2024-10-31 18:13:42,79,Sony Smartwatch-330,Sony,Smartwatches,Ivan Petrenko,EuroSupply,Poland,Poltavska,Poltava,1,551.47,270.98,280.49,invoice,marketplace
+818,2023-12-04 18:08:15,177,Bosch Wearables-517,Bosch,Wearables,Ivan Petrenko,TechImport UA,Ukraine,Lvivska,Lviv,1,204.74,17.36,187.38,card,marketplace
+819,2024-06-04 17:57:41,121,LG Networking-730,LG,Networking,Ivan Petrenko,TechImport UA,Ukraine,Vinnytska,Vinnytsia,1,421.89,74.24,347.65,online,online_store
+820,2023-12-31 15:29:58,97,Sony Cameras-798,Sony,Cameras,Andriy Shevchenko,BalkanStore,Romania,Dnipropetrovska,Dnipro,5,1556.8,1028.21,6755.79,cash,marketplace
+821,2023-02-25 19:49:31,146,Philips TV-876,Philips,TV,Andriy Shevchenko,USADirect,USA,Kyivska,Kyiv,1,897.26,41.22,856.04,card,marketplace
+822,2023-08-22 18:39:43,123,Canon Networking-694,Canon,Networking,Andriy Shevchenko,NordicParts,Sweden,Poltavska,Poltava,5,419.09,241.76,1853.69,invoice,phone_order
+823,2023-04-09 10:46:00,84,Philips Smartwatch-435,Philips,Smartwatches,Dmytro Melnyk,BalkanStore,Romania,Kharkivska,Kharkiv,2,281.27,76.21,486.33,card,online_store
+824,2025-01-10 18:33:56,82,Lenovo Smartwatch-625,Lenovo,Smartwatches,Oksana Hladka,NordicParts,Sweden,Dnipropetrovska,Dnipro,1,293.01,10.96,282.05,invoice,store
+825,2023-06-06 09:30:41,175,Philips Wearables-292,Philips,Wearables,Kateryna Marchenko,EuroSupply,Poland,Dnipropetrovska,Dnipro,1,361.81,22.27,339.54,cash,online_store
+826,2023-02-13 13:22:50,49,Lenovo Gaming-292,Lenovo,Gaming,Serhii Kravchenko,NordicParts,Sweden,Odeska,Odesa,5,901.63,756.79,3751.36,invoice,marketplace
+827,2024-10-04 12:29:27,160,Dell Kitchen-645,Dell,Kitchen,Oksana Hladka,TechImport UA,Ukraine,Zaporizka,Zaporizhzhia,1,303.53,1.29,302.24,online,marketplace
+828,2024-03-05 20:17:48,96,Seagate Cameras-392,Seagate,Cameras,Ivan Petrenko,NordicParts,Sweden,Odeska,Odesa,1,1187.1,52.28,1134.82,card,marketplace
+829,2024-01-07 11:39:27,78,Lenovo Smartwatch-680,Lenovo,Smartwatches,Kateryna Marchenko,BalkanStore,Romania,Ivano-Frankivska,Ivano-Frankivsk,1,61.85,4.03,57.82,invoice,store
+830,2024-01-27 16:49:18,143,Bosch Storage-211,Bosch,Storage,Ivan Petrenko,BalkanStore,Romania,Poltavska,Poltava,1,107.55,8.43,99.12,invoice,phone_order
+831,2023-07-06 09:57:46,73,Canon Headphones-266,Canon,Headphones,Serhii Kravchenko,GigaTrade,Germany,Kharkivska,Kharkiv,1,376.54,5.8,370.74,card,marketplace
+832,2023-08-03 19:24:38,3,Philips Smartphone-227,Philips,Smartphones,Natalia Romanyuk,USADirect,USA,Vinnytska,Vinnytsia,2,859.41,201.99,1516.83,invoice,wholesale
+833,2023-01-19 12:08:58,22,Apple Laptops-476,Apple,Laptops,Volodymyr Ivanov,USADirect,USA,Vinnytska,Vinnytsia,1,2359.94,197.94,2162.0,cash,online_store
+834,2023-07-04 08:46:31,72,Microsoft Headphones-325,Microsoft,Headphones,Kateryna Marchenko,LocalDistributor,Ukraine,Zaporizka,Zaporizhzhia,1,42.64,9.45,33.19,card,phone_order
+835,2024-11-14 11:01:45,104,Xiaomi Printers-804,Xiaomi,Printers,Kateryna Marchenko,TechImport UA,Ukraine,Odeska,Odesa,1,1115.02,141.39,973.63,online,wholesale
+836,2023-08-17 08:35:01,28,Canon Laptops-267,Canon,Laptops,Pavlo Boyko,NordicParts,Sweden,Zaporizka,Zaporizhzhia,2,1184.67,190.43,2178.91,invoice,online_store
+837,2023-06-02 18:26:13,103,Dell Cameras-522,Dell,Cameras,Serhii Kravchenko,NordicParts,Sweden,Zaporizka,Zaporizhzhia,1,1685.43,118.77,1566.66,invoice,marketplace
+838,2024-01-26 09:17:20,33,Panasonic Accessorie-349,Panasonic,Accessories,Ivan Petrenko,LocalDistributor,Ukraine,Ternopilska,Ternopil,1,253.09,72.59,180.5,cash,wholesale
+839,2024-03-03 19:49:18,169,Nikon Kitchen-814,Nikon,Kitchen,Iryna Savchuk,GigaTrade,Germany,Poltavska,Poltava,1,263.42,94.52,168.9,cash,wholesale
+840,2024-07-28 11:22:35,155,Microsoft Kitchen-147,Microsoft,Kitchen,Olena Koval,GigaTrade,Germany,Vinnytska,Vinnytsia,1,479.36,82.02,397.34,online,store
+841,2024-03-02 09:28:12,141,Acer Storage-629,Acer,Storage,Iryna Savchuk,LocalDistributor,Ukraine,Ternopilska,Ternopil,2,667.88,165.65,1170.11,card,marketplace
+842,2024-04-20 19:04:30,48,HP Home Appli-792,HP,Home Appliances,Serhii Kravchenko,AsiaWholesale,China,Dnipropetrovska,Dnipro,1,1536.58,795.58,741.0,invoice,store
+843,2025-01-25 15:32:14,135,Sony Storage-654,Sony,Storage,Kateryna Marchenko,EuroSupply,Poland,Kyivska,Kyiv,1,378.59,14.76,363.83,invoice,store
+844,2023-10-25 18:42:41,93,Dell Smartwatch-105,Dell,Smartwatches,Serhii Kravchenko,USADirect,USA,Odeska,Odesa,2,749.47,43.69,1455.25,cash,marketplace
+845,2024-10-26 15:59:22,32,Dell Accessorie-515,Dell,Accessories,Oksana Hladka,BalkanStore,Romania,Poltavska,Poltava,1,230.94,17.47,213.47,online,marketplace
+846,2023-07-04 19:32:08,169,Nikon Kitchen-814,Nikon,Kitchen,Maria Bondar,TechImport UA,Ukraine,Ternopilska,Ternopil,1,317.04,35.41,281.63,invoice,wholesale
+847,2024-12-14 16:31:29,116,Microsoft Printers-709,Microsoft,Printers,Maria Bondar,GigaTrade,Germany,Dnipropetrovska,Dnipro,3,424.48,124.42,1149.02,card,phone_order
+848,2023-04-25 15:42:45,53,Philips Gaming-183,Philips,Gaming,Natalia Romanyuk,GigaTrade,Germany,Zaporizka,Zaporizhzhia,1,229.79,8.8,220.99,invoice,marketplace
+849,2023-09-15 09:06:16,66,Apple Monitors-548,Apple,Monitors,Olena Koval,NordicParts,Sweden,Vinnytska,Vinnytsia,1,269.75,48.55,221.2,cash,wholesale
+850,2024-12-02 19:53:55,144,Asus Storage-613,Asus,Storage,Iryna Savchuk,GigaTrade,Germany,Lvivska,Lviv,2,613.66,182.45,1044.87,cash,store
+851,2023-02-16 18:52:24,106,Panasonic Printers-114,Panasonic,Printers,Kateryna Marchenko,BalkanStore,Romania,Vinnytska,Vinnytsia,1,229.48,31.98,197.5,invoice,phone_order
+852,2023-09-01 18:24:49,167,HP Kitchen-957,HP,Kitchen,Dmytro Melnyk,GigaTrade,Germany,Zaporizka,Zaporizhzhia,1,797.25,28.84,768.41,cash,wholesale
+853,2025-01-30 20:45:53,74,Huawei Headphones-802,Huawei,Headphones,Andriy Shevchenko,TechImport UA,Ukraine,Lvivska,Lviv,1,254.02,10.05,243.97,online,store
+854,2024-04-20 18:34:50,125,LG Networking-275,LG,Networking,Maria Bondar,USADirect,USA,Ivano-Frankivska,Ivano-Frankivsk,4,295.64,127.13,1055.43,cash,marketplace
+855,2024-08-06 11:22:37,65,Nikon Monitors-653,Nikon,Monitors,Volodymyr Ivanov,BalkanStore,Romania,Odeska,Odesa,4,747.65,1187.27,1803.33,cash,phone_order
+856,2023-01-13 09:55:29,23,Google Laptops-592,Google,Laptops,Andriy Shevchenko,EuroSupply,Poland,Kharkivska,Kharkiv,1,1585.79,213.56,1372.23,online,store
+857,2023-09-24 16:34:27,62,HP Monitors-433,HP,Monitors,Maria Bondar,EuroSupply,Poland,Vinnytska,Vinnytsia,2,618.36,201.4,1035.32,cash,wholesale
+858,2023-10-20 13:48:58,105,Philips Printers-735,Philips,Printers,Ivan Petrenko,GigaTrade,Germany,Poltavska,Poltava,2,477.33,6.8,947.86,online,wholesale
+859,2024-03-10 15:35:55,23,Google Laptops-592,Google,Laptops,Olena Koval,TechImport UA,Ukraine,Kharkivska,Kharkiv,1,2995.13,240.2,2754.93,online,marketplace
+860,2023-03-01 14:31:24,97,Sony Cameras-798,Sony,Cameras,Dmytro Melnyk,NordicParts,Sweden,Ternopilska,Ternopil,10,1201.03,5662.05,6348.25,card,phone_order
+861,2024-09-03 15:45:49,76,OnePlus Headphones-263,OnePlus,Headphones,Serhii Kravchenko,BalkanStore,Romania,Kharkivska,Kharkiv,1,400.14,53.43,346.71,online,wholesale
+862,2024-06-11 16:06:07,22,Apple Laptops-476,Apple,Laptops,Olena Koval,USADirect,USA,Dnipropetrovska,Dnipro,1,3406.56,567.18,2839.38,invoice,marketplace
+863,2023-08-08 17:33:36,37,Canon Accessorie-759,Canon,Accessories,Kateryna Marchenko,AsiaWholesale,China,Ternopilska,Ternopil,1,92.76,11.72,81.04,card,online_store
+864,2023-09-11 13:54:16,73,Canon Headphones-266,Canon,Headphones,Iryna Savchuk,TechImport UA,Ukraine,Vinnytska,Vinnytsia,2,331.14,89.94,572.34,invoice,marketplace
+865,2025-01-22 10:01:09,131,Huawei Networking-277,Huawei,Networking,Maria Bondar,LocalDistributor,Ukraine,Zaporizka,Zaporizhzhia,1,311.18,52.31,258.87,online,marketplace
+866,2025-02-17 11:22:27,22,Apple Laptops-476,Apple,Laptops,Iryna Savchuk,BalkanStore,Romania,Lvivska,Lviv,1,3371.49,329.33,3042.16,cash,wholesale
+867,2024-10-01 14:51:35,136,Bosch Storage-266,Bosch,Storage,Serhii Kravchenko,TechImport UA,Ukraine,Vinnytska,Vinnytsia,1,99.97,2.45,97.52,card,online_store
+868,2023-02-08 16:40:57,96,Seagate Cameras-392,Seagate,Cameras,Pavlo Boyko,TechImport UA,Ukraine,Lvivska,Lviv,1,699.31,112.33,586.98,invoice,marketplace
+869,2024-10-27 08:13:35,88,Apple Smartwatch-837,Apple,Smartwatches,Volodymyr Ivanov,BalkanStore,Romania,Zaporizka,Zaporizhzhia,1,360.24,14.2,346.04,online,wholesale
+870,2024-08-10 17:30:23,59,Acer Monitors-992,Acer,Monitors,Iryna Savchuk,EuroSupply,Poland,Lvivska,Lviv,4,75.58,4.33,297.99,online,marketplace
+871,2023-04-02 10:47:47,21,Xiaomi Laptops-918,Xiaomi,Laptops,Natalia Romanyuk,AsiaWholesale,China,Odeska,Odesa,10,1132.69,2031.58,9295.32,invoice,online_store
+872,2024-02-13 20:15:09,38,Seagate Home Appli-867,Seagate,Home Appliances,Volodymyr Ivanov,EuroSupply,Poland,Dnipropetrovska,Dnipro,4,764.54,333.19,2724.97,card,store
+873,2024-08-14 20:15:06,36,LG Accessorie-625,LG,Accessories,Maria Bondar,AsiaWholesale,China,Ternopilska,Ternopil,2,658.28,110.51,1206.05,online,online_store
+874,2023-09-16 13:04:29,67,Canon Monitors-919,Canon,Monitors,Ivan Petrenko,NordicParts,Sweden,Lvivska,Lviv,2,273.97,2.05,545.89,online,online_store
+875,2024-11-08 21:57:53,40,Acer Home Appli-622,Acer,Home Appliances,Iryna Savchuk,USADirect,USA,Ivano-Frankivska,Ivano-Frankivsk,1,204.11,31.19,172.92,cash,marketplace
+876,2023-03-04 13:49:15,97,Sony Cameras-798,Sony,Cameras,Andriy Shevchenko,EuroSupply,Poland,Poltavska,Poltava,1,1902.05,250.23,1651.82,online,online_store
+877,2024-07-17 08:46:49,32,Dell Accessorie-515,Dell,Accessories,Andriy Shevchenko,EuroSupply,Poland,Ivano-Frankivska,Ivano-Frankivsk,1,306.38,1.97,304.41,invoice,phone_order
+878,2023-03-03 21:11:55,180,Panasonic Wearables-938,Panasonic,Wearables,Olena Koval,EuroSupply,Poland,Ivano-Frankivska,Ivano-Frankivsk,2,433.87,38.22,829.52,card,online_store
+879,2023-02-09 09:33:55,133,Xiaomi Storage-122,Xiaomi,Storage,Iryna Savchuk,GigaTrade,Germany,Kyivska,Kyiv,1,553.58,1.33,552.25,card,marketplace
+880,2023-02-19 08:14:08,42,Google Home Appli-210,Google,Home Appliances,Andriy Shevchenko,LocalDistributor,Ukraine,Vinnytska,Vinnytsia,4,672.49,307.35,2382.61,online,marketplace
+881,2024-04-26 18:38:49,18,Apple Laptops-334,Apple,Laptops,Maria Bondar,EuroSupply,Poland,Ivano-Frankivska,Ivano-Frankivsk,1,913.48,4.85,908.63,online,store
+882,2023-09-02 20:32:35,37,Canon Accessorie-759,Canon,Accessories,Dmytro Melnyk,GigaTrade,Germany,Zaporizka,Zaporizhzhia,1,67.81,5.21,62.6,card,phone_order
+883,2024-06-08 08:49:27,73,Canon Headphones-266,Canon,Headphones,Pavlo Boyko,GigaTrade,Germany,Odeska,Odesa,1,589.35,0.99,588.36,card,phone_order
+884,2023-09-20 20:25:48,170,Lenovo Wearables-177,Lenovo,Wearables,Serhii Kravchenko,TechImport UA,Ukraine,Ternopilska,Ternopil,1,567.72,33.07,534.65,cash,online_store
+885,2023-05-07 21:56:51,110,Seagate Printers-127,Seagate,Printers,Dmytro Melnyk,LocalDistributor,Ukraine,Kyivska,Kyiv,2,1239.96,176.95,2302.97,cash,store
+886,2023-05-04 11:06:52,13,Bosch Smartphone-636,Bosch,Smartphones,Pavlo Boyko,EuroSupply,Poland,Ivano-Frankivska,Ivano-Frankivsk,1,1469.86,193.36,1276.5,invoice,wholesale
+887,2024-01-11 11:33:23,23,Google Laptops-592,Google,Laptops,Iryna Savchuk,LocalDistributor,Ukraine,Lvivska,Lviv,1,1764.11,189.41,1574.7,invoice,store
+888,2023-03-18 20:49:41,39,Google Home Appli-438,Google,Home Appliances,Kateryna Marchenko,GigaTrade,Germany,Kyivska,Kyiv,3,1425.13,466.33,3809.06,card,phone_order
+889,2024-11-02 11:40:24,87,Dell Smartwatch-751,Dell,Smartwatches,Serhii Kravchenko,TechImport UA,Ukraine,Ternopilska,Ternopil,2,433.72,88.43,779.01,online,online_store
+890,2024-02-21 21:50:11,105,Philips Printers-735,Philips,Printers,Ivan Petrenko,USADirect,USA,Odeska,Odesa,1,536.03,12.84,523.19,card,wholesale
+891,2023-05-14 17:58:20,110,Seagate Printers-127,Seagate,Printers,Ivan Petrenko,NordicParts,Sweden,Poltavska,Poltava,1,1841.36,200.67,1640.69,online,marketplace
+892,2024-11-24 08:03:15,91,Bosch Smartwatch-674,Bosch,Smartwatches,Pavlo Boyko,BalkanStore,Romania,Ivano-Frankivska,Ivano-Frankivsk,4,263.64,153.0,901.56,card,phone_order
+893,2023-06-24 11:58:02,172,OnePlus Wearables-286,OnePlus,Wearables,Pavlo Boyko,NordicParts,Sweden,Odeska,Odesa,4,321.54,109.58,1176.58,online,phone_order
+894,2023-07-27 10:50:47,114,Panasonic Printers-336,Panasonic,Printers,Olena Koval,BalkanStore,Romania,Vinnytska,Vinnytsia,1,1166.21,209.71,956.5,online,wholesale
+895,2023-10-13 19:06:33,159,Lenovo Kitchen-875,Lenovo,Kitchen,Dmytro Melnyk,USADirect,USA,Dnipropetrovska,Dnipro,1,337.01,30.0,307.01,card,marketplace
+896,2023-08-17 19:54:15,105,Philips Printers-735,Philips,Printers,Oksana Hladka,USADirect,USA,Vinnytska,Vinnytsia,3,405.9,52.34,1165.36,card,online_store
+897,2023-06-03 11:23:30,15,Sony Laptops-874,Sony,Laptops,Ivan Petrenko,GigaTrade,Germany,Kyivska,Kyiv,1,2649.46,1325.85,1323.61,online,wholesale
+898,2024-07-07 16:22:29,157,Huawei Kitchen-923,Huawei,Kitchen,Ivan Petrenko,BalkanStore,Romania,Dnipropetrovska,Dnipro,2,1172.33,302.39,2042.27,card,marketplace
+899,2023-12-04 09:02:12,106,Panasonic Printers-114,Panasonic,Printers,Iryna Savchuk,LocalDistributor,Ukraine,Kyivska,Kyiv,1,313.45,18.23,295.22,card,online_store
+900,2024-05-27 09:50:39,90,Sony Smartwatch-409,Sony,Smartwatches,Olena Koval,LocalDistributor,Ukraine,Odeska,Odesa,1,508.7,53.04,455.66,cash,phone_order
+901,2023-01-08 11:57:02,168,LG Kitchen-114,LG,Kitchen,Serhii Kravchenko,USADirect,USA,Vinnytska,Vinnytsia,5,791.6,255.91,3702.09,cash,marketplace
+902,2025-02-15 09:17:38,176,Panasonic Wearables-439,Panasonic,Wearables,Oksana Hladka,AsiaWholesale,China,Zaporizka,Zaporizhzhia,1,231.92,15.57,216.35,cash,store
+903,2024-03-18 19:50:57,180,Panasonic Wearables-938,Panasonic,Wearables,Ivan Petrenko,EuroSupply,Poland,Ivano-Frankivska,Ivano-Frankivsk,1,256.77,36.22,220.55,invoice,wholesale
+904,2024-05-28 08:46:55,39,Google Home Appli-438,Google,Home Appliances,Serhii Kravchenko,LocalDistributor,Ukraine,Vinnytska,Vinnytsia,1,909.31,92.61,816.7,cash,online_store
+905,2023-10-28 17:09:23,105,Philips Printers-735,Philips,Printers,Kateryna Marchenko,AsiaWholesale,China,Lvivska,Lviv,1,337.55,52.05,285.5,card,phone_order
+906,2024-07-12 13:29:21,129,LG Networking-145,LG,Networking,Andriy Shevchenko,NordicParts,Sweden,Dnipropetrovska,Dnipro,1,700.08,92.6,607.48,cash,marketplace
+907,2025-01-17 12:58:34,168,LG Kitchen-114,LG,Kitchen,Natalia Romanyuk,EuroSupply,Poland,Kyivska,Kyiv,1,720.89,109.66,611.23,cash,online_store
+908,2024-09-28 11:04:15,89,Apple Smartwatch-590,Apple,Smartwatches,Maria Bondar,NordicParts,Sweden,Zaporizka,Zaporizhzhia,2,505.82,92.1,919.54,invoice,phone_order
+909,2024-05-27 21:49:07,126,Samsung Networking-244,Samsung,Networking,Pavlo Boyko,NordicParts,Sweden,Lvivska,Lviv,3,369.56,29.36,1079.32,cash,phone_order
+910,2025-01-19 09:35:25,105,Philips Printers-735,Philips,Printers,Iryna Savchuk,GigaTrade,Germany,Odeska,Odesa,1,431.63,49.28,382.35,cash,marketplace
+911,2023-05-18 10:40:02,134,Nikon Storage-469,Nikon,Storage,Pavlo Boyko,TechImport UA,Ukraine,Poltavska,Poltava,2,137.86,8.66,267.06,online,store
+912,2024-12-27 09:34:55,97,Sony Cameras-798,Sony,Cameras,Maria Bondar,BalkanStore,Romania,Poltavska,Poltava,1,1377.71,1.66,1376.05,online,marketplace
+913,2024-09-16 16:00:44,74,Huawei Headphones-802,Huawei,Headphones,Maria Bondar,NordicParts,Sweden,Lvivska,Lviv,1,464.97,8.42,456.55,online,online_store
+914,2023-08-01 14:42:23,50,Microsoft Gaming-457,Microsoft,Gaming,Iryna Savchuk,USADirect,USA,Dnipropetrovska,Dnipro,1,273.11,2.77,270.34,online,wholesale
+915,2023-11-11 14:01:31,129,LG Networking-145,LG,Networking,Pavlo Boyko,NordicParts,Sweden,Lvivska,Lviv,1,440.6,63.51,377.09,card,phone_order
+916,2024-07-09 09:59:24,103,Dell Cameras-522,Dell,Cameras,Volodymyr Ivanov,NordicParts,Sweden,Ivano-Frankivska,Ivano-Frankivsk,1,1904.27,13.27,1891.0,online,online_store
+917,2023-08-01 15:11:31,55,Apple Gaming-626,Apple,Gaming,Ivan Petrenko,LocalDistributor,Ukraine,Dnipropetrovska,Dnipro,5,261.09,87.16,1218.29,cash,marketplace
+918,2023-02-27 20:07:47,8,Sony Smartphone-429,Sony,Smartphones,Serhii Kravchenko,EuroSupply,Poland,Kyivska,Kyiv,3,2141.9,1099.24,5326.46,cash,store
+919,2023-10-25 20:10:00,89,Apple Smartwatch-590,Apple,Smartwatches,Natalia Romanyuk,USADirect,USA,Dnipropetrovska,Dnipro,1,417.64,165.01,252.63,online,online_store
+920,2023-04-10 10:14:32,8,Sony Smartphone-429,Sony,Smartphones,Natalia Romanyuk,GigaTrade,Germany,Zaporizka,Zaporizhzhia,2,2590.89,410.0,4771.78,invoice,marketplace
+921,2023-12-28 20:25:36,72,Microsoft Headphones-325,Microsoft,Headphones,Maria Bondar,TechImport UA,Ukraine,Odeska,Odesa,1,50.08,2.58,47.5,cash,marketplace
+922,2024-11-05 21:58:29,167,HP Kitchen-957,HP,Kitchen,Pavlo Boyko,AsiaWholesale,China,Kyivska,Kyiv,3,944.99,249.67,2585.3,card,wholesale
+923,2024-03-03 08:02:26,92,LG Smartwatch-912,LG,Smartwatches,Volodymyr Ivanov,BalkanStore,Romania,Lvivska,Lviv,10,57.63,186.07,390.23,online,wholesale
+924,2023-06-29 14:29:46,181,Google Wearables-925,Google,Wearables,Andriy Shevchenko,GigaTrade,Germany,Lvivska,Lviv,10,227.07,348.75,1921.95,cash,phone_order
+925,2024-07-07 18:36:08,151,Bosch TV-909,Bosch,TV,Pavlo Boyko,BalkanStore,Romania,Kharkivska,Kharkiv,3,1350.1,127.74,3922.56,cash,store
+926,2025-01-06 08:00:00,148,Acer TV-633,Acer,TV,Oksana Hladka,TechImport UA,Ukraine,Kyivska,Kyiv,2,487.07,106.75,867.39,online,marketplace
+927,2024-08-04 16:34:43,42,Google Home Appli-210,Google,Home Appliances,Kateryna Marchenko,TechImport UA,Ukraine,Kyivska,Kyiv,2,1000.25,182.07,1818.43,cash,marketplace
+928,2023-09-25 13:29:56,20,Apple Laptops-828,Apple,Laptops,Olena Koval,TechImport UA,Ukraine,Odeska,Odesa,1,339.47,17.35,322.12,cash,phone_order
+929,2024-04-05 15:34:45,14,Canon Smartphone-337,Canon,Smartphones,Iryna Savchuk,BalkanStore,Romania,Ivano-Frankivska,Ivano-Frankivsk,1,2728.73,263.55,2465.18,cash,marketplace
+930,2024-10-07 20:04:01,86,Asus Smartwatch-731,Asus,Smartwatches,Ivan Petrenko,TechImport UA,Ukraine,Vinnytska,Vinnytsia,3,95.63,25.34,261.55,cash,online_store
+931,2025-01-09 19:03:55,43,HP Home Appli-825,HP,Home Appliances,Maria Bondar,LocalDistributor,Ukraine,Vinnytska,Vinnytsia,1,523.11,10.87,512.24,card,marketplace
+932,2024-08-24 21:37:06,179,Nikon Wearables-414,Nikon,Wearables,Volodymyr Ivanov,USADirect,USA,Kharkivska,Kharkiv,4,318.45,133.25,1140.55,invoice,marketplace
+933,2023-11-25 08:47:46,141,Acer Storage-629,Acer,Storage,Andriy Shevchenko,BalkanStore,Romania,Zaporizka,Zaporizhzhia,2,695.34,178.03,1212.65,online,online_store
+934,2024-09-13 12:21:12,120,Apple Networking-367,Apple,Networking,Pavlo Boyko,NordicParts,Sweden,Ivano-Frankivska,Ivano-Frankivsk,1,105.51,15.4,90.11,online,wholesale
+935,2023-07-06 16:04:13,44,Dell Home Appli-802,Dell,Home Appliances,Kateryna Marchenko,LocalDistributor,Ukraine,Kharkivska,Kharkiv,1,934.74,3.36,931.38,online,marketplace
+936,2023-04-19 21:16:31,176,Panasonic Wearables-439,Panasonic,Wearables,Dmytro Melnyk,BalkanStore,Romania,Vinnytska,Vinnytsia,1,198.21,17.51,180.7,card,phone_order
+937,2025-02-07 15:48:04,33,Panasonic Accessorie-349,Panasonic,Accessories,Oksana Hladka,AsiaWholesale,China,Kyivska,Kyiv,1,385.74,56.66,329.08,invoice,wholesale
+938,2023-03-24 16:24:31,73,Canon Headphones-266,Canon,Headphones,Natalia Romanyuk,USADirect,USA,Ivano-Frankivska,Ivano-Frankivsk,1,452.46,67.55,384.91,cash,store
+939,2024-02-02 11:44:27,130,Apple Networking-487,Apple,Networking,Ivan Petrenko,NordicParts,Sweden,Lvivska,Lviv,2,88.01,31.15,144.87,online,marketplace
+940,2024-01-11 08:47:20,52,Xiaomi Gaming-477,Xiaomi,Gaming,Kateryna Marchenko,TechImport UA,Ukraine,Zaporizka,Zaporizhzhia,1,784.27,313.38,470.89,card,online_store
+941,2024-10-12 10:09:35,85,Panasonic Smartwatch-679,Panasonic,Smartwatches,Ivan Petrenko,USADirect,USA,Ternopilska,Ternopil,1,225.76,14.01,211.75,invoice,phone_order
+942,2023-08-20 14:04:24,47,Dell Home Appli-324,Dell,Home Appliances,Maria Bondar,USADirect,USA,Kharkivska,Kharkiv,2,597.38,204.52,990.24,invoice,online_store
+943,2024-07-24 08:41:52,136,Bosch Storage-266,Bosch,Storage,Pavlo Boyko,LocalDistributor,Ukraine,Kharkivska,Kharkiv,5,83.32,5.55,411.05,invoice,online_store
+944,2024-04-05 10:09:20,101,Microsoft Cameras-262,Microsoft,Cameras,Volodymyr Ivanov,BalkanStore,Romania,Dnipropetrovska,Dnipro,1,3391.29,489.55,2901.74,card,store
+945,2024-01-22 16:49:45,79,Sony Smartwatch-330,Sony,Smartwatches,Andriy Shevchenko,TechImport UA,Ukraine,Ternopilska,Ternopil,1,454.75,10.73,444.02,cash,online_store
+946,2024-06-09 11:28:24,109,Canon Printers-462,Canon,Printers,Maria Bondar,GigaTrade,Germany,Poltavska,Poltava,1,801.77,139.3,662.47,invoice,wholesale
+947,2024-06-20 10:30:36,139,Dell Storage-800,Dell,Storage,Dmytro Melnyk,NordicParts,Sweden,Vinnytska,Vinnytsia,1,104.28,9.3,94.98,card,wholesale
+948,2023-05-15 13:13:38,171,Sony Wearables-512,Sony,Wearables,Dmytro Melnyk,BalkanStore,Romania,Dnipropetrovska,Dnipro,1,32.26,4.07,28.19,card,marketplace
+949,2024-12-27 09:28:31,50,Microsoft Gaming-457,Microsoft,Gaming,Iryna Savchuk,TechImport UA,Ukraine,Odeska,Odesa,1,280.02,6.4,273.62,invoice,phone_order
+950,2024-09-05 19:53:05,124,Huawei Networking-757,Huawei,Networking,Serhii Kravchenko,AsiaWholesale,China,Kyivska,Kyiv,2,282.02,26.16,537.88,online,wholesale
+951,2023-05-10 19:06:54,70,Seagate Headphones-152,Seagate,Headphones,Oksana Hladka,USADirect,USA,Ivano-Frankivska,Ivano-Frankivsk,1,144.65,17.34,127.31,card,online_store
+952,2023-02-05 21:19:52,62,HP Monitors-433,HP,Monitors,Ivan Petrenko,GigaTrade,Germany,Odeska,Odesa,2,441.74,7.87,875.61,online,phone_order
+953,2024-01-17 14:21:13,46,Acer Home Appli-591,Acer,Home Appliances,Ivan Petrenko,LocalDistributor,Ukraine,Ternopilska,Ternopil,5,1507.5,1238.38,6299.12,online,store
+954,2023-07-24 17:53:34,168,LG Kitchen-114,LG,Kitchen,Kateryna Marchenko,TechImport UA,Ukraine,Vinnytska,Vinnytsia,2,588.6,39.02,1138.18,card,wholesale
+955,2023-11-22 22:35:03,167,HP Kitchen-957,HP,Kitchen,Volodymyr Ivanov,EuroSupply,Poland,Kyivska,Kyiv,4,944.99,165.0,3614.96,online,online_store
+956,2024-11-15 20:21:18,2,Nikon Smartphone-376,Nikon,Smartphones,Natalia Romanyuk,NordicParts,Sweden,Lvivska,Lviv,2,2238.78,559.38,3918.18,cash,marketplace
+957,2024-10-15 11:50:24,161,Apple Kitchen-698,Apple,Kitchen,Andriy Shevchenko,EuroSupply,Poland,Poltavska,Poltava,10,584.89,980.42,4868.48,card,marketplace
+958,2023-04-23 16:37:53,161,Apple Kitchen-698,Apple,Kitchen,Andriy Shevchenko,NordicParts,Sweden,Lvivska,Lviv,2,812.8,81.84,1543.76,cash,phone_order
+959,2024-12-18 14:08:06,71,Sony Headphones-571,Sony,Headphones,Serhii Kravchenko,AsiaWholesale,China,Poltavska,Poltava,5,273.1,26.99,1338.51,invoice,phone_order
+960,2024-09-28 21:11:51,181,Google Wearables-925,Google,Wearables,Dmytro Melnyk,TechImport UA,Ukraine,Zaporizka,Zaporizhzhia,2,344.34,98.18,590.5,card,marketplace
+961,2024-04-15 13:53:52,176,Panasonic Wearables-439,Panasonic,Wearables,Natalia Romanyuk,TechImport UA,Ukraine,Kharkivska,Kharkiv,1,334.82,45.54,289.28,cash,online_store
+962,2024-11-13 16:23:13,133,Xiaomi Storage-122,Xiaomi,Storage,Serhii Kravchenko,GigaTrade,Germany,Vinnytska,Vinnytsia,2,748.49,633.68,863.3,cash,marketplace
+963,2023-06-28 09:26:26,46,Acer Home Appli-591,Acer,Home Appliances,Pavlo Boyko,EuroSupply,Poland,Odeska,Odesa,2,1055.72,237.08,1874.36,online,online_store
+964,2023-09-23 08:33:39,55,Apple Gaming-626,Apple,Gaming,Oksana Hladka,LocalDistributor,Ukraine,Dnipropetrovska,Dnipro,2,196.13,20.9,371.36,invoice,marketplace
+965,2024-05-12 17:42:06,18,Apple Laptops-334,Apple,Laptops,Kateryna Marchenko,AsiaWholesale,China,Ivano-Frankivska,Ivano-Frankivsk,1,648.73,107.99,540.74,online,phone_order
+966,2024-09-02 12:54:14,125,LG Networking-275,LG,Networking,Andriy Shevchenko,GigaTrade,Germany,Ternopilska,Ternopil,2,251.69,17.05,486.33,invoice,marketplace
+967,2024-11-18 17:53:05,59,Acer Monitors-992,Acer,Monitors,Serhii Kravchenko,USADirect,USA,Kharkivska,Kharkiv,5,71.12,0.7,354.9,online,online_store
+968,2024-08-20 12:20:10,171,Sony Wearables-512,Sony,Wearables,Dmytro Melnyk,AsiaWholesale,China,Dnipropetrovska,Dnipro,3,24.15,7.76,64.69,invoice,store
+969,2024-01-23 13:11:24,21,Xiaomi Laptops-918,Xiaomi,Laptops,Iryna Savchuk,TechImport UA,Ukraine,Ivano-Frankivska,Ivano-Frankivsk,1,1805.69,260.88,1544.81,invoice,store
+970,2024-12-19 09:51:07,144,Asus Storage-613,Asus,Storage,Serhii Kravchenko,USADirect,USA,Kyivska,Kyiv,1,493.18,81.44,411.74,online,store
+971,2024-01-10 10:45:43,178,Asus Wearables-833,Asus,Wearables,Pavlo Boyko,USADirect,USA,Lvivska,Lviv,2,265.47,48.32,482.62,online,store
+972,2023-01-26 13:43:14,150,Dell TV-222,Dell,TV,Pavlo Boyko,TechImport UA,Ukraine,Odeska,Odesa,1,789.33,136.22,653.11,invoice,online_store
+973,2023-11-29 13:32:44,30,HP Accessorie-607,HP,Accessories,Iryna Savchuk,LocalDistributor,Ukraine,Poltavska,Poltava,1,15.01,1.82,13.19,invoice,marketplace
+974,2023-06-11 12:51:45,133,Xiaomi Storage-122,Xiaomi,Storage,Dmytro Melnyk,USADirect,USA,Ternopilska,Ternopil,2,441.47,117.75,765.19,invoice,store
+975,2024-10-03 15:37:50,104,Xiaomi Printers-804,Xiaomi,Printers,Iryna Savchuk,USADirect,USA,Ivano-Frankivska,Ivano-Frankivsk,1,1494.16,36.01,1458.15,cash,online_store
+976,2023-08-12 14:59:09,105,Philips Printers-735,Philips,Printers,Dmytro Melnyk,GigaTrade,Germany,Ternopilska,Ternopil,1,305.85,26.26,279.59,cash,store
+977,2024-03-30 13:40:12,17,HP Laptops-268,HP,Laptops,Kateryna Marchenko,AsiaWholesale,China,Ternopilska,Ternopil,1,396.12,54.5,341.62,cash,phone_order
+978,2024-06-09 14:03:03,77,Apple Headphones-174,Apple,Headphones,Kateryna Marchenko,EuroSupply,Poland,Poltavska,Poltava,1,391.68,64.98,326.7,cash,wholesale
+979,2024-03-29 21:31:35,30,HP Accessorie-607,HP,Accessories,Olena Koval,GigaTrade,Germany,Ternopilska,Ternopil,1,12.05,5.27,6.78,online,phone_order
+980,2025-01-17 17:35:15,83,Nikon Smartwatch-605,Nikon,Smartwatches,Olena Koval,BalkanStore,Romania,Odeska,Odesa,1,191.99,6.29,185.7,cash,phone_order
+981,2024-06-01 15:08:59,4,Dell Smartphone-278,Dell,Smartphones,Kateryna Marchenko,BalkanStore,Romania,Poltavska,Poltava,1,2356.65,237.82,2118.83,cash,marketplace
+982,2023-12-11 11:05:16,114,Panasonic Printers-336,Panasonic,Printers,Volodymyr Ivanov,BalkanStore,Romania,Lvivska,Lviv,1,1033.3,490.65,542.65,invoice,phone_order
+983,2024-11-22 14:06:27,70,Seagate Headphones-152,Seagate,Headphones,Maria Bondar,GigaTrade,Germany,Lvivska,Lviv,1,115.99,1.55,114.44,online,phone_order
+984,2023-11-24 11:58:50,73,Canon Headphones-266,Canon,Headphones,Natalia Romanyuk,TechImport UA,Ukraine,Poltavska,Poltava,1,453.2,40.83,412.37,invoice,marketplace
+985,2024-01-14 10:57:05,107,Asus Printers-376,Asus,Printers,Dmytro Melnyk,TechImport UA,Ukraine,Vinnytska,Vinnytsia,2,992.39,104.41,1880.37,card,store
+986,2023-10-02 10:56:46,130,Apple Networking-487,Apple,Networking,Volodymyr Ivanov,AsiaWholesale,China,Dnipropetrovska,Dnipro,1,70.45,2.61,67.84,online,phone_order
+987,2023-04-08 08:05:46,43,HP Home Appli-825,HP,Home Appliances,Iryna Savchuk,GigaTrade,Germany,Ivano-Frankivska,Ivano-Frankivsk,2,371.76,7.68,735.84,card,marketplace
+988,2024-06-09 20:32:57,68,Bosch Headphones-158,Bosch,Headphones,Dmytro Melnyk,AsiaWholesale,China,Vinnytska,Vinnytsia,2,478.97,134.1,823.84,online,marketplace
+989,2024-06-08 11:44:52,131,Huawei Networking-277,Huawei,Networking,Maria Bondar,USADirect,USA,Dnipropetrovska,Dnipro,4,342.13,186.33,1182.19,invoice,marketplace
+990,2024-12-17 12:25:25,90,Sony Smartwatch-409,Sony,Smartwatches,Kateryna Marchenko,USADirect,USA,Lvivska,Lviv,1,595.93,78.77,517.16,card,store
+991,2023-11-07 15:27:42,140,OnePlus Storage-358,OnePlus,Storage,Dmytro Melnyk,BalkanStore,Romania,Vinnytska,Vinnytsia,1,570.41,28.76,541.65,card,online_store
+992,2023-10-01 20:24:14,109,Canon Printers-462,Canon,Printers,Natalia Romanyuk,AsiaWholesale,China,Poltavska,Poltava,1,498.43,47.56,450.87,online,store
+993,2023-02-06 18:36:31,104,Xiaomi Printers-804,Xiaomi,Printers,Oksana Hladka,TechImport UA,Ukraine,Poltavska,Poltava,1,1871.48,76.44,1795.04,invoice,phone_order
+994,2024-03-27 19:41:28,32,Dell Accessorie-515,Dell,Accessories,Kateryna Marchenko,BalkanStore,Romania,Kyivska,Kyiv,1,211.02,0.67,210.35,cash,phone_order
+995,2024-05-18 09:04:18,51,Acer Gaming-966,Acer,Gaming,Dmytro Melnyk,NordicParts,Sweden,Kyivska,Kyiv,1,836.61,115.92,720.69,cash,store
+996,2024-12-03 11:26:20,127,Sony Networking-316,Sony,Networking,Natalia Romanyuk,NordicParts,Sweden,Zaporizka,Zaporizhzhia,1,714.73,110.45,604.28,cash,store
+997,2024-01-01 16:23:00,8,Sony Smartphone-429,Sony,Smartphones,Ivan Petrenko,BalkanStore,Romania,Vinnytska,Vinnytsia,1,2279.27,162.58,2116.69,online,marketplace
+998,2024-09-21 16:10:02,173,Dell Wearables-250,Dell,Wearables,Volodymyr Ivanov,GigaTrade,Germany,Kyivska,Kyiv,1,268.82,7.21,261.61,invoice,wholesale
+999,2023-01-22 15:39:40,168,LG Kitchen-114,LG,Kitchen,Dmytro Melnyk,BalkanStore,Romania,Dnipropetrovska,Dnipro,1,482.05,31.66,450.39,invoice,phone_order
+1000,2024-09-07 08:37:21,153,Apple TV-828,Apple,TV,Serhii Kravchenko,AsiaWholesale,China,Dnipropetrovska,Dnipro,5,1350.74,721.08,6032.62,cash,store
+1001,2023-03-28 13:04:23,163,Philips Kitchen-554,Philips,Kitchen,Iryna Savchuk,AsiaWholesale,China,Ivano-Frankivska,Ivano-Frankivsk,1,219.37,31.37,188.0,cash,marketplace
+1002,2023-07-22 09:15:23,125,LG Networking-275,LG,Networking,Maria Bondar,GigaTrade,Germany,Zaporizka,Zaporizhzhia,5,210.36,14.34,1037.46,cash,wholesale
+1003,2023-11-19 19:48:27,34,Apple Accessorie-280,Apple,Accessories,Andriy Shevchenko,USADirect,USA,Lvivska,Lviv,1,317.6,11.63,305.97,online,phone_order
+1004,2023-01-20 10:46:37,145,Xiaomi Storage-700,Xiaomi,Storage,Dmytro Melnyk,TechImport UA,Ukraine,Poltavska,Poltava,1,499.06,82.57,416.49,invoice,phone_order
+1005,2023-06-03 11:27:03,106,Panasonic Printers-114,Panasonic,Printers,Natalia Romanyuk,NordicParts,Sweden,Lvivska,Lviv,1,236.69,26.54,210.15,cash,wholesale
+1006,2023-12-30 13:35:21,60,Lenovo Monitors-662,Lenovo,Monitors,Oksana Hladka,TechImport UA,Ukraine,Vinnytska,Vinnytsia,2,431.14,113.84,748.44,invoice,store
+1007,2024-01-24 10:58:35,73,Canon Headphones-266,Canon,Headphones,Serhii Kravchenko,EuroSupply,Poland,Ivano-Frankivska,Ivano-Frankivsk,1,361.36,40.18,321.18,invoice,marketplace
+1008,2023-06-15 13:45:37,104,Xiaomi Printers-804,Xiaomi,Printers,Andriy Shevchenko,TechImport UA,Ukraine,Kyivska,Kyiv,1,1008.78,7.12,1001.66,online,marketplace
+1009,2024-09-21 17:34:25,123,Canon Networking-694,Canon,Networking,Kateryna Marchenko,LocalDistributor,Ukraine,Ternopilska,Ternopil,1,405.08,32.46,372.62,online,store
+1010,2024-04-18 20:08:01,20,Apple Laptops-828,Apple,Laptops,Pavlo Boyko,EuroSupply,Poland,Lvivska,Lviv,2,592.8,80.17,1105.43,cash,online_store
+1011,2023-01-05 14:21:47,134,Nikon Storage-469,Nikon,Storage,Ivan Petrenko,TechImport UA,Ukraine,Dnipropetrovska,Dnipro,2,99.8,30.1,169.5,card,phone_order
+1012,2025-01-09 11:17:47,38,Seagate Home Appli-867,Seagate,Home Appliances,Ivan Petrenko,GigaTrade,Germany,Lvivska,Lviv,1,812.03,94.11,717.92,card,store
+1013,2023-08-10 10:56:19,76,OnePlus Headphones-263,OnePlus,Headphones,Serhii Kravchenko,BalkanStore,Romania,Odeska,Odesa,1,357.84,7.07,350.77,invoice,phone_order
+1014,2025-01-27 08:12:24,50,Microsoft Gaming-457,Microsoft,Gaming,Dmytro Melnyk,AsiaWholesale,China,Zaporizka,Zaporizhzhia,3,334.55,107.28,896.37,card,marketplace
+1015,2024-07-16 15:41:06,21,Xiaomi Laptops-918,Xiaomi,Laptops,Natalia Romanyuk,LocalDistributor,Ukraine,Vinnytska,Vinnytsia,2,1815.67,84.62,3546.72,online,wholesale
+1016,2023-01-21 10:11:48,5,OnePlus Smartphone-855,OnePlus,Smartphones,Maria Bondar,BalkanStore,Romania,Kyivska,Kyiv,4,1139.47,147.67,4410.21,online,online_store
+1017,2023-01-08 08:29:49,107,Asus Printers-376,Asus,Printers,Olena Koval,LocalDistributor,Ukraine,Lvivska,Lviv,2,1198.72,201.54,2195.9,invoice,online_store
+1018,2024-08-10 13:18:47,182,Samsung Wearables-930,Samsung,Wearables,Maria Bondar,GigaTrade,Germany,Zaporizka,Zaporizhzhia,1,71.5,10.09,61.41,online,phone_order
+1019,2023-12-05 10:46:11,82,Lenovo Smartwatch-625,Lenovo,Smartwatches,Ivan Petrenko,AsiaWholesale,China,Vinnytska,Vinnytsia,1,332.81,6.93,325.88,card,marketplace
+1020,2023-12-10 09:53:41,107,Asus Printers-376,Asus,Printers,Ivan Petrenko,EuroSupply,Poland,Kyivska,Kyiv,1,1175.54,177.15,998.39,card,online_store
+1021,2025-01-18 17:41:45,99,Huawei Cameras-386,Huawei,Cameras,Volodymyr Ivanov,NordicParts,Sweden,Dnipropetrovska,Dnipro,2,2425.61,791.08,4060.14,cash,online_store
+1022,2024-11-07 17:50:46,53,Philips Gaming-183,Philips,Gaming,Dmytro Melnyk,TechImport UA,Ukraine,Poltavska,Poltava,10,235.25,41.57,2310.93,cash,wholesale
+1023,2025-02-04 08:47:57,25,Seagate Laptops-663,Seagate,Laptops,Volodymyr Ivanov,TechImport UA,Ukraine,Ternopilska,Ternopil,1,3095.51,692.63,2402.88,card,store
+1024,2023-10-02 21:49:47,148,Acer TV-633,Acer,TV,Iryna Savchuk,LocalDistributor,Ukraine,Ivano-Frankivska,Ivano-Frankivsk,1,555.55,11.82,543.73,online,store
+1025,2024-10-20 21:43:04,176,Panasonic Wearables-439,Panasonic,Wearables,Maria Bondar,GigaTrade,Germany,Ternopilska,Ternopil,2,278.8,23.76,533.84,card,store
+1026,2024-04-08 10:03:22,60,Lenovo Monitors-662,Lenovo,Monitors,Volodymyr Ivanov,USADirect,USA,Vinnytska,Vinnytsia,2,532.8,35.44,1030.16,online,online_store
+1027,2023-07-08 14:47:06,55,Apple Gaming-626,Apple,Gaming,Iryna Savchuk,BalkanStore,Romania,Ivano-Frankivska,Ivano-Frankivsk,1,204.65,8.23,196.42,invoice,wholesale
+1028,2024-04-22 18:03:02,158,Sony Kitchen-279,Sony,Kitchen,Natalia Romanyuk,EuroSupply,Poland,Kharkivska,Kharkiv,4,267.33,88.68,980.64,online,store
+1029,2024-01-16 21:34:24,64,Nikon Monitors-988,Nikon,Monitors,Natalia Romanyuk,EuroSupply,Poland,Dnipropetrovska,Dnipro,1,713.31,244.01,469.3,invoice,marketplace
+1030,2023-03-09 14:44:41,166,Google Kitchen-354,Google,Kitchen,Oksana Hladka,BalkanStore,Romania,Kharkivska,Kharkiv,1,793.94,103.18,690.76,online,wholesale
+1031,2024-04-30 17:40:27,154,Philips TV-597,Philips,TV,Andriy Shevchenko,GigaTrade,Germany,Vinnytska,Vinnytsia,1,1859.58,106.21,1753.37,cash,marketplace
+1032,2024-07-08 08:44:53,69,Lenovo Headphones-221,Lenovo,Headphones,Dmytro Melnyk,AsiaWholesale,China,Lvivska,Lviv,3,317.93,154.45,799.34,cash,online_store
+1033,2024-03-31 20:09:09,11,Huawei Smartphone-201,Huawei,Smartphones,Dmytro Melnyk,EuroSupply,Poland,Lvivska,Lviv,1,800.61,90.82,709.79,card,wholesale
+1034,2023-11-01 18:54:48,35,Asus Accessorie-796,Asus,Accessories,Kateryna Marchenko,TechImport UA,Ukraine,Zaporizka,Zaporizhzhia,4,145.82,104.56,478.72,online,phone_order
+1035,2024-08-27 10:44:34,94,Huawei Cameras-903,Huawei,Cameras,Andriy Shevchenko,GigaTrade,Germany,Lvivska,Lviv,1,1398.57,139.42,1259.15,online,phone_order
+1036,2024-08-15 09:33:27,97,Sony Cameras-798,Sony,Cameras,Maria Bondar,NordicParts,Sweden,Ivano-Frankivska,Ivano-Frankivsk,1,1765.68,256.99,1508.69,cash,phone_order
+1037,2023-10-26 11:27:23,155,Microsoft Kitchen-147,Microsoft,Kitchen,Ivan Petrenko,USADirect,USA,Ternopilska,Ternopil,3,321.07,4.56,958.65,cash,online_store
+1038,2024-06-25 12:43:20,130,Apple Networking-487,Apple,Networking,Olena Koval,BalkanStore,Romania,Kyivska,Kyiv,1,71.26,0.16,71.1,cash,marketplace
+1039,2025-01-28 08:11:05,5,OnePlus Smartphone-855,OnePlus,Smartphones,Kateryna Marchenko,NordicParts,Sweden,Zaporizka,Zaporizhzhia,1,794.09,134.2,659.89,card,online_store
+1040,2023-05-30 08:08:37,21,Xiaomi Laptops-918,Xiaomi,Laptops,Olena Koval,NordicParts,Sweden,Odeska,Odesa,3,957.82,413.07,2460.39,invoice,wholesale
+1041,2024-02-09 14:06:48,32,Dell Accessorie-515,Dell,Accessories,Ivan Petrenko,BalkanStore,Romania,Lvivska,Lviv,1,244.4,9.12,235.28,invoice,online_store
+1042,2023-12-20 11:02:11,50,Microsoft Gaming-457,Microsoft,Gaming,Natalia Romanyuk,GigaTrade,Germany,Dnipropetrovska,Dnipro,1,212.4,9.52,202.88,invoice,marketplace
+1043,2023-04-25 19:23:26,142,Nikon Storage-666,Nikon,Storage,Pavlo Boyko,EuroSupply,Poland,Kharkivska,Kharkiv,1,549.48,86.49,462.99,card,online_store
+1044,2024-03-10 20:29:59,34,Apple Accessorie-280,Apple,Accessories,Ivan Petrenko,BalkanStore,Romania,Vinnytska,Vinnytsia,2,222.93,59.63,386.23,invoice,online_store
+1045,2025-02-12 10:38:54,49,Lenovo Gaming-292,Lenovo,Gaming,Andriy Shevchenko,USADirect,USA,Vinnytska,Vinnytsia,3,514.13,167.36,1375.03,card,wholesale
+1046,2024-04-16 10:47:25,98,Bosch Cameras-755,Bosch,Cameras,Iryna Savchuk,LocalDistributor,Ukraine,Dnipropetrovska,Dnipro,1,2717.93,17.49,2700.44,cash,online_store
+1047,2023-05-09 17:34:22,58,Dell Monitors-467,Dell,Monitors,Maria Bondar,LocalDistributor,Ukraine,Poltavska,Poltava,1,438.25,39.32,398.93,card,store
+1048,2024-11-03 12:15:27,87,Dell Smartwatch-751,Dell,Smartwatches,Natalia Romanyuk,LocalDistributor,Ukraine,Kharkivska,Kharkiv,1,277.87,46.95,230.92,card,phone_order
+1049,2023-02-07 11:45:30,106,Panasonic Printers-114,Panasonic,Printers,Iryna Savchuk,AsiaWholesale,China,Lvivska,Lviv,1,272.09,31.44,240.65,online,wholesale
+1050,2024-04-02 11:12:03,169,Nikon Kitchen-814,Nikon,Kitchen,Dmytro Melnyk,LocalDistributor,Ukraine,Dnipropetrovska,Dnipro,1,355.12,1.65,353.47,online,phone_order
+1051,2024-08-14 16:52:58,24,Samsung Laptops-603,Samsung,Laptops,Serhii Kravchenko,USADirect,USA,Ivano-Frankivska,Ivano-Frankivsk,3,436.53,46.61,1262.98,online,phone_order
+1052,2023-06-14 15:30:14,53,Philips Gaming-183,Philips,Gaming,Natalia Romanyuk,LocalDistributor,Ukraine,Lvivska,Lviv,1,242.97,0.41,242.56,cash,online_store
+1053,2023-08-21 10:09:43,74,Huawei Headphones-802,Huawei,Headphones,Ivan Petrenko,TechImport UA,Ukraine,Poltavska,Poltava,4,294.75,39.05,1139.95,card,wholesale
+1054,2024-01-13 21:28:33,29,Acer Laptops-192,Acer,Laptops,Serhii Kravchenko,EuroSupply,Poland,Kharkivska,Kharkiv,1,647.16,107.55,539.61,invoice,marketplace
+1055,2023-02-02 10:26:03,50,Microsoft Gaming-457,Microsoft,Gaming,Volodymyr Ivanov,EuroSupply,Poland,Lvivska,Lviv,1,276.45,19.93,256.52,invoice,online_store
+1056,2024-01-28 13:01:22,78,Lenovo Smartwatch-680,Lenovo,Smartwatches,Kateryna Marchenko,AsiaWholesale,China,Odeska,Odesa,1,87.84,5.05,82.79,cash,store
+1057,2024-01-15 19:20:56,79,Sony Smartwatch-330,Sony,Smartwatches,Andriy Shevchenko,NordicParts,Sweden,Ternopilska,Ternopil,2,579.3,201.04,957.56,invoice,phone_order
+1058,2023-05-24 17:27:01,148,Acer TV-633,Acer,TV,Serhii Kravchenko,TechImport UA,Ukraine,Odeska,Odesa,1,502.25,87.72,414.53,invoice,online_store
+1059,2024-02-09 12:48:39,165,Canon Kitchen-857,Canon,Kitchen,Dmytro Melnyk,EuroSupply,Poland,Kharkivska,Kharkiv,1,2051.23,55.1,1996.13,invoice,store
+1060,2023-11-28 10:02:35,20,Apple Laptops-828,Apple,Laptops,Andriy Shevchenko,USADirect,USA,Vinnytska,Vinnytsia,1,346.94,32.53,314.41,online,phone_order
+1061,2024-12-30 19:52:54,106,Panasonic Printers-114,Panasonic,Printers,Volodymyr Ivanov,NordicParts,Sweden,Poltavska,Poltava,3,251.31,105.63,648.3,card,marketplace
+1062,2024-10-03 12:01:06,86,Asus Smartwatch-731,Asus,Smartwatches,Pavlo Boyko,TechImport UA,Ukraine,Kyivska,Kyiv,1,140.15,0.45,139.7,online,marketplace
+1063,2023-03-14 10:44:01,160,Dell Kitchen-645,Dell,Kitchen,Iryna Savchuk,NordicParts,Sweden,Ternopilska,Ternopil,1,172.39,20.87,151.52,card,wholesale
+1064,2024-06-07 09:23:46,93,Dell Smartwatch-105,Dell,Smartwatches,Pavlo Boyko,EuroSupply,Poland,Poltavska,Poltava,1,357.94,60.56,297.38,card,wholesale
+1065,2023-10-11 20:29:37,11,Huawei Smartphone-201,Huawei,Smartphones,Serhii Kravchenko,LocalDistributor,Ukraine,Odeska,Odesa,1,980.35,102.62,877.73,invoice,phone_order
+1066,2024-03-28 21:33:05,164,Xiaomi Kitchen-259,Xiaomi,Kitchen,Natalia Romanyuk,BalkanStore,Romania,Kyivska,Kyiv,4,789.17,67.07,3089.61,online,phone_order
+1067,2024-12-26 08:18:27,90,Sony Smartwatch-409,Sony,Smartwatches,Olena Koval,TechImport UA,Ukraine,Dnipropetrovska,Dnipro,2,734.11,188.4,1279.82,invoice,wholesale
+1068,2023-07-04 10:08:28,44,Dell Home Appli-802,Dell,Home Appliances,Natalia Romanyuk,TechImport UA,Ukraine,Kharkivska,Kharkiv,1,920.15,93.92,826.23,invoice,phone_order
+1069,2023-12-31 10:45:14,19,OnePlus Laptops-495,OnePlus,Laptops,Olena Koval,AsiaWholesale,China,Zaporizka,Zaporizhzhia,2,1074.59,354.61,1794.57,invoice,marketplace
+1070,2024-08-02 20:42:42,170,Lenovo Wearables-177,Lenovo,Wearables,Natalia Romanyuk,AsiaWholesale,China,Zaporizka,Zaporizhzhia,3,425.3,86.02,1189.88,invoice,wholesale
+1071,2023-01-27 18:33:26,106,Panasonic Printers-114,Panasonic,Printers,Volodymyr Ivanov,USADirect,USA,Kyivska,Kyiv,1,234.23,4.19,230.04,online,phone_order
+1072,2023-12-11 10:54:54,153,Apple TV-828,Apple,TV,Oksana Hladka,TechImport UA,Ukraine,Kyivska,Kyiv,1,918.94,53.18,865.76,online,store
+1073,2024-11-25 20:27:30,128,Nikon Networking-818,Nikon,Networking,Pavlo Boyko,USADirect,USA,Ternopilska,Ternopil,5,59.08,20.03,275.37,online,marketplace
+1074,2023-01-12 20:38:08,57,Lenovo Monitors-692,Lenovo,Monitors,Ivan Petrenko,AsiaWholesale,China,Zaporizka,Zaporizhzhia,1,397.28,23.59,373.69,invoice,online_store
+1075,2023-12-24 15:11:36,182,Samsung Wearables-930,Samsung,Wearables,Dmytro Melnyk,TechImport UA,Ukraine,Zaporizka,Zaporizhzhia,2,70.49,14.92,126.06,card,store
+1076,2024-07-08 12:26:44,157,Huawei Kitchen-923,Huawei,Kitchen,Natalia Romanyuk,GigaTrade,Germany,Kyivska,Kyiv,5,953.97,508.33,4261.52,invoice,wholesale
+1077,2024-06-28 19:05:07,177,Bosch Wearables-517,Bosch,Wearables,Maria Bondar,BalkanStore,Romania,Poltavska,Poltava,1,186.46,7.68,178.78,card,wholesale
+1078,2024-04-13 13:44:23,30,HP Accessorie-607,HP,Accessories,Natalia Romanyuk,EuroSupply,Poland,Vinnytska,Vinnytsia,2,14.05,4.25,23.85,cash,wholesale
+1079,2025-01-27 20:40:48,165,Canon Kitchen-857,Canon,Kitchen,Maria Bondar,USADirect,USA,Kyivska,Kyiv,1,1747.75,7.08,1740.67,online,store
+1080,2024-01-27 12:15:15,50,Microsoft Gaming-457,Microsoft,Gaming,Iryna Savchuk,BalkanStore,Romania,Ternopilska,Ternopil,1,293.88,29.54,264.34,invoice,store
+1081,2024-07-17 12:30:51,167,HP Kitchen-957,HP,Kitchen,Olena Koval,LocalDistributor,Ukraine,Kyivska,Kyiv,1,775.47,50.36,725.11,cash,store
+1082,2024-01-25 12:11:05,60,Lenovo Monitors-662,Lenovo,Monitors,Maria Bondar,BalkanStore,Romania,Kharkivska,Kharkiv,1,617.05,99.66,517.39,invoice,online_store
+1083,2023-04-01 18:01:37,71,Sony Headphones-571,Sony,Headphones,Kateryna Marchenko,TechImport UA,Ukraine,Vinnytska,Vinnytsia,1,454.52,183.5,271.02,card,wholesale
+1084,2024-06-09 19:51:16,6,Google Smartphone-522,Google,Smartphones,Pavlo Boyko,TechImport UA,Ukraine,Ternopilska,Ternopil,1,4240.94,320.95,3919.99,card,marketplace
+1085,2024-10-17 14:10:40,39,Google Home Appli-438,Google,Home Appliances,Dmytro Melnyk,USADirect,USA,Zaporizka,Zaporizhzhia,2,1316.13,14.37,2617.89,invoice,marketplace
+1086,2024-03-29 11:32:32,45,Bosch Home Appli-725,Bosch,Home Appliances,Dmytro Melnyk,GigaTrade,Germany,Dnipropetrovska,Dnipro,2,657.3,184.15,1130.45,card,wholesale
+1087,2023-03-12 09:58:42,27,OnePlus Laptops-606,OnePlus,Laptops,Dmytro Melnyk,AsiaWholesale,China,Vinnytska,Vinnytsia,1,760.71,99.75,660.96,cash,store
+1088,2024-05-06 12:32:48,19,OnePlus Laptops-495,OnePlus,Laptops,Oksana Hladka,LocalDistributor,Ukraine,Kharkivska,Kharkiv,1,1481.9,245.45,1236.45,cash,store
+1089,2025-02-10 19:33:28,100,Acer Cameras-774,Acer,Cameras,Kateryna Marchenko,TechImport UA,Ukraine,Ternopilska,Ternopil,1,2228.27,246.25,1982.02,online,online_store
+1090,2024-04-19 14:15:21,87,Dell Smartwatch-751,Dell,Smartwatches,Iryna Savchuk,LocalDistributor,Ukraine,Ivano-Frankivska,Ivano-Frankivsk,1,294.88,4.03,290.85,cash,phone_order
+1091,2023-01-19 17:58:09,133,Xiaomi Storage-122,Xiaomi,Storage,Serhii Kravchenko,GigaTrade,Germany,Poltavska,Poltava,3,728.96,347.64,1839.24,invoice,online_store
+1092,2023-10-27 10:22:44,72,Microsoft Headphones-325,Microsoft,Headphones,Volodymyr Ivanov,AsiaWholesale,China,Vinnytska,Vinnytsia,1,54.35,2.81,51.54,card,wholesale
+1093,2024-08-31 09:38:10,41,Dell Home Appli-145,Dell,Home Appliances,Volodymyr Ivanov,TechImport UA,Ukraine,Odeska,Odesa,1,743.96,72.76,671.2,card,online_store
+1094,2024-08-03 12:30:00,180,Panasonic Wearables-938,Panasonic,Wearables,Ivan Petrenko,GigaTrade,Germany,Odeska,Odesa,2,524.02,134.37,913.67,invoice,store
+1095,2023-01-12 19:33:06,68,Bosch Headphones-158,Bosch,Headphones,Oksana Hladka,EuroSupply,Poland,Poltavska,Poltava,2,298.39,4.27,592.51,card,store
+1096,2024-12-05 17:50:55,29,Acer Laptops-192,Acer,Laptops,Maria Bondar,USADirect,USA,Vinnytska,Vinnytsia,1,825.71,59.85,765.86,card,wholesale
+1097,2024-01-21 13:45:00,6,Google Smartphone-522,Google,Smartphones,Natalia Romanyuk,BalkanStore,Romania,Kharkivska,Kharkiv,1,3863.68,325.67,3538.01,card,marketplace
+1098,2023-04-11 13:21:10,147,Panasonic TV-513,Panasonic,TV,Maria Bondar,BalkanStore,Romania,Lvivska,Lviv,1,2371.83,206.82,2165.01,card,wholesale
+1099,2023-05-07 10:34:36,41,Dell Home Appli-145,Dell,Home Appliances,Andriy Shevchenko,LocalDistributor,Ukraine,Dnipropetrovska,Dnipro,1,1427.22,241.04,1186.18,cash,store
+1100,2023-08-11 21:34:33,100,Acer Cameras-774,Acer,Cameras,Oksana Hladka,GigaTrade,Germany,Ivano-Frankivska,Ivano-Frankivsk,2,1858.85,242.2,3475.5,cash,store
+1101,2024-09-06 13:07:27,106,Panasonic Printers-114,Panasonic,Printers,Natalia Romanyuk,TechImport UA,Ukraine,Vinnytska,Vinnytsia,1,216.97,26.93,190.04,card,online_store
+1102,2024-12-13 17:35:53,63,Asus Monitors-550,Asus,Monitors,Ivan Petrenko,AsiaWholesale,China,Lvivska,Lviv,3,544.66,99.27,1534.71,cash,online_store
+1103,2023-03-02 20:50:53,45,Bosch Home Appli-725,Bosch,Home Appliances,Iryna Savchuk,TechImport UA,Ukraine,Poltavska,Poltava,1,484.02,36.78,447.24,online,wholesale
+1104,2025-01-07 18:26:22,48,HP Home Appli-792,HP,Home Appliances,Oksana Hladka,TechImport UA,Ukraine,Poltavska,Poltava,1,1297.62,108.37,1189.25,invoice,online_store
+1105,2023-08-21 18:48:09,171,Sony Wearables-512,Sony,Wearables,Oksana Hladka,AsiaWholesale,China,Vinnytska,Vinnytsia,3,31.16,8.94,84.54,online,online_store
+1106,2023-10-20 09:25:14,1,Apple Smartphone-922,Apple,Smartphones,Natalia Romanyuk,EuroSupply,Poland,Ternopilska,Ternopil,1,2725.51,196.94,2528.57,invoice,store
+1107,2023-11-12 17:48:44,164,Xiaomi Kitchen-259,Xiaomi,Kitchen,Volodymyr Ivanov,AsiaWholesale,China,Ivano-Frankivska,Ivano-Frankivsk,1,653.38,102.55,550.83,cash,online_store
+1108,2023-06-29 16:43:19,87,Dell Smartwatch-751,Dell,Smartwatches,Olena Koval,BalkanStore,Romania,Odeska,Odesa,1,402.8,67.78,335.02,cash,marketplace
+1109,2023-08-31 08:56:11,10,Apple Smartphone-779,Apple,Smartphones,Andriy Shevchenko,BalkanStore,Romania,Ternopilska,Ternopil,4,394.28,665.31,911.81,online,store
+1110,2024-06-30 10:08:51,156,Asus Kitchen-324,Asus,Kitchen,Natalia Romanyuk,AsiaWholesale,China,Dnipropetrovska,Dnipro,3,891.81,61.87,2613.56,card,store
+1111,2023-03-02 18:36:07,34,Apple Accessorie-280,Apple,Accessories,Maria Bondar,GigaTrade,Germany,Kharkivska,Kharkiv,3,256.99,30.34,740.63,card,wholesale
+1112,2024-01-23 19:06:16,93,Dell Smartwatch-105,Dell,Smartwatches,Kateryna Marchenko,USADirect,USA,Odeska,Odesa,1,794.89,17.0,777.89,cash,store
+1113,2024-07-17 13:08:04,156,Asus Kitchen-324,Asus,Kitchen,Pavlo Boyko,USADirect,USA,Lvivska,Lviv,1,639.16,52.63,586.53,card,store
+1114,2023-12-18 12:23:02,67,Canon Monitors-919,Canon,Monitors,Volodymyr Ivanov,AsiaWholesale,China,Kharkivska,Kharkiv,2,219.72,157.67,281.77,online,phone_order
+1115,2024-02-13 14:53:22,163,Philips Kitchen-554,Philips,Kitchen,Maria Bondar,LocalDistributor,Ukraine,Poltavska,Poltava,1,241.52,10.95,230.57,cash,wholesale
+1116,2023-07-16 09:40:52,55,Apple Gaming-626,Apple,Gaming,Dmytro Melnyk,NordicParts,Sweden,Poltavska,Poltava,1,186.65,26.64,160.01,cash,phone_order
+1117,2024-07-08 12:37:27,105,Philips Printers-735,Philips,Printers,Natalia Romanyuk,EuroSupply,Poland,Lvivska,Lviv,2,347.1,51.34,642.86,invoice,online_store
+1118,2024-08-03 09:40:48,70,Seagate Headphones-152,Seagate,Headphones,Dmytro Melnyk,TechImport UA,Ukraine,Zaporizka,Zaporizhzhia,1,110.17,17.99,92.18,card,marketplace
+1119,2024-04-16 18:04:08,41,Dell Home Appli-145,Dell,Home Appliances,Pavlo Boyko,GigaTrade,Germany,Zaporizka,Zaporizhzhia,1,1455.19,255.67,1199.52,online,phone_order
+1120,2024-12-02 11:28:15,160,Dell Kitchen-645,Dell,Kitchen,Andriy Shevchenko,LocalDistributor,Ukraine,Kharkivska,Kharkiv,1,272.89,38.25,234.64,cash,marketplace
+1121,2023-08-03 16:23:02,154,Philips TV-597,Philips,TV,Dmytro Melnyk,USADirect,USA,Kyivska,Kyiv,1,1837.2,165.87,1671.33,card,online_store
+1122,2023-02-16 16:14:35,163,Philips Kitchen-554,Philips,Kitchen,Olena Koval,EuroSupply,Poland,Kharkivska,Kharkiv,10,286.54,284.34,2581.06,card,wholesale
+1123,2023-09-11 15:07:17,85,Panasonic Smartwatch-679,Panasonic,Smartwatches,Olena Koval,USADirect,USA,Lvivska,Lviv,1,188.84,15.49,173.35,online,online_store
+1124,2023-03-12 15:22:04,52,Xiaomi Gaming-477,Xiaomi,Gaming,Iryna Savchuk,TechImport UA,Ukraine,Zaporizka,Zaporizhzhia,1,1000.23,87.28,912.95,cash,wholesale
+1125,2023-03-17 18:24:29,116,Microsoft Printers-709,Microsoft,Printers,Pavlo Boyko,BalkanStore,Romania,Ternopilska,Ternopil,1,502.45,61.71,440.74,cash,marketplace
+1126,2023-12-30 17:37:53,24,Samsung Laptops-603,Samsung,Laptops,Ivan Petrenko,GigaTrade,Germany,Odeska,Odesa,1,361.36,29.88,331.48,invoice,phone_order
+1127,2023-06-26 09:49:03,9,Panasonic Smartphone-622,Panasonic,Smartphones,Iryna Savchuk,LocalDistributor,Ukraine,Kyivska,Kyiv,1,1082.17,101.76,980.41,cash,online_store
+1128,2024-12-17 18:38:06,149,Asus TV-537,Asus,TV,Ivan Petrenko,TechImport UA,Ukraine,Dnipropetrovska,Dnipro,1,2174.11,151.42,2022.69,online,online_store
+1129,2023-06-22 12:51:51,105,Philips Printers-735,Philips,Printers,Dmytro Melnyk,USADirect,USA,Poltavska,Poltava,1,305.81,51.23,254.58,invoice,wholesale
+1130,2024-01-06 12:31:39,47,Dell Home Appli-324,Dell,Home Appliances,Dmytro Melnyk,USADirect,USA,Lvivska,Lviv,1,643.71,104.56,539.15,cash,wholesale
+1131,2024-07-29 17:43:36,37,Canon Accessorie-759,Canon,Accessories,Oksana Hladka,AsiaWholesale,China,Ivano-Frankivska,Ivano-Frankivsk,1,124.67,26.16,98.51,online,store
+1132,2023-08-10 21:49:36,71,Sony Headphones-571,Sony,Headphones,Oksana Hladka,BalkanStore,Romania,Lvivska,Lviv,1,431.89,0.55,431.34,online,phone_order
+1133,2024-04-02 14:39:19,120,Apple Networking-367,Apple,Networking,Serhii Kravchenko,AsiaWholesale,China,Zaporizka,Zaporizhzhia,1,142.44,23.67,118.77,card,store
+1134,2023-06-06 15:31:04,23,Google Laptops-592,Google,Laptops,Pavlo Boyko,EuroSupply,Poland,Ternopilska,Ternopil,4,2550.63,737.31,9465.21,invoice,wholesale
+1135,2024-02-08 15:18:03,102,Samsung Cameras-850,Samsung,Cameras,Iryna Savchuk,USADirect,USA,Lvivska,Lviv,2,1986.6,580.63,3392.57,invoice,marketplace
+1136,2023-12-11 16:20:03,182,Samsung Wearables-930,Samsung,Wearables,Maria Bondar,GigaTrade,Germany,Ivano-Frankivska,Ivano-Frankivsk,2,63.12,22.38,103.86,cash,phone_order
+1137,2024-07-02 12:33:38,2,Nikon Smartphone-376,Nikon,Smartphones,Oksana Hladka,BalkanStore,Romania,Ivano-Frankivska,Ivano-Frankivsk,1,2682.87,449.21,2233.66,card,online_store
+1138,2024-02-01 14:50:38,60,Lenovo Monitors-662,Lenovo,Monitors,Pavlo Boyko,NordicParts,Sweden,Dnipropetrovska,Dnipro,1,642.13,27.26,614.87,card,wholesale
+1139,2024-03-28 20:37:43,3,Philips Smartphone-227,Philips,Smartphones,Andriy Shevchenko,EuroSupply,Poland,Lvivska,Lviv,2,499.67,4.33,995.01,cash,phone_order
+1140,2024-03-13 12:56:22,22,Apple Laptops-476,Apple,Laptops,Dmytro Melnyk,USADirect,USA,Ternopilska,Ternopil,1,2679.24,139.68,2539.56,invoice,marketplace
+1141,2024-09-13 15:28:24,48,HP Home Appli-792,HP,Home Appliances,Oksana Hladka,NordicParts,Sweden,Kyivska,Kyiv,4,1295.12,645.0,4535.48,invoice,marketplace
+1142,2025-01-21 15:33:03,146,Philips TV-876,Philips,TV,Iryna Savchuk,USADirect,USA,Ternopilska,Ternopil,1,912.28,130.91,781.37,online,store
+1143,2024-12-21 19:03:43,14,Canon Smartphone-337,Canon,Smartphones,Pavlo Boyko,TechImport UA,Ukraine,Poltavska,Poltava,2,2879.96,711.05,5048.87,card,wholesale
+1144,2023-11-22 16:33:48,30,HP Accessorie-607,HP,Accessories,Olena Koval,BalkanStore,Romania,Ivano-Frankivska,Ivano-Frankivsk,2,12.59,1.66,23.52,online,store
+1145,2023-03-25 19:32:38,88,Apple Smartwatch-837,Apple,Smartwatches,Maria Bondar,USADirect,USA,Ternopilska,Ternopil,4,357.09,102.95,1325.41,cash,store
+1146,2023-04-12 12:19:31,179,Nikon Wearables-414,Nikon,Wearables,Iryna Savchuk,NordicParts,Sweden,Poltavska,Poltava,1,253.03,33.14,219.89,invoice,marketplace
+1147,2023-05-09 16:16:10,120,Apple Networking-367,Apple,Networking,Kateryna Marchenko,LocalDistributor,Ukraine,Dnipropetrovska,Dnipro,1,159.92,0.07,159.85,card,phone_order
+1148,2023-06-19 18:52:36,86,Asus Smartwatch-731,Asus,Smartwatches,Dmytro Melnyk,NordicParts,Sweden,Zaporizka,Zaporizhzhia,2,130.51,24.62,236.4,invoice,store
+1149,2025-02-27 15:00:56,56,Canon Gaming-987,Canon,Gaming,Olena Koval,USADirect,USA,Ivano-Frankivska,Ivano-Frankivsk,1,453.08,74.79,378.29,invoice,online_store
+1150,2023-10-09 21:26:28,133,Xiaomi Storage-122,Xiaomi,Storage,Andriy Shevchenko,AsiaWholesale,China,Poltavska,Poltava,10,733.23,77.8,7254.5,invoice,wholesale
+1151,2023-08-16 18:12:24,26,Nikon Laptops-815,Nikon,Laptops,Iryna Savchuk,GigaTrade,Germany,Ivano-Frankivska,Ivano-Frankivsk,2,1653.73,143.28,3164.18,invoice,online_store
+1152,2023-09-24 18:52:48,174,Asus Wearables-211,Asus,Wearables,Serhii Kravchenko,NordicParts,Sweden,Kyivska,Kyiv,1,251.66,32.03,219.63,invoice,marketplace
+1153,2024-09-24 21:05:15,24,Samsung Laptops-603,Samsung,Laptops,Volodymyr Ivanov,EuroSupply,Poland,Odeska,Odesa,1,531.9,6.7,525.2,cash,marketplace
+1154,2023-07-26 13:08:21,68,Bosch Headphones-158,Bosch,Headphones,Olena Koval,BalkanStore,Romania,Dnipropetrovska,Dnipro,1,353.69,21.05,332.64,online,phone_order
+1155,2023-05-27 09:24:10,161,Apple Kitchen-698,Apple,Kitchen,Serhii Kravchenko,LocalDistributor,Ukraine,Ivano-Frankivska,Ivano-Frankivsk,1,555.56,98.82,456.74,cash,store
+1156,2024-08-01 10:49:11,13,Bosch Smartphone-636,Bosch,Smartphones,Serhii Kravchenko,AsiaWholesale,China,Vinnytska,Vinnytsia,1,1060.66,187.95,872.71,invoice,store
+1157,2023-11-28 18:29:10,161,Apple Kitchen-698,Apple,Kitchen,Natalia Romanyuk,AsiaWholesale,China,Ivano-Frankivska,Ivano-Frankivsk,1,1012.85,55.3,957.55,cash,phone_order
+1158,2023-10-19 21:48:55,4,Dell Smartphone-278,Dell,Smartphones,Natalia Romanyuk,GigaTrade,Germany,Vinnytska,Vinnytsia,1,1349.73,118.26,1231.47,online,wholesale
+1159,2023-04-18 13:57:30,122,Seagate Networking-417,Seagate,Networking,Dmytro Melnyk,BalkanStore,Romania,Ivano-Frankivska,Ivano-Frankivsk,2,853.57,13.66,1693.48,online,store
+1160,2023-07-20 16:36:40,47,Dell Home Appli-324,Dell,Home Appliances,Iryna Savchuk,BalkanStore,Romania,Vinnytska,Vinnytsia,1,608.26,3.22,605.04,cash,online_store
+1161,2024-05-18 16:38:40,59,Acer Monitors-992,Acer,Monitors,Andriy Shevchenko,TechImport UA,Ukraine,Zaporizka,Zaporizhzhia,1,84.02,2.72,81.3,cash,wholesale
+1162,2023-02-01 16:26:16,5,OnePlus Smartphone-855,OnePlus,Smartphones,Olena Koval,LocalDistributor,Ukraine,Ternopilska,Ternopil,2,1085.42,132.21,2038.63,cash,wholesale
+1163,2023-01-06 16:12:46,119,HP Networking-305,HP,Networking,Olena Koval,USADirect,USA,Poltavska,Poltava,1,429.04,25.58,403.46,cash,online_store
+1164,2024-05-14 19:30:14,91,Bosch Smartwatch-674,Bosch,Smartwatches,Iryna Savchuk,TechImport UA,Ukraine,Poltavska,Poltava,2,234.1,25.36,442.84,invoice,marketplace
+1165,2023-05-26 11:48:44,47,Dell Home Appli-324,Dell,Home Appliances,Ivan Petrenko,EuroSupply,Poland,Ternopilska,Ternopil,1,647.93,86.68,561.25,invoice,online_store
+1166,2024-11-19 09:38:08,115,Microsoft Printers-620,Microsoft,Printers,Olena Koval,TechImport UA,Ukraine,Ivano-Frankivska,Ivano-Frankivsk,1,345.3,47.99,297.31,invoice,phone_order
+1167,2023-10-30 18:54:06,180,Panasonic Wearables-938,Panasonic,Wearables,Iryna Savchuk,LocalDistributor,Ukraine,Vinnytska,Vinnytsia,1,456.63,44.8,411.83,card,online_store
+1168,2023-10-27 14:51:46,11,Huawei Smartphone-201,Huawei,Smartphones,Dmytro Melnyk,TechImport UA,Ukraine,Lvivska,Lviv,5,507.56,108.38,2429.42,invoice,store
+1169,2024-10-11 10:26:02,101,Microsoft Cameras-262,Microsoft,Cameras,Dmytro Melnyk,AsiaWholesale,China,Kyivska,Kyiv,1,2627.1,350.61,2276.49,cash,store
+1170,2023-06-12 13:06:43,130,Apple Networking-487,Apple,Networking,Pavlo Boyko,LocalDistributor,Ukraine,Kharkivska,Kharkiv,2,86.13,13.8,158.46,invoice,wholesale
+1171,2023-01-01 08:11:19,150,Dell TV-222,Dell,TV,Andriy Shevchenko,BalkanStore,Romania,Lvivska,Lviv,4,1221.59,253.81,4632.55,card,marketplace
+1172,2024-01-02 10:22:14,25,Seagate Laptops-663,Seagate,Laptops,Iryna Savchuk,BalkanStore,Romania,Odeska,Odesa,3,2791.72,632.35,7742.81,card,online_store
+1173,2024-11-27 22:28:13,108,Bosch Printers-430,Bosch,Printers,Volodymyr Ivanov,USADirect,USA,Dnipropetrovska,Dnipro,2,342.84,106.01,579.67,cash,phone_order
+1174,2024-04-19 12:08:03,26,Nikon Laptops-815,Nikon,Laptops,Serhii Kravchenko,EuroSupply,Poland,Dnipropetrovska,Dnipro,2,2018.16,644.4,3391.92,card,phone_order
+1175,2023-11-26 11:13:51,168,LG Kitchen-114,LG,Kitchen,Olena Koval,NordicParts,Sweden,Zaporizka,Zaporizhzhia,1,571.41,178.1,393.31,card,wholesale
+1176,2024-01-01 19:10:32,56,Canon Gaming-987,Canon,Gaming,Oksana Hladka,AsiaWholesale,China,Zaporizka,Zaporizhzhia,1,479.73,54.39,425.34,card,wholesale
+1177,2023-06-08 14:37:20,87,Dell Smartwatch-751,Dell,Smartwatches,Dmytro Melnyk,BalkanStore,Romania,Kyivska,Kyiv,1,232.25,14.71,217.54,online,wholesale
+1178,2024-08-01 15:23:19,30,HP Accessorie-607,HP,Accessories,Andriy Shevchenko,BalkanStore,Romania,Zaporizka,Zaporizhzhia,4,9.11,0.68,35.76,cash,wholesale
+1179,2023-10-30 21:59:59,165,Canon Kitchen-857,Canon,Kitchen,Serhii Kravchenko,USADirect,USA,Poltavska,Poltava,2,1971.96,686.27,3257.65,cash,phone_order
+1180,2024-03-13 09:22:05,101,Microsoft Cameras-262,Microsoft,Cameras,Maria Bondar,NordicParts,Sweden,Ternopilska,Ternopil,3,3201.34,789.44,8814.58,card,marketplace
+1181,2024-04-07 09:36:28,50,Microsoft Gaming-457,Microsoft,Gaming,Volodymyr Ivanov,GigaTrade,Germany,Vinnytska,Vinnytsia,1,240.13,18.63,221.5,card,store
+1182,2024-12-29 16:00:34,11,Huawei Smartphone-201,Huawei,Smartphones,Ivan Petrenko,BalkanStore,Romania,Ternopilska,Ternopil,1,763.61,357.1,406.51,card,online_store
+1183,2024-12-14 09:01:23,84,Philips Smartwatch-435,Philips,Smartwatches,Volodymyr Ivanov,LocalDistributor,Ukraine,Kharkivska,Kharkiv,1,245.54,32.92,212.62,invoice,phone_order
+1184,2023-06-23 15:15:24,14,Canon Smartphone-337,Canon,Smartphones,Natalia Romanyuk,TechImport UA,Ukraine,Odeska,Odesa,1,2564.72,708.55,1856.17,card,phone_order
+1185,2023-02-09 11:12:52,152,Dell TV-499,Dell,TV,Andriy Shevchenko,GigaTrade,Germany,Lvivska,Lviv,1,1070.83,38.05,1032.78,cash,wholesale
+1186,2023-08-03 18:07:51,121,LG Networking-730,LG,Networking,Natalia Romanyuk,USADirect,USA,Vinnytska,Vinnytsia,1,405.44,30.31,375.13,cash,store
+1187,2024-03-01 13:08:47,174,Asus Wearables-211,Asus,Wearables,Iryna Savchuk,LocalDistributor,Ukraine,Zaporizka,Zaporizhzhia,5,218.44,6.41,1085.79,invoice,marketplace
+1188,2024-06-18 20:54:49,159,Lenovo Kitchen-875,Lenovo,Kitchen,Maria Bondar,AsiaWholesale,China,Odeska,Odesa,1,244.09,2.01,242.08,invoice,phone_order
+1189,2023-03-27 19:00:52,131,Huawei Networking-277,Huawei,Networking,Maria Bondar,BalkanStore,Romania,Poltavska,Poltava,1,410.09,9.83,400.26,card,wholesale
+1190,2024-02-07 20:13:26,10,Apple Smartphone-779,Apple,Smartphones,Natalia Romanyuk,TechImport UA,Ukraine,Vinnytska,Vinnytsia,5,381.55,238.34,1669.41,cash,wholesale
+1191,2025-02-26 10:51:37,13,Bosch Smartphone-636,Bosch,Smartphones,Andriy Shevchenko,LocalDistributor,Ukraine,Kharkivska,Kharkiv,1,1372.63,198.9,1173.73,cash,marketplace
+1192,2024-07-17 09:32:50,67,Canon Monitors-919,Canon,Monitors,Ivan Petrenko,NordicParts,Sweden,Ivano-Frankivska,Ivano-Frankivsk,2,338.95,86.62,591.28,invoice,marketplace
+1193,2023-01-17 14:47:42,28,Canon Laptops-267,Canon,Laptops,Volodymyr Ivanov,AsiaWholesale,China,Dnipropetrovska,Dnipro,1,1029.18,154.17,875.01,invoice,online_store
+1194,2023-01-25 09:54:27,55,Apple Gaming-626,Apple,Gaming,Serhii Kravchenko,AsiaWholesale,China,Ternopilska,Ternopil,1,148.35,11.02,137.33,card,wholesale
+1195,2023-03-21 08:34:55,155,Microsoft Kitchen-147,Microsoft,Kitchen,Olena Koval,NordicParts,Sweden,Kyivska,Kyiv,1,310.6,34.36,276.24,cash,phone_order
+1196,2024-04-20 20:47:40,88,Apple Smartwatch-837,Apple,Smartwatches,Natalia Romanyuk,BalkanStore,Romania,Odeska,Odesa,2,234.69,68.01,401.37,online,wholesale
+1197,2024-08-13 12:33:26,153,Apple TV-828,Apple,TV,Andriy Shevchenko,AsiaWholesale,China,Odeska,Odesa,10,1058.84,949.73,9638.67,cash,online_store
+1198,2025-01-02 14:57:09,139,Dell Storage-800,Dell,Storage,Maria Bondar,NordicParts,Sweden,Dnipropetrovska,Dnipro,1,110.22,4.83,105.39,invoice,phone_order
+1199,2024-05-30 19:18:24,82,Lenovo Smartwatch-625,Lenovo,Smartwatches,Pavlo Boyko,LocalDistributor,Ukraine,Lvivska,Lviv,1,201.73,21.83,179.9,invoice,store
+1200,2023-02-10 18:39:52,157,Huawei Kitchen-923,Huawei,Kitchen,Maria Bondar,AsiaWholesale,China,Lvivska,Lviv,1,1593.94,14.36,1579.58,cash,marketplace
