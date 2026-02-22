@@ -6,11 +6,35 @@ import schemas
 def get_sale(db: Session, sale_id: int):
     return db.query(FactSales).filter(FactSales.id == sale_id).first()
 
-def get_sales(db: Session, skip: int = 0, limit: int = 100):
-    return db.query(FactSales).order_by(FactSales.id).offset(skip).limit(limit).all()
+def get_sales(db: Session, skip: int = 0, limit: int = 100, search: str = None):
+    q = db.query(FactSales)
+    if search:
+        q = q.join(DimProduct, FactSales.product_id == DimProduct.id)\
+             .join(DimManager, FactSales.manager_id == DimManager.id)\
+             .join(DimRegion, FactSales.region_id == DimRegion.id)
+        like = f"%{search}%"
+        q = q.filter(
+            (DimProduct.name.ilike(like)) |
+            (DimManager.name.ilike(like)) |
+            (DimRegion.region_name.ilike(like)) |
+            (DimRegion.city.ilike(like))
+        )
+    return q.order_by(FactSales.id).offset(skip).limit(limit).all()
 
-def get_sales_count(db: Session):
-    return db.query(func.count(FactSales.id)).scalar()
+def get_sales_count(db: Session, search: str = None):
+    q = db.query(func.count(FactSales.id))
+    if search:
+        q = q.join(DimProduct, FactSales.product_id == DimProduct.id)\
+             .join(DimManager, FactSales.manager_id == DimManager.id)\
+             .join(DimRegion, FactSales.region_id == DimRegion.id)
+        like = f"%{search}%"
+        q = q.filter(
+            (DimProduct.name.ilike(like)) |
+            (DimManager.name.ilike(like)) |
+            (DimRegion.region_name.ilike(like)) |
+            (DimRegion.city.ilike(like))
+        )
+    return q.scalar()
 
 def create_sale(db: Session, sale: schemas.SaleCreate):
     

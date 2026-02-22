@@ -59,13 +59,13 @@ def create_sale(sale: schemas.SaleCreate, db: Session = Depends(get_db)):
     return crud.create_sale(db=db, sale=sale)
 
 @app.get("/sales", response_model=List[schemas.Sale])
-def read_sales(skip: int = 0, limit: int = 100, db: Session = Depends(get_db)):
-    sales = crud.get_sales(db, skip=skip, limit=limit)
+def read_sales(skip: int = 0, limit: int = 100, search: str = None, db: Session = Depends(get_db)):
+    sales = crud.get_sales(db, skip=skip, limit=limit, search=search)
     return sales
 
 @app.get("/sales/count")
-def read_sales_count(db: Session = Depends(get_db)):
-    return {"count": crud.get_sales_count(db)}
+def read_sales_count(search: str = None, db: Session = Depends(get_db)):
+    return {"count": crud.get_sales_count(db, search=search)}
 
 @app.put("/sales/{sale_id}", response_model=schemas.Sale)
 def update_sale(sale_id: int, sale: schemas.SaleCreate, db: Session = Depends(get_db)):
@@ -95,6 +95,13 @@ def read_aggregate_report(
     dimension1: str,
     dimension2: str,
     metric: str = 'revenue',
+    region: str = None,
+    manager: str = None,
+    category: str = None,
+    supplier: str = None,
+    product: str = None,
+    date_from: str = None,
+    date_to: str = None,
     db: Session = Depends(get_db)
 ):
     dim_map = {
@@ -124,6 +131,22 @@ def read_aggregate_report(
     q = q.join(models.DimDate).join(models.DimProduct).join(models.DimRegion).join(models.DimManager).join(models.DimSupplier)
 
     q = q.join(models.DimCategory, models.DimProduct.category_id == models.DimCategory.id)
+
+    # Filters
+    if region:
+        q = q.filter(models.DimRegion.region_name == region)
+    if manager:
+        q = q.filter(models.DimManager.name == manager)
+    if category:
+        q = q.filter(models.DimCategory.name == category)
+    if supplier:
+        q = q.filter(models.DimSupplier.name == supplier)
+    if product:
+        q = q.filter(models.DimProduct.name == product)
+    if date_from:
+        q = q.filter(models.DimDate.date >= date_from)
+    if date_to:
+        q = q.filter(models.DimDate.date <= date_to)
 
     q = q.group_by(col1, col2).all()
     

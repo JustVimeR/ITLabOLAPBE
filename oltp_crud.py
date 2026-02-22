@@ -1,6 +1,6 @@
 from sqlalchemy.orm import Session
 from sqlalchemy import func
-from models import OltpSale
+from models import OltpSale, FactSales
 import schemas
 import pandas as pd
 import etl
@@ -18,11 +18,12 @@ def create_oltp_sale(db: Session, sale: schemas.OltpSaleCreate):
     # Auto-calculate revenue if not provided
     revenue = sale.revenue if sale.revenue is not None else (sale.quantity * sale.unit_price - sale.discount)
     
-    # Auto-generate sale_id if not provided
+    # Auto-generate sale_id if not provided — use max from BOTH tables to avoid collisions
     sale_id = sale.sale_id
     if sale_id is None:
-        max_id = db.query(func.max(OltpSale.sale_id)).scalar() or 0
-        sale_id = max_id + 1
+        max_oltp = db.query(func.max(OltpSale.sale_id)).scalar() or 0
+        max_fact = db.query(func.max(FactSales.sale_id)).scalar() or 0
+        sale_id = max(max_oltp, max_fact) + 1
     
     # Auto-generate product_id if not provided
     product_id = sale.product_id
@@ -90,11 +91,23 @@ def transfer_to_warehouse(db: Session, ids: list[int]):
     if not records:
         return {"message": "No records to transfer", "rows_processed": 0, "rows_inserted": 0}
     
+    # Get existing sale_ids in FactSales to avoid collisions
+    existing_fact_ids = {s.sale_id for s in db.query(FactSales.sale_id).all()}
+    max_fact_id = max(existing_fact_ids) if existing_fact_ids else 0
+    max_oltp_id = db.query(func.max(OltpSale.sale_id)).scalar() or 0
+    next_id = max(max_fact_id, max_oltp_id) + 1
+    
     # Convert to DataFrame matching ETL expected format
     data = []
     for r in records:
+        # Reassign sale_id if it already exists in FactSales
+        sid = r.sale_id
+        if sid in existing_fact_ids:
+            sid = next_id
+            next_id += 1
+        
         data.append({
-            'sale_id': r.sale_id,
+            'sale_id': sid,
             'sale_datetime': r.sale_datetime,
             'region_name': r.region_name,
             'city': r.city,
