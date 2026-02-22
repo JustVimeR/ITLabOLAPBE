@@ -87,3 +87,26 @@ class FactSales(Base):
     @property
     def date(self):
         return self.dim_date.date if self.dim_date else None
+
+class OltpSale(Base):
+    __tablename__ = "oltp_sales"
+
+    id = Column(Integer, primary_key=True, index=True)
+    sale_id = Column(Integer, nullable=False)
+    sale_datetime = Column(String(50), nullable=False)
+    region_name = Column(String(100), nullable=False)
+    city = Column(String(100), nullable=False)
+    manager = Column(String(100), nullable=False)
+    product_id = Column(Integer, nullable=False)
+    product_name = Column(String(255), nullable=False)
+    brand = Column(String(100), nullable=True)
+    category = Column(String(100), nullable=False)
+    supplier_name = Column(String(100), nullable=False)
+    supplier_country = Column(String(100), nullable=True)
+    quantity = Column(Integer, nullable=False)
+    unit_price = Column(Numeric(10, 2), nullable=False)
+    discount = Column(Numeric(10, 2), default=0)
+    revenue = Column(Numeric(10, 2), nullable=True)
+    payment_type = Column(String(50), nullable=True)
+    sales_channel = Column(String(50), nullable=True)
+    transferred = Column(Integer, default=0)  # 0 = not transferred, 1 = transferred

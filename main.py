@@ -7,6 +7,7 @@ import models
 import schemas
 import crud
 import etl
+import oltp_crud
 from database import engine, get_db
 
 models.Base.metadata.create_all(bind=engine)
@@ -141,3 +142,39 @@ def read_dashboard_metrics(db: Session = Depends(get_db)):
         "count_sales": count_sales,
         "avg_check": avg_check
     }
+
+# ==================== OLTP Endpoints ====================
+
+@app.get("/oltp/sales", response_model=List[schemas.OltpSaleResponse])
+def read_oltp_sales(skip: int = 0, limit: int = 20, db: Session = Depends(get_db)):
+    return oltp_crud.get_oltp_sales(db, skip=skip, limit=limit)
+
+@app.get("/oltp/sales/count")
+def read_oltp_sales_count(db: Session = Depends(get_db)):
+    return {"count": oltp_crud.get_oltp_sales_count(db)}
+
+@app.post("/oltp/sales", response_model=schemas.OltpSaleResponse)
+def create_oltp_sale(sale: schemas.OltpSaleCreate, db: Session = Depends(get_db)):
+    return oltp_crud.create_oltp_sale(db, sale)
+
+@app.put("/oltp/sales/{sale_id}", response_model=schemas.OltpSaleResponse)
+def update_oltp_sale(sale_id: int, sale: schemas.OltpSaleCreate, db: Session = Depends(get_db)):
+    db_sale = oltp_crud.update_oltp_sale(db, sale_id, sale)
+    if not db_sale:
+        raise HTTPException(status_code=404, detail="OLTP Sale not found")
+    return db_sale
+
+@app.delete("/oltp/sales/{sale_id}")
+def delete_oltp_sale(sale_id: int, db: Session = Depends(get_db)):
+    db_sale = oltp_crud.delete_oltp_sale(db, sale_id)
+    if not db_sale:
+        raise HTTPException(status_code=404, detail="OLTP Sale not found")
+    return {"message": "Deleted"}
+
+@app.post("/oltp/transfer")
+def transfer_oltp_to_warehouse(req: schemas.TransferRequest, db: Session = Depends(get_db)):
+    try:
+        result = oltp_crud.transfer_to_warehouse(db, req.ids)
+        return result
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))

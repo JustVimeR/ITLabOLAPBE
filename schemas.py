@@ -56,3 +56,33 @@ class ETLResult(BaseModel):
     message: str
     rows_processed: int
     rows_inserted: int
+
+# OLTP
+class OltpSaleCreate(BaseModel):
+    sale_id: Optional[int] = None
+    sale_datetime: str
+    region_name: str
+    city: str
+    manager: str
+    product_id: Optional[int] = None
+    product_name: str
+    brand: Optional[str] = None
+    category: str
+    supplier_name: str
+    supplier_country: Optional[str] = None
+    quantity: int
+    unit_price: float
+    discount: float = 0
+    revenue: Optional[float] = None
+    payment_type: Optional[str] = None
+    sales_channel: Optional[str] = None
+
+class OltpSaleResponse(OltpSaleCreate):
+    id: int
+    transferred: int = 0
+
+    class Config:
+        from_attributes = True
+
+class TransferRequest(BaseModel):
+    ids: List[int]
