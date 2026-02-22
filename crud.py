@@ -9,6 +9,9 @@ def get_sale(db: Session, sale_id: int):
 def get_sales(db: Session, skip: int = 0, limit: int = 100):
     return db.query(FactSales).order_by(FactSales.id).offset(skip).limit(limit).all()
 
+def get_sales_count(db: Session):
+    return db.query(func.count(FactSales.id)).scalar()
+
 def create_sale(db: Session, sale: schemas.SaleCreate):
     
     revenue = (sale.quantity * sale.unit_price) - sale.discount

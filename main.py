@@ -62,6 +62,10 @@ def read_sales(skip: int = 0, limit: int = 100, db: Session = Depends(get_db)):
     sales = crud.get_sales(db, skip=skip, limit=limit)
     return sales
 
+@app.get("/sales/count")
+def read_sales_count(db: Session = Depends(get_db)):
+    return {"count": crud.get_sales_count(db)}
+
 @app.put("/sales/{sale_id}", response_model=schemas.Sale)
 def update_sale(sale_id: int, sale: schemas.SaleCreate, db: Session = Depends(get_db)):
     db_sale = crud.update_sale(db, sale_id, sale)
